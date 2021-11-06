@@ -1,5 +1,7 @@
 ---
 
+---
+
 |<p><img src="https://github.com/Maslik001/itstep/blob/gh-pages/MyPhoto.jpg?raw=true" width="auto" height="auto" alt="MyPhoto" ></p>|<font size=4px style="color:" face="Century Gothic">Alexsandr Maslenkon|<font size=4px style="color:grey" face="Century Gothic"> Front-end deloper|<font size=4px style="color:" face="Century Gothic"><a href="tel:+375291921091"> ☎ Click Call Me</a>
 |---|---|---|
 |"Beware of bugs in the above code; I have only proved it correct, not tried it."|-Donald E. Knuth.| <p><img src="https://w7.pngwing.com/pngs/933/443/png-transparent-gray-smiley-smiley-emoticon-faces-miscellaneous-face-text.png" width="100" height="auto" alt="MyPhoto" ></p>|<font size=4px style="color:" face="Century Gothic"> <a href = "mailto: Maslenkov2010@gmail.com"> @ click to write me</a> 
@@ -11,19 +13,30 @@
 </font>
 </center>
 
+----
+
 ---
 
 |HTML5|JavaScript|CSS|Photoshop|Angular|jquery|Webpack|Ajax|React|
 |---|---|---|
 |![logo][HTML5]|![logo][JavaScript]|![logo][CSS]|![logo][Photoshop]|![logo][Angular]|![logo][jquery]|![logo][Webpack]|![logo][Ajax]|![logo][React]|
-[HTML5]: https://static.wikia.nocookie.net/wikies/images/0/05/HTML5_logo.png/revision/latest?cb=20170512222450&path-prefix=ru
+
+[HTML5]:https://static.wikia.nocookie.net/wikies/images/0/05/HTML5_logo.png/revision/latest?cb=20170512222450&path-prefix=ru
+
 [JavaScript]: https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png
+
 [CSS]: https://cdn.pixabay.com/photo/2017/03/30/17/42/css-2189148_1280.png
+
 [Photoshop]:https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1200px-Adobe_Photoshop_CC_icon.svg.png
+
 [Angular]:https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png
+
 [jquery]:https://habrastorage.org/getpro/habr/post_images/99b/37e/278/99b37e278226b136bac04f85ab8e238c.png
+
 [Webpack]: https://habrastorage.org/webt/k-/tm/2g/k-tm2gvbb_ky6gdrd-tzqrzjkf4.png
-[Ajax]: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/AJAX_logo_by_gengns.svg/1200px-AJAX_logo_by_gengns.svg.png
+
+[Ajax]:https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/AJAX_logo_by_gengns.svg/1200px-AJAX_logo_by_gengns.svg.png
+
 [React]: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png
 
 

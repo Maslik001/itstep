@@ -120,8 +120,8 @@ there will be Metrika
 ```
 <!-- Yandex.Metrika informer -->
 <a href="https://metrika.yandex.ru/stat/?id=86301503&amp;from=informer"
-target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/86301503/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
-style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="86301503" data-lang="ru" /></a>
+target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/86301503/2_1_20EC20FF_00CC00FF_0_pageviews"
+style="width:80px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры)" class="ym-advanced-informer" data-cid="86301503" data-lang="ru" /></a>
 <!-- /Yandex.Metrika informer -->
 
 <!-- Yandex.Metrika counter -->

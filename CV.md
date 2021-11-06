@@ -4,18 +4,13 @@
 |---|---|---|
 |"Beware of bugs in the above code; I have only proved it correct, not tried it."|-Donald E. Knuth.|<img src="https://w7.pngwing.com/pngs/933/443/png-transparent-gray-smiley-smiley-emoticon-faces-miscellaneous-face-text.png" width="100" height="auto" alt="MyPhoto">|<font size=4px style="color:" face="Century Gothic"> <a href = "mailto: Maslenkov2010@gmail.com"> @ click to mail me</a>|
 
-[MyFace]:https://github.com/Maslik001/itstep/blob/gh-pages/MyPhoto.jpg?raw=true
 
----
-<center>
-<font size=6px style="color:red" face="Century Gothic">
+<font alig="center" size=6px style="color:red" face="Century Gothic">
 
-****Skills****
+__Skills__
 
 </font>
-</center>
 
----
 
 ---
 
@@ -146,3 +141,6 @@ style="width:80px; height:31px; border:0;" alt="Яндекс.Метрика" tit
 <noscript><div><img src="https://mc.yandex.ru/watch/86301503" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 </center>
+
+
+[MyFace]:https://github.com/Maslik001/itstep/blob/gh-pages/MyPhoto.jpg?raw=true

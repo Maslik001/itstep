@@ -15,6 +15,8 @@
 
 ---
 
+
+
 |HTML5|JavaScript|CSS|Photoshop|Angular|jquery|Webpack|Ajax|React|
 |---|---|---|
 |![logo][HTML5]|![logo][JavaScript]|![logo][CSS]|![logo][Photoshop]|![logo][Angular]|![logo][jquery]|![logo][Webpack]|![logo][Ajax]|![logo][React]

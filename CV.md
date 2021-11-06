@@ -48,10 +48,10 @@
 This page is a draft of my Front-End development skills.
 As you acquire skills, you will see the marks.
 If there is no mark, this does not mean that the topic has not been mastered.
-I assure you it is in the process or has been mastered, but there are still moments to bring knowledge to perfection. 
+I assure you it is in the process or has been mastered, but there are still moments to bring knowledge to perfection.
+<p>
+Loading… ██████████] 99%</font>
 
-Loading… ██████████] 99%
-</font>
 
 
 
@@ -118,4 +118,23 @@ Loading… ██████████] 99%
 <!-- Yandex.Metrika counter --> - temporarily failed verification
 there will be Metrika
 ```
+<!-- Yandex.Metrika informer -->
+<a href="https://metrika.yandex.ru/stat/?id=86301503&amp;from=informer"
+target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/86301503/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="86301503" data-lang="ru" /></a>
+<!-- /Yandex.Metrika informer -->
 
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(86301503, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/86301503" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->

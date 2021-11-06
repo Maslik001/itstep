@@ -49,9 +49,10 @@ This page is a draft of my Front-End development skills.
 As you acquire skills, you will see the marks.
 If there is no mark, this does not mean that the topic has not been mastered.
 I assure you it is in the process or has been mastered, but there are still moments to bring knowledge to perfection. 
+</font>
 
 Loading… ██████████] 99%
-</font>
+
 
 
 

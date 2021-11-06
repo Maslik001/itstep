@@ -100,6 +100,7 @@ Loading… ██████████] 99%</font>
 - [ ] understand the intricacies of implementing ** React ** applications
 - [ ] be able to use ** Flux **
 - [ ] interact with forms
+
 ![new_line_1](https://acegif.com/wp-content/gifs/hamster-99.gif)
 ---
 ```

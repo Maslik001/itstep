@@ -7,11 +7,11 @@
 |"Beware of bugs in the above code; I have only proved it correct, not tried it."|-Donald E. Knuth.| <p><img src="https://w7.pngwing.com/pngs/933/443/png-transparent-gray-smiley-smiley-emoticon-faces-miscellaneous-face-text.png" width="100" height="auto" alt="MyPhoto" ></p>|<font size=4px style="color:" face="Century Gothic"> <a href = "mailto: Maslenkov2010@gmail.com"> @ click to write me</a>|
 
 ---
-<center>
+
 <font size=6px style="color:red" face="Century Gothic">
 ****Skills****
 </font>
-</center>
+
 
 ----
 
@@ -40,9 +40,9 @@
 [React]: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png
 
 
-</center>
 
-<center>
+
+
 
 ![new_line_1](https://i.imgur.com/IMNAFUn.gif)
 
@@ -54,12 +54,12 @@ I assure you it is in the process or has been mastered, but there are still mome
 
 Loading… ██████████] 99%
 </font>
-</center>
 
-<center>
+
+
 
 ![new_line_2](https://sdvv.ru/upload/iblock/52a/52a80921f26f2bd98833c7cf343e6896.jpg)
-</center>
+
 
 <font style="color:" face="Century Gothic">
 
@@ -101,11 +101,11 @@ Loading… ██████████] 99%
 - [ ] уметь использовать **Flux**
 - [ ] взаимодействовать с формами
 </font>
-<center>
+
 
 
 ![new_line_1](https://acegif.com/wp-content/gifs/hamster-99.gif)
-</center>
+
 
 ---
 ```
@@ -119,26 +119,3 @@ Loading… ██████████] 99%
 there will be Metrika
 ```
 
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-   ym(86301503, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/86301503" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-
-- - -
-
-<!-- Yandex.Metrika counter -->
-<img src="http://mc.yandex.ru/watch/86301503" style="position:absolute; left:-9999px;" alt="" />
-<!-- /Yandex.Metrika counter -->
-!["Yandex.Metrika counter"](https://mc.yandex.ru/watch/86301503)
-
-<canvas id="quarterCommitCount" width="776" height="175" style="display: block; width: 776px; height: 175px;" class="chartjs-render-monitor"></canvas>

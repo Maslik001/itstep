@@ -1,3 +1,8 @@
+|fdfsf|fdsf|
+|---|---|
+|fdsf|fdsf|hfgh
+
+
 |![FacePic][MyFace]|<font size=4px style="color:" face="Century Gothic">Alexsandr Maslenkon|<font size=4px style="color:grey" face="Century Gothic"> Front-end deloper|<font size=4px style="color:" face="Century Gothic"><a href="tel:+375291921091"> ☎ Click to Call Me</a>|
 |---|---|---|
 |"Beware of bugs in the above code; I have only proved it correct, not tried it."|-Donald E. Knuth.|<p><img src="https://w7.pngwing.com/pngs/933/443/png-transparent-gray-smiley-smiley-emoticon-faces-miscellaneous-face-text.png" width="100" height="auto" alt="MyPhoto"></p>|<font size=4px style="color:" face="Century Gothic"> <a href = "mailto: Maslenkov2010@gmail.com"> @ click to mail me</a>|

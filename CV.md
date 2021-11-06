@@ -37,12 +37,7 @@
 
 [React]: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png
 
-
-
-
-
-
-![new_line_1](https://i.imgur.com/IMNAFUn.gif)
+![new_line_1](http://31.media.tumblr.com/4ff66ab77c2f61d33c0e3213f39ea0e8/tumblr_n9ncudy6ci1qzag1wo1_500.gif)
 
 <font style="color:grey" face="Century Gothic">
 This page is a draft of my Front-End development skills.

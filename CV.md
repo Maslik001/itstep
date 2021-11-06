@@ -1,4 +1,3 @@
----
 
 | ![Photo][MyFace]|<font size=4px style="color:" face="Century Gothic">Alexsandr Maslenkon|<font size=4px style="color:grey" face="Century Gothic"> Front-end deloper|<font size=4px style="color:" face="Century Gothic"><a href="tel:+375291921091"> ☎ Click to Call Me</a>|
 |---|---|---|
@@ -7,7 +6,7 @@
 
 <font alig="center" size=6px style="color:red" face="Century Gothic">
 
-__Skills__
+Skills
 
 </font>
 

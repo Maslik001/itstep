@@ -1,21 +1,20 @@
-
-|![FacePic][MyFace]|<font size=4px style="color:" face="Century Gothic">Alexsandr Maslenkon|<font size=4px style="color:grey" face="Century Gothic"> Front-end deloper|<font size=4px style="color:" face="Century Gothic"><a href="tel:+375291921091"> ☎ Click to Call Me</a>|
+---
+| <img src="./img/MyPhoto.jpg" alt="photo" /> |<font size=4px style="color:" face="Century Gothic">Alexsandr Maslenkon|<font size=4px style="color:grey" face="Century Gothic"> Front-end deloper|<font size=4px style="color:" face="Century Gothic"><a href="tel:+375291921091"> ☎ Click to Call Me</a>|
 |---|---|---|
-|"Beware of bugs in the above code; I have only proved it correct, not tried it."|-Donald E. Knuth.|<p><img src="https://w7.pngwing.com/pngs/933/443/png-transparent-gray-smiley-smiley-emoticon-faces-miscellaneous-face-text.png" width="100" height="auto" alt="MyPhoto"></p>|<font size=4px style="color:" face="Century Gothic"> <a href = "mailto: Maslenkov2010@gmail.com"> @ click to mail me</a>|
+|"Beware of bugs in the above code; I have only proved it correct, not tried it."|-Donald E. Knuth.|<img src="https://w7.pngwing.com/pngs/933/443/png-transparent-gray-smiley-smiley-emoticon-faces-miscellaneous-face-text.png" width="100" height="auto" alt="MyPhoto"><|<font size=4px style="color:" face="Century Gothic"> <a href = "mailto: Maslenkov2010@gmail.com"> @ click to mail me</a>|
 
 [MyFace]:https://github.com/Maslik001/itstep/blob/gh-pages/MyPhoto.jpg?raw=true
 
 ---
-
+<center>
 <font size=6px style="color:red" face="Century Gothic">
 ****Skills****
 </font>
+</center>
 
 ---
 
 ---
-
-
 
 
 |HTML5|JavaScript|CSS|Photoshop|Angular|jquery|Webpack|Ajax|React|
@@ -40,26 +39,26 @@
 
 [React]: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png
 
+<center>
 ![new_line_1](http://31.media.tumblr.com/4ff66ab77c2f61d33c0e3213f39ea0e8/tumblr_n9ncudy6ci1qzag1wo1_500.gif)
 
 <font style="color:grey" face="Century Gothic">
+
 This page is a draft of my Front-End development skills.
 As you acquire skills, you will see the marks.
 If there is no mark, this does not mean that the topic has not been mastered.
 I assure you it is in the process or has been mastered, but there are still moments to bring knowledge to perfection.
-<p>
-Loading… ██████████] 99%</font>
-
-
-
-
+Loading… ██████████] 99%
+</font>
+</center>
 
 ![new_line_2](https://sdvv.ru/upload/iblock/52a/52a80921f26f2bd98833c7cf343e6896.jpg)
 
-
-<font style="color:" face="Century Gothic">
----
-#What I can
+<center>
+<font size=5px style="color:" face="Century Gothic">
+**What I can**
+</font>
+</center>
 
 - [x] know and be able to apply the basics ** HTML ** - tags, attributes and ways to structure the content of web pages to create formatted documents 
 - [x] know and be able to apply ** CSS ** basics - values, lists, colors, fonts and other formatting metrics 
@@ -99,14 +98,16 @@ Loading… ██████████] 99%</font>
 - [ ] be able to use ** Flux **
 - [ ] interact with forms
 
-![new_line_1](https://acegif.com/wp-content/gifs/hamster-99.gif)
----
-```
 <center>
+![new_line_1](https://acegif.com/wp-content/gifs/hamster-99.gif)
+</center>
+
+```
+
 	<font size=4px style="color:red" face="Century Gothic">
 		****Skills****
 	</font>
-</center>
+
 
 <!-- Yandex.Metrika counter --> - temporarily failed verification
 there will be Metrika

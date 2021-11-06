@@ -1,5 +1,5 @@
 
-|![FacePic][MyFace]|<font size=4px style="color:" face="Century Gothic">Aleksandr Maslenkon|<font size=4px style="color:grey" face="Century Gothic"> Front-end deloper|<font size=4px style="color:" face="Century Gothic"><a href="tel:+375291921091"> ☎ Click to Call Me</a>|
+|![FacePic][MyFace]|<font size=4px style="color:" face="Century Gothic">Alexsandr Maslenkon|<font size=4px style="color:grey" face="Century Gothic"> Front-end deloper|<font size=4px style="color:" face="Century Gothic"><a href="tel:+375291921091"> ☎ Click to Call Me</a>|
 |---|---|---|
 |"Beware of bugs in the above code; I have only proved it correct, not tried it."|-Donald E. Knuth.|<p><img src="https://w7.pngwing.com/pngs/933/443/png-transparent-gray-smiley-smiley-emoticon-faces-miscellaneous-face-text.png" width="100" height="auto" alt="MyPhoto"></p>|<font size=4px style="color:" face="Century Gothic"> <a href = "mailto: Maslenkov2010@gmail.com"> @ click to mail me</a>|
 
@@ -7,7 +7,9 @@
 
 ---
 
+<font size=6px style="color:red" face="Century Gothic">
 ****Skills****
+</font>
 
 ---
 
@@ -42,11 +44,14 @@
 
 ![new_line_1](https://i.imgur.com/IMNAFUn.gif)
 
+<font style="color:grey" face="Century Gothic">
 This page is a draft of my Front-End development skills.
 As you acquire skills, you will see the marks.
 If there is no mark, this does not mean that the topic has not been mastered.
-I assure you it is in the process or has been mastered, but there are still moments to bring knowledge to perfection.
+I assure you it is in the process or has been mastered, but there are still moments to bring knowledge to perfection. 
+
 Loading… ██████████] 99%
+</font>
 
 
 

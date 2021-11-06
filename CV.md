@@ -1,19 +1,12 @@
----
-
-| ![Photo][MyFace]|<font size=4px style="color:" face="Century Gothic">Alexsandr Maslenkon|<font size=4px style="color:grey" face="Century Gothic"> Front-end deloper|<font size=4px style="color:" face="Century Gothic"><a href="tel:+375291921091"> ☎ Click to Call Me</a>|
+|![Photo][MyFace]|<font size=4px style="color:" face="Century Gothic">Alexsandr Maslenkon|<font size=4px style="color:grey" face="Century Gothic"> Front-end deloper|<font size=4px style="color:" face="Century Gothic"><a href="tel:+375291921091"> ☎ Click to Call Me</a>|
 |---|---|---|
 |"Beware of bugs in the above code; I have only proved it correct, not tried it."|-Donald E. Knuth.|<img src="https://w7.pngwing.com/pngs/933/443/png-transparent-gray-smiley-smiley-emoticon-faces-miscellaneous-face-text.png" width="100" height="auto" alt="MyPhoto">|<font size=4px style="color:" face="Century Gothic"> <a href = "mailto: Maslenkov2010@gmail.com"> @ click to mail me</a>|
 
 
 <font alig="center" size=6px style="color:red" face="Century Gothic">
-
-__Skills__
+Skills
 
 </font>
-
-
----
-
 
 |HTML5|JavaScript|CSS|Photoshop|Angular|jquery|Webpack|Ajax|React|
 |---|---|---|
@@ -38,9 +31,10 @@ __Skills__
 [React]: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png
 
 <center>
-
 ![new_line_1](http://31.media.tumblr.com/4ff66ab77c2f61d33c0e3213f39ea0e8/tumblr_n9ncudy6ci1qzag1wo1_500.gif)
+</center>
 
+<center>
 <font style="color:grey" face="Century Gothic">
 
 This page is a draft of my Front-End development skills.
@@ -64,7 +58,7 @@ __What I can__
 </center>
 
 
-- [x] know and be able to apply the basics ** HTML ** - tags, attributes and ways to structure the content of web pages to create formatted documents 
+- [x]know and be able to apply the basics ** HTML ** - tags, attributes and ways to structure the content of web pages to create formatted documents 
 - [x] know and be able to apply ** CSS ** basics - values, lists, colors, fonts and other formatting metrics 
 - [ ] know what ** block layout ** is and how to use it to create web pages 
 - [ ] possess skills ** checking and debugging code ** web-documents 

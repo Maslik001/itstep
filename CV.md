@@ -41,6 +41,7 @@
 [React]: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png
 
 <center>
+
 ![new_line_1](http://31.media.tumblr.com/4ff66ab77c2f61d33c0e3213f39ea0e8/tumblr_n9ncudy6ci1qzag1wo1_500.gif)
 
 <font style="color:grey" face="Century Gothic">
@@ -52,14 +53,15 @@ I assure you it is in the process or has been mastered, but there are still mome
 Loading… ██████████] 99%
 </font>
 </center>
-
 ![new_line_2](https://sdvv.ru/upload/iblock/52a/52a80921f26f2bd98833c7cf343e6896.jpg)
-
 <center>
 <font size=5px style="color:" face="Century Gothic">
-**What I can**
+
+__What I can__
+
 </font>
 </center>
+
 
 - [x] know and be able to apply the basics ** HTML ** - tags, attributes and ways to structure the content of web pages to create formatted documents 
 - [x] know and be able to apply ** CSS ** basics - values, lists, colors, fonts and other formatting metrics 
@@ -100,7 +102,9 @@ Loading… ██████████] 99%
 - [ ] interact with forms
 
 <center>
+
 ![new_line_1](https://acegif.com/wp-content/gifs/hamster-99.gif)
+
 </center>
 
 ```
@@ -110,19 +114,23 @@ Loading… ██████████] 99%
 	</font>
 
 
-<!-- Yandex.Metrika counter --> - temporarily failed verification
-there will be Metrika
+    <!-- Yandex.Metrika counter --> - temporarily failed verification
+    there will be Metrika
 ```
+
+<center>
 <!-- Yandex.Metrika informer -->
 <a href="https://metrika.yandex.ru/stat/?id=86301503&amp;from=informer"
-target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/86301503/2_1_20EC20FF_00CC00FF_0_pageviews"
-style="width:80px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры)" class="ym-advanced-informer" data-cid="86301503" data-lang="ru" /></a>
+target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/86301503/2_1_20EC20FF_00CC00FF_0_visits"
+style="width:80px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (визиты)" class="ym-advanced-informer" data-cid="86301503" data-lang="ru" /></a>
 <!-- /Yandex.Metrika informer -->
+
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
    ym(86301503, "init", {
         clickmap:true,
         trackLinks:true,
@@ -131,3 +139,4 @@ style="width:80px; height:31px; border:0;" alt="Яндекс.Метрика" tit
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/86301503" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+</center>

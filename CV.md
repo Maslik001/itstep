@@ -19,7 +19,7 @@
 
 |HTML5|JavaScript|CSS|Photoshop|Angular|jquery|Webpack|Ajax|React|
 |---|---|---|
-|![logo][HTML5]|![logo][JavaScript]|![logo][CSS]|![logo][Photoshop]|![logo][Angular]|![logo][jquery]|![logo][Webpack]|![logo][Ajax]|![logo][React]|
+|![logo][HTML5]|![logo][JavaScript]|![logo][CSS]|![logo][Photoshop]|![logo][Angular]|![logo][jquery]|![logo][Webpack]|![logo][Ajax]|![logo][React]
 
 [HTML5]:https://static.wikia.nocookie.net/wikies/images/0/05/HTML5_logo.png/revision/latest?cb=20170512222450&path-prefix=ru
 

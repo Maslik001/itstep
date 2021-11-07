@@ -1,4 +1,4 @@
----
+
 |![Photo][MyFace]|<font size=4px style="color:" face="Century Gothic">Alexsandr Maslenkov|<font size=4px style="color:grey" face="Century Gothic"> Front-end deloper|<font size=4px style="color:" face="Century Gothic"><a href="tel:+375291921091"> ☎ Click to Call Me</a>|
 |---|---|---|
 |"Beware of bugs in the above code; I have only proved it correct, not tried it."|-Donald E. Knuth.|<img src="https://thumbs.gfycat.com/ObedientAcidicAmericangoldfinch-size_restricted.gif" width="100" height="50" alt="Programs">|<a href = "mailto: Maslenkov2010@gmail.com" title="Нажми что бы отправить мне письмо">![mail](https://cdn.icon-icons.com/icons2/2098/PNG/128/mail_icon_128820.png)|

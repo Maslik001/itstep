@@ -45,12 +45,12 @@ Loading… ██████████] 99%
 
 </font>
 
-![whot I Can](https://yorkisspproject.files.wordpress.com/2015/06/ican.png)
 
 <font size=5px style="color:" face="Century Gothic">
----
 
-- [x] know and be able to apply the basics ** HTML ** - tags, attributes and ways to structure the content of web pages to create formatted documents 
+![whot I Can](https://yorkisspproject.files.wordpress.com/2015/06/ican.png)
+
+- [x]know and be able to apply the basics ** HTML ** - tags, attributes and ways to structure the content of web pages to create formatted documents 
 - [x] know and be able to apply ** CSS ** basics - values, lists, colors, fonts and other formatting metrics 
 - [ ] know what ** block layout ** is and how to use it to create web pages 
 - [ ] possess skills ** checking and debugging code ** web-documents 
@@ -94,12 +94,9 @@ Loading… ██████████] 99%
 
 
 ```
-
 	<font size=4px style="color:red" face="Century Gothic">
 		****Skills****
 	</font>
-
-
     <!-- Yandex.Metrika counter --> - temporarily failed verification
     there will be Metrika
 ```

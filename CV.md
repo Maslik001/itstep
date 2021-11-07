@@ -44,11 +44,11 @@ Loading… ██████████] 99%
 
 
 
-* [x] know and be able to apply the basics ** HTML ** - tags, attributes and ways to structure the content of web pages to create formatted documents 
-* [x] know and be able to apply ** CSS ** basics - values, lists, colors, fonts and other formatting metrics 
-* [ ] know what ** block layout ** is and how to use it to create web pages 
+* [x]know and be able to apply the basics ** HTML ** - tags, attributes and ways to structure the content of web pages to create formatted documents 
+* [x]know and be able to apply ** CSS ** basics - values, lists, colors, fonts and other formatting metrics 
+* [ ]know what ** block layout ** is and how to use it to create web pages 
 * [ ] possess skills ** checking and debugging code ** web-documents 
-- [ ] possess skills ** of forming the content of web-documents for various screens ** - from standard browsers to mobile devices 
+- [ ]possess skills ** of forming the content of web-documents for various screens ** - from standard browsers to mobile devices 
 - [ ] possess the skills of fast and high-quality ** formatting of complex web-documents **
 - [x] know the basic layout tools in ** Photoshop **
 - [ ] know the basics ** HTML5 and CSS3 **

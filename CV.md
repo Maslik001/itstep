@@ -1,7 +1,7 @@
 
-| ![Photo][MyFace]|<font size=4px style="color:" face="Century Gothic">Alexsandr Maslenkov|<font size=4px style="color:grey" face="Century Gothic"> Front-end deloper|<font size=4px style="color:" face="Century Gothic"><a href="tel:+375291921091"> ☎ Click to Call Me</a>|
+|![Photo][MyFace]|<font size=4px style="color:" face="Century Gothic">Alexsandr Maslenkov|<font size=4px style="color:grey" face="Century Gothic"> Front-end deloper|<font size=4px style="color:" face="Century Gothic"><a href="tel:+375291921091"> ☎ Click to Call Me</a>|
 |---|---|---|
-|"Beware of bugs in the above code; I have only proved it correct, not tried it."|-Donald E. Knuth.|<img src="https://w7.pngwing.com/pngs/933/443/png-transparent-gray-smiley-smiley-emoticon-faces-miscellaneous-face-text.png" width="100" height="auto" alt="MyPhoto">|<a href = "mailto: Maslenkov2010@gmail.com" title="Нажми что бы отправить мне письмо">![mail](https://cdn.icon-icons.com/icons2/2098/PNG/128/mail_icon_128820.png)|
+|"Beware of bugs in the above code; I have only proved it correct, not tried it."|-Donald E. Knuth.|<img src="https://thumbs.gfycat.com/ObedientAcidicAmericangoldfinch-size_restricted.gif" width="100" height="50" alt="Programs">|<a href = "mailto: Maslenkov2010@gmail.com" title="Нажми что бы отправить мне письмо">![mail](https://cdn.icon-icons.com/icons2/2098/PNG/128/mail_icon_128820.png)|
 
 [MyFace]:https://github.com/Maslik001/itstep/blob/gh-pages/img/MyPhoto.jpg?raw=true
 
@@ -27,9 +27,7 @@
 
 [React]: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png
 
-<center>
-![Line](https://thumbs.gfycat.com/GrimyPlainKakarikis-size_restricted.gif)
-
+---
 
 This page is a draft of my Front-End development skills.
 As you acquire skills, you will see the marks.
@@ -38,15 +36,19 @@ I assure you it is in the process or has been mastered, but there are still mome
 
 Loading… ██████████] 99%
 
-</center>
+![Line](https://media2.giphy.com/media/iCHD7W6Sqy1AqvLe0i/200.gif)
 
-![whot I Can](https://yorkisspproject.files.wordpress.com/2015/06/ican.png)
 
-- [x] know and be able to apply the basics ** HTML ** - tags, attributes and ways to structure the content of web pages to create formatted documents 
-- [x] know and be able to apply ** CSS ** basics - values, lists, colors, fonts and other formatting metrics 
-- [ ] know what ** block layout ** is and how to use it to create web pages 
-- [ ] possess skills ** checking and debugging code ** web-documents 
-- [ ] possess skills ** of forming the content of web-documents for various screens ** - from standard browsers to mobile devices 
+
+![ican](https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Twice_-_I_Can%27t_stop_me_logo.png/274px-Twice_-_I_Can%27t_stop_me_logo.png)
+
+
+
+* [x]know and be able to apply the basics ** HTML ** - tags, attributes and ways to structure the content of web pages to create formatted documents 
+* [x]know and be able to apply ** CSS ** basics - values, lists, colors, fonts and other formatting metrics 
+* [ ]know what ** block layout ** is and how to use it to create web pages 
+* [ ] possess skills ** checking and debugging code ** web-documents 
+- [ ]possess skills ** of forming the content of web-documents for various screens ** - from standard browsers to mobile devices 
 - [ ] possess the skills of fast and high-quality ** formatting of complex web-documents **
 - [x] know the basic layout tools in ** Photoshop **
 - [ ] know the basics ** HTML5 and CSS3 **
@@ -79,6 +81,7 @@ Loading… ██████████] 99%
 - [ ] understand the intricacies of implementing ** React ** applications
 - [ ] be able to use ** Flux **
 - [ ] interact with forms
+
 
 ![new_line_1](https://acegif.com/wp-content/gifs/hamster-99.gif)
 

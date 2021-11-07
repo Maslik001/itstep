@@ -15,7 +15,7 @@
 
 [HTML5]:https://static.wikia.nocookie.net/wikies/images/0/05/HTML5_logo.png/revision/latest?cb=20170512222450&path-prefix=ru
 
-[JavaScript]: https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png
+[JavaScript]:https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png
 
 [CSS]: https://cdn.pixabay.com/photo/2017/03/30/17/42/css-2189148_1280.png
 
@@ -31,22 +31,21 @@
 
 [React]: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png
 
-
+<a size=10px; align="center"; style="color:grey" face="Century Gothic">
 
 ![new_line_1](http://31.media.tumblr.com/4ff66ab77c2f61d33c0e3213f39ea0e8/tumblr_n9ncudy6ci1qzag1wo1_500.gif)
-
-<font style="color:grey" face="Century Gothic">
 
 This page is a draft of my Front-End development skills.
 As you acquire skills, you will see the marks.
 If there is no mark, this does not mean that the topic has not been mastered.
 I assure you it is in the process or has been mastered, but there are still moments to bring knowledge to perfection.
+
 Loading… ██████████] 99%
 
-</font>
+</a>
 
 
-<font size=5px style="color:" face="Century Gothic">
+<font size=4px style="color:" face="Century Gothic">
 
 ![whot I Can](https://yorkisspproject.files.wordpress.com/2015/06/ican.png)
 
@@ -94,7 +93,7 @@ Loading… ██████████] 99%
 
 
 ```
-	<font size=4px style="color:red" face="Century Gothic">
+	<font size=2px style="color:red" face="Century Gothic">
 		****Skills****
 	</font>
     <!-- Yandex.Metrika counter --> - temporarily failed verification
@@ -107,7 +106,6 @@ Loading… ██████████] 99%
 target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/86301503/2_1_20EC20FF_00CC00FF_0_visits"
 style="width:80px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (визиты)" class="ym-advanced-informer" data-cid="86301503" data-lang="ru" /></a>
 <!-- /Yandex.Metrika informer -->
-
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};

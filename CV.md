@@ -1,7 +1,7 @@
 
 | ![Photo][MyFace]|<font size=4px style="color:" face="Century Gothic">Alexsandr Maslenkov|<font size=4px style="color:grey" face="Century Gothic"> Front-end deloper|<font size=4px style="color:" face="Century Gothic"><a href="tel:+375291921091"> ☎ Click to Call Me</a>|
 |---|---|---|
-|"Beware of bugs in the above code; I have only proved it correct, not tried it."|-Donald E. Knuth.|<img src="https://w7.pngwing.com/pngs/933/443/png-transparent-gray-smiley-smiley-emoticon-faces-miscellaneous-face-text.png" width="100" height="auto" alt="MyPhoto">|<a href = "mailto: Maslenkov2010@gmail.com">![mail](https://cdn.icon-icons.com/icons2/2098/PNG/128/mail_icon_128820.png)|
+|"Beware of bugs in the above code; I have only proved it correct, not tried it."|-Donald E. Knuth.|<img src="https://w7.pngwing.com/pngs/933/443/png-transparent-gray-smiley-smiley-emoticon-faces-miscellaneous-face-text.png" width="100" height="auto" alt="MyPhoto">|<a href = "mailto: Maslenkov2010@gmail.com" title="Нажми что бы отправить мне письмо">![mail](https://cdn.icon-icons.com/icons2/2098/PNG/128/mail_icon_128820.png)|
 
 [MyFace]:https://github.com/Maslik001/itstep/blob/gh-pages/img/MyPhoto.jpg?raw=true
 
@@ -87,7 +87,7 @@ Loading… ██████████] 99%
     there will be Metrika
 ```
 
-<noscript><div><img src="https://mc.yandex.ru/watch/86301503" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
 
 <a href="https://metrika.yandex.ru/stat/?id=86301503&amp;from=informer"
 target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/86301503/2_1_20EC20FF_00CC00FF_0_visits"
@@ -104,6 +104,7 @@ style="width:80px; height:31px; border:0;" alt="Яндекс.Метрика" tit
    });
 </script>
 
+<noscript><div><img src="https://mc.yandex.ru/watch/86301503" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 
 
 

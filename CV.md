@@ -27,7 +27,7 @@
 
 [React]: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png
 
----
+*****
 
 This page is a draft of my Front-End development skills.
 As you acquire skills, you will see the marks.
@@ -38,17 +38,13 @@ Loading… ██████████] 99%
 
 ![Line](https://media2.giphy.com/media/iCHD7W6Sqy1AqvLe0i/200.gif)
 
-
-
 ![ican](https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Twice_-_I_Can%27t_stop_me_logo.png/274px-Twice_-_I_Can%27t_stop_me_logo.png)
 
-
-
-* [x]know and be able to apply the basics ** HTML ** - tags, attributes and ways to structure the content of web pages to create formatted documents 
-* [x]know and be able to apply ** CSS ** basics - values, lists, colors, fonts and other formatting metrics 
-* [ ]know what ** block layout ** is and how to use it to create web pages 
+- [x]  know and be able to apply the basics ** HTML ** - tags, attributes and ways to structure the content of web pages to create formatted documents 
+* [x] know and be able to apply ** CSS ** basics - values, lists, colors, fonts and other formatting metrics 
+* [ ] know what ** block layout ** is and how to use it to create web pages 
 * [ ] possess skills ** checking and debugging code ** web-documents 
-- [ ]possess skills ** of forming the content of web-documents for various screens ** - from standard browsers to mobile devices 
+- [ ] possess skills ** of forming the content of web-documents for various screens ** - from standard browsers to mobile devices 
 - [ ] possess the skills of fast and high-quality ** formatting of complex web-documents **
 - [x] know the basic layout tools in ** Photoshop **
 - [ ] know the basics ** HTML5 and CSS3 **
@@ -82,7 +78,7 @@ Loading… ██████████] 99%
 - [ ] be able to use ** Flux **
 - [ ] interact with forms
 
-
+---
 ![new_line_1](https://acegif.com/wp-content/gifs/hamster-99.gif)
 
 ```

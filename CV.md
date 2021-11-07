@@ -1,7 +1,7 @@
 
 | ![Photo][MyFace]|<font size=4px style="color:" face="Century Gothic">Alexsandr Maslenkov|<font size=4px style="color:grey" face="Century Gothic"> Front-end deloper|<font size=4px style="color:" face="Century Gothic"><a href="tel:+375291921091"> ☎ Click to Call Me</a>|
 |---|---|---|
-|"Beware of bugs in the above code; I have only proved it correct, not tried it."|-Donald E. Knuth.|<img src="https://w7.pngwing.com/pngs/933/443/png-transparent-gray-smiley-smiley-emoticon-faces-miscellaneous-face-text.png" width="100" height="auto" alt="MyPhoto">|<a href = "mailto: Maslenkov2010@gmail.com" title="Нажми что бы отправить мне письмо">![mail](https://cdn.icon-icons.com/icons2/2098/PNG/128/mail_icon_128820.png)|
+|"Beware of bugs in the above code; I have only proved it correct, not tried it."|-Donald E. Knuth.|<img src="http://pa1.narvii.com/7969/6bc3086d876442c759d021ed96a754c6d8dadab5r1-320-180_00.gif" width="300" height="auto" alt="MyPhoto">|<a href = "mailto: Maslenkov2010@gmail.com" title="Нажми что бы отправить мне письмо">![mail](https://cdn.icon-icons.com/icons2/2098/PNG/128/mail_icon_128820.png)|
 
 [MyFace]:https://github.com/Maslik001/itstep/blob/gh-pages/img/MyPhoto.jpg?raw=true
 
@@ -28,6 +28,7 @@
 [React]: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png
 
 ---
+
 <center>
 
 ![Line](https://thumbs.gfycat.com/GrimyPlainKakarikis-size_restricted.gif)

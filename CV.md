@@ -29,8 +29,6 @@
 
 ---
 
-<center>
-
 ![Line](https://thumbs.gfycat.com/GrimyPlainKakarikis-size_restricted.gif)
 
 This page is a draft of my Front-End development skills.
@@ -39,8 +37,6 @@ If there is no mark, this does not mean that the topic has not been mastered.
 I assure you it is in the process or has been mastered, but there are still moments to bring knowledge to perfection.
 
 Loading… ██████████] 99%
-
-</center>
 
 ![whot I Can](https://yorkisspproject.files.wordpress.com/2015/06/ican.png)
 

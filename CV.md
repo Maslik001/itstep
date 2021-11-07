@@ -40,42 +40,42 @@ Loading… ██████████] 99%
 
 ![ican](https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Twice_-_I_Can%27t_stop_me_logo.png/274px-Twice_-_I_Can%27t_stop_me_logo.png)
 
-- [x]  know and be able to apply the basics ** HTML ** - tags, attributes and ways to structure the content of web pages to create formatted documents 
-* [x] know and be able to apply ** CSS ** basics - values, lists, colors, fonts and other formatting metrics 
-* [ ] know what ** block layout ** is and how to use it to create web pages 
-* [ ] possess skills ** checking and debugging code ** web-documents 
-- [ ] possess skills ** of forming the content of web-documents for various screens ** - from standard browsers to mobile devices 
-- [ ] possess the skills of fast and high-quality ** formatting of complex web-documents **
-- [x] know the basic layout tools in ** Photoshop **
-- [ ] know the basics ** HTML5 and CSS3 **
-- [ ] master the constructs of the ** JavaScript ** language, such as variables, conditions, loops, strings, function arrays, etc.
-- [ ] know ** OOP ** and its basic concepts
-- [ ] be able to ** handle ** occurring ** errors **
-- [ ] understand ** the concepts of event, event handler **
-- [ ] create ** functions-handlers ** of various events
-- [ ] understand the difference between ** BOM and DOM **
+- [x]  know and be able to apply the basics **HTML** - tags, attributes and ways to structure the content of web pages to create formatted documents 
+- [x] know and be able to apply **CSS** basics - values, lists, colors, fonts and other formatting metrics 
+- [ ] know what **block layout** is and how to use it to create web pages 
+- [ ] possess skills **checking and debugging code**  web-documents
+- [ ] possess skills **of forming the content of web-documents for various screens** - from standard browsers to mobile devices 
+- [ ] possess the skills of fast and high-quality **formatting of complex web-documents**
+- [x] know the basic layout tools in **Photoshop**
+- [ ] know the basics **HTML5 and CSS3** 
+- [ ] master the constructs of the **JavaScript** language, such as variables, conditions, loops, strings, function arrays, etc.
+- [ ] know **OOP** and its basic concepts
+- [ ] be able to **handle** occurring **errors**
+- [ ] understand **the concepts of event, event handler**
+- [ ] create **functions-handlers** of various events
+- [ ] understand the difference between **BOM and DOM**
 - [ ] be able to interact with objects from the BOM and DOM
-- [ ] understand the intricacies ** implementation of client scripts for different browsers **
-- [ ] master the principles of ** creating forms and analyzing user data ** using ** regular expressions **
-- [ ] be able to save user data using the ** cookie ** mechanism
-- [ ] understand the specifics of using ** HTML5 ** in relation to ** JavaScript **
-- [ ] be able to serialize and parse data using ** JSON **
-- [ ] be able to handle ** Canvas **
-- [ ] know the principles of making asynchronous requests using ** Ajax **
-- [ ] understand ** design patterns **
-- [x] use ** version control systems **
-- [ ] understand what a ** JS library ** is
+- [ ] understand the intricacies **implementation of client scripts for different browsers**
+- [ ] master the principles of **creating forms and analyzing user data** using **regular expressions**
+- [ ] be able to save user data using the **cookie** mechanism
+- [ ] understand the specifics of using **HTML5** in relation to **JavaScript**
+- [ ] be able to serialize and parse data using **JSON**
+- [ ] be able to handle **Canvas**
+- [ ] know the principles of making asynchronous requests using **Ajax**
+- [ ] understand **design patterns**
+- [x] use **version control systems**
+- [ ] understand what a **JS library** is
 - [ ] be able to develop your own JS libraries
-- [ ] understand what ** jquery ** is used for and how to apply it in practice
-- [ ] understand ** the basics of teamwork **
+- [ ] understand what **jquery** is used for and how to apply it in practice
+- [ ] understand **the basics of teamwork**
 - [ ] be able to assemble a project using various tools
-- [ ] understand the intricacies of using ** Webpack **
-- [ ] understand the structure of an ** Angular ** application
-- [ ] be able to apply the correct ** Angular ** constructions depending on the task at hand
-- [ ] be able to perform data binding in an ** Angular ** application
-- [ ] apply ** Dependency Injection **
-- [ ] understand the intricacies of implementing ** React ** applications
-- [ ] be able to use ** Flux **
+- [ ] understand the intricacies of using **Webpack**
+- [ ] understand the structure of an **Angular** application
+- [ ] be able to apply the correct **Angular** constructions depending on the task at hand
+- [ ] be able to perform data binding in an **Angular** application
+- [ ] apply **Dependency Injection**
+- [ ] understand the intricacies of implementing **React** applications
+- [ ] be able to use **Flux**
 - [ ] interact with forms
 
 ---

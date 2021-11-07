@@ -1,7 +1,7 @@
 
 | ![Photo][MyFace]|<font size=4px style="color:" face="Century Gothic">Alexsandr Maslenkov|<font size=4px style="color:grey" face="Century Gothic"> Front-end deloper|<font size=4px style="color:" face="Century Gothic"><a href="tel:+375291921091"> ☎ Click to Call Me</a>|
 |---|---|---|
-|"Beware of bugs in the above code; I have only proved it correct, not tried it."|-Donald E. Knuth.|<img src="https://linked-promo.com/wp-content/uploads/2021/02/%D0%98%D0%B7%D0%BC%D0%B5%D1%80%D0%B5%D0%BD%D0%B8%D0%B5-%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D0%B5%D0%BC%D0%BE%D1%81%D1%82%D0%B8-%D0%B1%D1%80%D0%B5%D0%BD%D0%B4%D0%B0.gif" width="300" height="auto" alt="MyPhoto">|<a href = "mailto: Maslenkov2010@gmail.com" title="Нажми что бы отправить мне письмо">![mail](https://cdn.icon-icons.com/icons2/2098/PNG/128/mail_icon_128820.png)|
+|"Beware of bugs in the above code; I have only proved it correct, not tried it."|-Donald E. Knuth.|<img src="https://linked-promo.com/wp-content/uploads/2021/02/%D0%98%D0%B7%D0%BC%D0%B5%D1%80%D0%B5%D0%BD%D0%B8%D0%B5-%D1%83%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D0%B5%D0%BC%D0%BE%D1%81%D1%82%D0%B8-%D0%B1%D1%80%D0%B5%D0%BD%D0%B4%D0%B0.gif" width="300" height="auto" alt="Programs">|<a href = "mailto: Maslenkov2010@gmail.com" title="Нажми что бы отправить мне письмо">![mail](https://cdn.icon-icons.com/icons2/2098/PNG/128/mail_icon_128820.png)|
 
 [MyFace]:https://github.com/Maslik001/itstep/blob/gh-pages/img/MyPhoto.jpg?raw=true
 
@@ -29,7 +29,7 @@
 
 ---
 
-![Line](https://thumbs.gfycat.com/GrimyPlainKakarikis-size_restricted.gif)
+![Line](https://media2.giphy.com/media/iCHD7W6Sqy1AqvLe0i/200.gif)
 
 This page is a draft of my Front-End development skills.
 As you acquire skills, you will see the marks.
@@ -38,7 +38,11 @@ I assure you it is in the process or has been mastered, but there are still mome
 
 Loading… ██████████] 99%
 
-![whot I Can](https://yorkisspproject.files.wordpress.com/2015/06/ican.png)
+<center>
+<p>
+<img src=https://yorkisspproject.files.wordpress.com/2015/06/ican.png width="400" height="auto" alt="MyPhoto">
+</p>
+</center>
 
 - [x] know and be able to apply the basics ** HTML ** - tags, attributes and ways to structure the content of web pages to create formatted documents 
 - [x] know and be able to apply ** CSS ** basics - values, lists, colors, fonts and other formatting metrics 

@@ -27,10 +27,10 @@
 
 [React]: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png
 
+---
 <center>
 
 ![Line](https://thumbs.gfycat.com/GrimyPlainKakarikis-size_restricted.gif)
-
 
 This page is a draft of my Front-End development skills.
 As you acquire skills, you will see the marks.

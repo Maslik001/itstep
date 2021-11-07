@@ -27,7 +27,8 @@
 
 [React]: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png
 
-![new_line_1](http://31.media.tumblr.com/4ff66ab77c2f61d33c0e3213f39ea0e8/tumblr_n9ncudy6ci1qzag1wo1_500.gif)
+<center>
+![Line](https://thumbs.gfycat.com/GrimyPlainKakarikis-size_restricted.gif)
 
 
 This page is a draft of my Front-End development skills.
@@ -36,6 +37,8 @@ If there is no mark, this does not mean that the topic has not been mastered.
 I assure you it is in the process or has been mastered, but there are still moments to bring knowledge to perfection.
 
 Loading… ██████████] 99%
+
+</center>
 
 ![whot I Can](https://yorkisspproject.files.wordpress.com/2015/06/ican.png)
 

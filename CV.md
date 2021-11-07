@@ -1,7 +1,7 @@
 
 | ![Photo][MyFace]|<font size=4px style="color:" face="Century Gothic">Alexsandr Maslenkon|<font size=4px style="color:grey" face="Century Gothic"> Front-end deloper|<font size=4px style="color:" face="Century Gothic"><a href="tel:+375291921091"> ☎ Click to Call Me</a>|
 |---|---|---|
-|"Beware of bugs in the above code; I have only proved it correct, not tried it."|-Donald E. Knuth.|<img src="https://w7.pngwing.com/pngs/933/443/png-transparent-gray-smiley-smiley-emoticon-faces-miscellaneous-face-text.png" width="100" height="auto" alt="MyPhoto">|<font size=4px style="color:" face="Century Gothic"> <a href = "mailto: Maslenkov2010@gmail.com"> ![mail](https://cdn.icon-icons.com/icons2/2098/PNG/128/mail_icon_128820.png)</a>|
+|"Beware of bugs in the above code; I have only proved it correct, not tried it."|-Donald E. Knuth.|<img src="https://w7.pngwing.com/pngs/933/443/png-transparent-gray-smiley-smiley-emoticon-faces-miscellaneous-face-text.png" width="100" height="auto" alt="MyPhoto">|<font size=4px style="color:" face="Century Gothic"> <a href = "mailto: Maslenkov2010@gmail.com"> ![mail](https://cdn.icon-icons.com/icons2/2098/PNG/128/mail_icon_128820.png)|
 
 [MyFace]:https://github.com/Maslik001/itstep/blob/gh-pages/img/MyPhoto.jpg?raw=true
 
@@ -31,8 +31,6 @@
 
 [React]: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png
 
-
-
 ![new_line_1](http://31.media.tumblr.com/4ff66ab77c2f61d33c0e3213f39ea0e8/tumblr_n9ncudy6ci1qzag1wo1_500.gif)
 
 This page is a draft of my Front-End development skills.
@@ -44,7 +42,7 @@ Loading… ██████████] 99%
 
 ![whot I Can](https://yorkisspproject.files.wordpress.com/2015/06/ican.png)
 
-- [x]know and be able to apply the basics ** HTML ** - tags, attributes and ways to structure the content of web pages to create formatted documents 
+- [x] know and be able to apply the basics ** HTML ** - tags, attributes and ways to structure the content of web pages to create formatted documents 
 - [x] know and be able to apply ** CSS ** basics - values, lists, colors, fonts and other formatting metrics 
 - [ ] know what ** block layout ** is and how to use it to create web pages 
 - [ ] possess skills ** checking and debugging code ** web-documents 
@@ -81,6 +79,7 @@ Loading… ██████████] 99%
 - [ ] understand the intricacies of implementing ** React ** applications
 - [ ] be able to use ** Flux **
 - [ ] interact with forms
+
 ![new_line_1](https://acegif.com/wp-content/gifs/hamster-99.gif)
 
 ```
@@ -97,6 +96,7 @@ Loading… ██████████] 99%
 target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/86301503/2_1_20EC20FF_00CC00FF_0_visits"
 style="width:80px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (визиты)" class="ym-advanced-informer" data-cid="86301503" data-lang="ru" /></a>
 <!-- /Yandex.Metrika informer -->
+
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -109,6 +109,7 @@ style="width:80px; height:31px; border:0;" alt="Яндекс.Метрика" tit
         accurateTrackBounce:true
    });
 </script>
+
 <noscript><div><img src="https://mc.yandex.ru/watch/86301503" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 

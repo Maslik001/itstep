@@ -87,10 +87,11 @@ Loading… ██████████] 99%
     there will be Metrika
 ```
 
+<noscript><div><img src="https://mc.yandex.ru/watch/86301503" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
 <a href="https://metrika.yandex.ru/stat/?id=86301503&amp;from=informer"
 target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/86301503/2_1_20EC20FF_00CC00FF_0_visits"
 style="width:80px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (визиты)" class="ym-advanced-informer" data-cid="86301503" data-lang="ru" /></a>
-
 <script type="text/javascript" >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
@@ -103,7 +104,6 @@ style="width:80px; height:31px; border:0;" alt="Яндекс.Метрика" tit
    });
 </script>
 
-<noscript><div><img src="https://mc.yandex.ru/watch/86301503" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 
 
 

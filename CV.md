@@ -31,7 +31,7 @@
 
 [React]: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png
 
-<center>
+
 
 ![new_line_1](http://31.media.tumblr.com/4ff66ab77c2f61d33c0e3213f39ea0e8/tumblr_n9ncudy6ci1qzag1wo1_500.gif)
 
@@ -45,15 +45,7 @@ Loading… ██████████] 99%
 
 </font>
 
-</center>
-
-
-
-<center>
-
 ![whot I Can](https://yorkisspproject.files.wordpress.com/2015/06/ican.png)
-
-</center>
 
 <font size=5px style="color:" face="Century Gothic">
 ---
@@ -96,11 +88,10 @@ Loading… ██████████] 99%
 - [ ] be able to use ** Flux **
 - [ ] interact with forms
 
-<center>
 
 ![new_line_1](https://acegif.com/wp-content/gifs/hamster-99.gif)
 
-</center>
+
 
 ```
 
@@ -113,7 +104,7 @@ Loading… ██████████] 99%
     there will be Metrika
 ```
 
-<center>
+
 <!-- Yandex.Metrika informer -->
 <a href="https://metrika.yandex.ru/stat/?id=86301503&amp;from=informer"
 target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/86301503/2_1_20EC20FF_00CC00FF_0_visits"
@@ -134,6 +125,6 @@ style="width:80px; height:31px; border:0;" alt="Яндекс.Метрика" tit
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/86301503" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
-</center>
+
 
 

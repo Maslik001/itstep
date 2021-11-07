@@ -28,7 +28,6 @@
 [React]: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png
 
 ---
-<p align="center">
 
 This page is a draft of my Front-End development skills.
 As you acquire skills, you will see the marks.
@@ -37,7 +36,6 @@ I assure you it is in the process or has been mastered, but there are still mome
 
 Loading… ██████████] 99%
 
-</p>
 
 
 

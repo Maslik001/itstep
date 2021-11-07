@@ -38,11 +38,11 @@ I assure you it is in the process or has been mastered, but there are still mome
 
 Loading… ██████████] 99%
 
-<center>
+
 <p>
 <img src=https://yorkisspproject.files.wordpress.com/2015/06/ican.png width="400" height="auto" alt="MyPhoto">
 </p>
-</center>
+
 
 - [x] know and be able to apply the basics ** HTML ** - tags, attributes and ways to structure the content of web pages to create formatted documents 
 - [x] know and be able to apply ** CSS ** basics - values, lists, colors, fonts and other formatting metrics 

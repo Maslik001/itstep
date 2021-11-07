@@ -1,7 +1,7 @@
 
 | ![Photo][MyFace]|<font size=4px style="color:" face="Century Gothic">Alexsandr Maslenkon|<font size=4px style="color:grey" face="Century Gothic"> Front-end deloper|<font size=4px style="color:" face="Century Gothic"><a href="tel:+375291921091"> ☎ Click to Call Me</a>|
 |---|---|---|
-|"Beware of bugs in the above code; I have only proved it correct, not tried it."|-Donald E. Knuth.|<img src="https://w7.pngwing.com/pngs/933/443/png-transparent-gray-smiley-smiley-emoticon-faces-miscellaneous-face-text.png" width="100" height="auto" alt="MyPhoto">|<font size=4px style="color:" face="Century Gothic"> <a href = "mailto: Maslenkov2010@gmail.com"> @ <br> click to mail me</a>|
+|"Beware of bugs in the above code; I have only proved it correct, not tried it."|-Donald E. Knuth.|<img src="https://w7.pngwing.com/pngs/933/443/png-transparent-gray-smiley-smiley-emoticon-faces-miscellaneous-face-text.png" width="100" height="auto" alt="MyPhoto">|<font size=4px style="color:" face="Century Gothic"> <a href = "mailto: Maslenkov2010@gmail.com"> ![mail](https://cdn.icon-icons.com/icons2/2098/PNG/128/mail_icon_128820.png)</a>|
 
 [MyFace]:https://github.com/Maslik001/itstep/blob/gh-pages/img/MyPhoto.jpg?raw=true
 
@@ -13,7 +13,7 @@
 |---|---|---|
 |![logo][HTML5]|![logo][JavaScript]|![logo][CSS]|![logo][Photoshop]|![logo][Angular]|![logo][jquery]|![logo][Webpack]|![logo][Ajax]|![logo][React]
 
-[HTML5]:https://static.wikia.nocookie.net/wikies/images/0/05/HTML5_logo.png/revision/latest?cb=20170512222450&path-prefix=ru
+[HTML5]:https://aux.iconspalace.com/uploads/html5-icon-256.png
 
 [JavaScript]:https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png
 
@@ -31,7 +31,7 @@
 
 [React]: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png
 
-<a size=10px; align="center"; style="color:grey" face="Century Gothic">
+
 
 ![new_line_1](http://31.media.tumblr.com/4ff66ab77c2f61d33c0e3213f39ea0e8/tumblr_n9ncudy6ci1qzag1wo1_500.gif)
 
@@ -41,11 +41,6 @@ If there is no mark, this does not mean that the topic has not been mastered.
 I assure you it is in the process or has been mastered, but there are still moments to bring knowledge to perfection.
 
 Loading… ██████████] 99%
-
-</a>
-
-
-<font size=4px style="color:" face="Century Gothic">
 
 ![whot I Can](https://yorkisspproject.files.wordpress.com/2015/06/ican.png)
 
@@ -86,11 +81,7 @@ Loading… ██████████] 99%
 - [ ] understand the intricacies of implementing ** React ** applications
 - [ ] be able to use ** Flux **
 - [ ] interact with forms
-
-
 ![new_line_1](https://acegif.com/wp-content/gifs/hamster-99.gif)
-
-
 
 ```
 	<font size=2px style="color:red" face="Century Gothic">

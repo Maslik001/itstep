@@ -36,14 +36,12 @@ I assure you it is in the process or has been mastered, but there are still mome
 
 Loading… ██████████] 99%
 
+![Line](https://media2.giphy.com/media/iCHD7W6Sqy1AqvLe0i/200.gif)
 
 
 
-<p align="center">
+![ican](https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Twice_-_I_Can%27t_stop_me_logo.png/274px-Twice_-_I_Can%27t_stop_me_logo.png)
 
-<img width="200" height="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Twice_-_I_Can%27t_stop_me_logo.png/274px-Twice_-_I_Can%27t_stop_me_logo.png"
-
-</p>
 
 
 * [x] know and be able to apply the basics ** HTML ** - tags, attributes and ways to structure the content of web pages to create formatted documents 
@@ -83,6 +81,7 @@ Loading… ██████████] 99%
 - [ ] understand the intricacies of implementing ** React ** applications
 - [ ] be able to use ** Flux **
 - [ ] interact with forms
+
 
 ![new_line_1](https://acegif.com/wp-content/gifs/hamster-99.gif)
 

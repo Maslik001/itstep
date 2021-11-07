@@ -29,19 +29,22 @@
 
 ---
 <p align="center">
+
 This page is a draft of my Front-End development skills.
 As you acquire skills, you will see the marks.
 If there is no mark, this does not mean that the topic has not been mastered.
 I assure you it is in the process or has been mastered, but there are still moments to bring knowledge to perfection.
 
 Loading… ██████████] 99%
+
 </p>
 
-![Line](https://media2.giphy.com/media/iCHD7W6Sqy1AqvLe0i/200.gif)
 
 
 <p align="center">
-![ican](https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Twice_-_I_Can%27t_stop_me_logo.png/274px-Twice_-_I_Can%27t_stop_me_logo.png)
+
+<img width="200" height="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Twice_-_I_Can%27t_stop_me_logo.png/274px-Twice_-_I_Can%27t_stop_me_logo.png"
+
 </p>
 
 

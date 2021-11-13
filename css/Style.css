@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+
+     height: auto;
+     position: relative;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     display: block;
+ }
+
+.card {
+    padding: 10px;
+    float: left;
+    width: 25%;
+    display: inline-block;
+    box-shadow: 0 14px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px; /* Ограничение ширины */
+    margin: 50px;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+img {
+
+    width: 100%;
+
+}
+
+h3 {
+    color: #7c4dff;
+}
+
+p {
+    padding: 4px;
+    font-size: 14px;
+    color: #757575;
+}
+
+.price {
+    color: #d32f2f;
+    font-size: 18px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: #fff;
+    background-color: #f44336;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.footer {
+    display: block;
+    width: auto;
+    max-height: 50px;
+    }
+
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+    overflow: hidden;
+}
+a {
+    text-decoration: none;/*убираем подчеркивание текста ссылок*/
+    display: block;
+}
+
+.contact_text {
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-family: sans-serif;
+
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+.menu-main {
+    list-style: none;
+    margin: 40px 0 5px;
+    padding: 25px 0 5px;
+    text-align: center;
+    background: white;
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+    content: "|";
+    color: #606060;
+    display: inline-block;
+    vertical-align:top;
+}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 34px 0 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color .2s;
+}
+.menu-main a, .menu-main a:visited {color: #9d999d;}
+.menu-main a.current, .menu-main a:hover{color: #feb386;}
+.menu-main a:before,
+.menu-main a:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    top: auto;
+    right: 50%;
+    bottom: -5px;
+    left: 50%;
+    background: #feb386;
+    transition: .8s;
+}
+.menu-main a:hover:before, .menu-main .current:before {left: 0;}
+.menu-main a:hover:after, .menu-main .current:after {right: 0;}
+@media (max-width: 550px) {
+    .menu-main {padding-top: 0;}
+    .menu-main li {display: block;}
+    .menu-main li:after {content: none;}
+    .menu-main a {
+        padding: 25px 0 20px;
+        margin: 0 30px;
+    }
+}

@@ -1,23 +1,46 @@
 <!DOCTYPE html>
 <html lang="ru" xmlns="http://www.w3.org/1999/html">
 <head>
+    <title>Contacts ELKI-PALKI</title>
     <meta charset="UTF-8" name="Description" content="Я купил тут самую красивую Новогоднюю Ёлку">
     <title>ELKI-PALKI</title>
     <link type="Image/x-icon" href="./img/Favicon.png" rel="icon">
     <link rel="stylesheet" href="./css/Style.css">
+
+
+
 </head>
 <body>
 <nav class="top-menu" >
-    <center>
-        <a class="Elki_logo" href=""></a><img src="" width="" height="">
-    </center>
+
+    <!--<a class="Elki_logo" href=""></a><img src="" width="" height=""> -->
+
     <ul class="menu-main">
-        <li><a class="" href="./index.html">Main</a></li>
-        <li><a class="" href="./catalog.html">Catalog</a></li>
-        <li><a class="" href="./Contacts.html">Contact</a></li>
+        <li>MENU
+            <ul>
+                <li><a class="" href="./index.html">Main</a></li>
+                <li><a class="" href="./catalog.html">Catalog</a>
+                    <ul>
+                        <li class="submenu">
+                            <a href="Small_tree.html">Small cristmas tree</a>
+                        </li>
+                        <li class="submenu">
+                            <a href="Medium_tree.html">Medium cristmas tree</a>
+                        </li>
+                        <li class="submenu">
+                            <a href="Big_tree.html">Big cristmas tree</a>
+                        </li>
+                    </ul>
+                <li><a class="" href="./Contacts.html">Contact</a></li>
+                </li>
+                </li>
+            </ul>
     </ul>
 </nav>
-<div>
+<hr>
+
+<div align="center">
+
 <p class="contact_text">
 
     From opening our first store in 1989, on Billacombe Road, Plymouth, The Range is now the fastest growing retailer in the UK.
@@ -33,27 +56,36 @@
 
     <form action="#"  method="post" align="center" > <!--добавил форму обратной связи-->
     <fieldset >
-        <legend>Inter your information</legend>
+        <legend><font size="12px"><b>write to us</b></font></legend>
             <br>
             <br>
-    Name: <input type="text" name="FirstName" value="Fedor">
+    Name: <br><input type="text" name="FirstName" placeholder="Fedor" required>
          <br>
             <br>
-    Surname: <input type="text" name="LastName" value="Smit">
+    Surname: <br><input type="text" name="LastName" placeholder="Smit" required>
             <br>
             <br>
-    Date birthday: <input type="date">
+    Date birthday:  <br><input type="date">
             <br>
             <br>
     I agree with the newsletter?
             <br>
-        <input type="checkbox" value="Yes" checked>Yes
+        <input type="checkbox" value="Yes" required>Yes
         <input type="checkbox" value="No">No
             <br>
             <br>
-        <input type="button" value="Submit">
+        Inter your mail <br><input type="email" placeholder="mail" required>
             <br>
             <br>
+        <textarea>Write what are you wish</textarea>
+            <br>
+            <br>
+        <input type="submit" value="Submit">
+            <br>
+            <br>
+
+
+
 
     </fieldset>
     </form>
@@ -62,11 +94,15 @@
         The Range, Elsie Margaret House, William Prance Road, Plymouth, PL6 5ZD
         Registered No. 2699203 VAT Number 591272335
     <p>
-</div>
- <div class="footer">
-    <a class="footer_png"></a><img src="https://t3.ftcdn.net/jpg/02/32/64/28/360_F_232642867_TrpW0l8SIV6lj2lecnlOtTg2zCbPxf0H.jpg" width="" height="">
-</div>
 
+    <iframe width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.823029872381!2d30.33250121599244!3d53.89934934084553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d0510d9450328b%3A0x76508ccb77d674ea!2z0JrQvtC80L_RjNGO0YLQtdGA0L3QsNGPINCw0LrQsNC00LXQvNC40Y8gItCo0JDQkyI!5e0!3m2!1sru!2sby!4v1636889470677!5m2!1sru!2sby" ></iframe>
+    <!--
+    <div class="footer">
+    <a class="footer_png"></a><img src="https://t3.ftcdn.net/jpg/02/32/64/28/360_F_232642867_TrpW0l8SIV6lj2lecnlOtTg2zCbPxf0H.jpg" width="" height="">
+    </div>
+    -->
+    <hr>
+<div class="footer"> <div class="container"><span class="sub">© Все права защищены <a href="https://mogilev.itstep.by">ItStep</a> 2021</span></div>
 
 </body>
 </html>

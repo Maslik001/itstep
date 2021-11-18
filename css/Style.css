@@ -101,13 +101,19 @@ li > a:only-child:after { content: ''; }
     list-style: none;
 
     }
-
-#id_li{
+/*#id_li*/
+.list{
     color: #0514a9;
     font-weight: normal;
     font-style: normal;
-    background: url("../img/christmass_tree_ico3.png") no-repeat 0 4px;
+    text-align: left;
     padding-left: 24px;
+
+}
+
+.marker{
+    list-style-image: url("../img/christmass_tree_ico3.png");
+
 }
 
 h2, h3{

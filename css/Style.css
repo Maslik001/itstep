@@ -229,3 +229,14 @@ input[type=submit], button:hover {
     text-align: left;
 
 }
+
+.main_page{
+    background-image: url("https://64.media.tumblr.com/12f1039e1f59907d5325e3f00f7addf7/tumblr_ohkezkFd8t1twkrf5o1_500.gifv");
+    background-size: contain;
+    background-position: center;
+    background-repeat: round;
+}
+
+.shop_name{
+    color: white;
+}

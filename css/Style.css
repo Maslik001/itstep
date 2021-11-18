@@ -1,3 +1,198 @@
-body {
-    background-color: red;
+body{
+    font-family: "Century Gothic";
+    cursor: url('../img/christmass_tree_ico.png'), auto;
+
+
+}
+
+.card a {
+    text-decoration: none;
+}
+
+nav {
+    font-weight: normal;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    /*opacity: 0.6;*/
+    text-align: left;
+
+
+}
+
+/* убираем отступы и поля, а также list-style для "ul",
+ * и добавляем "position:relative" */
+nav ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+
+
+}
+
+/* применяем inline-block позиционирование к элементам навигации */
+nav ul li {
+    margin: 0px -7px 0 0;
+    display:inline-block;
+    background-color: #4CAF50;
+
+}
+
+/* стилизуем ссылки */
+nav a {
+    display:block;
+    padding:0 10px;
+    color: #ffffff;
+    font-size:16px;
+    line-height: 60px;
+    text-decoration:none;
+}
+
+/* изменяем цвет фона при наведении курсора */
+nav a:hover {
+    background-color: #45a049;
+    cursor: url('../img/christmass_tree_ico.png'), auto;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+/* отображаем выпадающий список при наведении */
+nav ul li:hover > ul {
+    display:inherit;
+}
+
+/* первый уровень выпадающего списка */
+nav ul ul li {
+    min-width:170px;
+    float:none;
+    display:list-item;
+    position: relative;
+}
+
+nav ul ul ul {
+    position: absolute;
+    top:0;
+    left:100%;
+}
+
+li > a:after { content:  ' ↓'; }
+li > a:only-child:after { content: ''; }
+
+.specification{
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.specification ul{
+    list-style: none;
+
+    }
+
+#id_li{
+    color: #0514a9;
+    font-weight: normal;
+    font-style: normal;
+    background: url("../img/christmass_tree_ico3.png") no-repeat 0 4px;
+    padding-left: 24px;
+}
+
+h2, h3{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+    font-family: "Christmas Regular";
+}
+
+.short_description, .detailed_description{
+    white-space: pre-wrap;
+}
+
+.short_description{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.detailed_description{
+    color: #484343;
+    font-size: 16px;
+    font-width: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid red;
+    font-size: 14px;
+    color: darkblue;
+}
+
+.container {
+    padding: 20px 20px 20px 0;
+    display: inline-block;
+    background: url("../img/snowman.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 400px;
+}
+
+form{
+
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+
+}
+
+input[type=email], textarea{
+    border: none;
+    border-bottom: 2px solid red;
+    font-size: 14px;
+    color: darkblue;
+
+
+}
+
+select {
+    width: 10%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+
+}
+
+input[type=submit], button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+input[type=submit], button:hover {
+    background-color: #45a049;
+}
+* {
+    box-sizing: border-box;
+}
+
+.contact_text, .footer{
+    text-align: center;
+}
+
+.image_main{
+    text-align: center;
 }

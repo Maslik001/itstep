@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="./css/Style.css">
 
 
-
 </head>
 <body>
+<header>
 <nav class="top-menu" >
 
     <!--<a class="Elki_logo" href=""></a><img src="" width="" height=""> -->
 
-    <ul class="menu-main">
+
+    <ul class="menu-main" >
         <li><a class="" href="./index.html">Main</a></li>
         <li><a class="" href="./catalog.html">Catalog</a>
             <ul>
@@ -30,31 +31,20 @@
                 </li>
             </ul>
         </li>
-        <li><a class="" href="./Contacts.html">Contact</a></li>
+        <li><a class="" href="./Contacts.html">Contact us</a></li>
     </ul>
 </nav>
+
+</header>
 <hr>
 <br>
 
-<div align="center">
-
-<p class="contact_text">
-
-    From opening our first store in 1989, on Billacombe Road, Plymouth, The Range is now the fastest growing retailer in the UK.
-    With over 175 stores nationwide, we stock more than 65,000 products across 16 different departments, from Homewares and Furniture to DIY and Art Supplies.
-    Our ethos has always been to bring our customers great quality products at the most competitive prices, drawing together everything you need for a beautiful home.
-
-    Pop into your local store to see what we have to offer, or alternatively, shop The Range from the comfort of your own home. You can browse and shop many products on our website,
-    and have them delivered straight to your door.
-</p>
-    <br>
+<div <div class="container">
     <form action="#"  method="post" align="center" > <!--добавил форму обратной связи-->
         <fieldset >
-
             <legend><font size="12px"><b>write to us</b></font></legend>
-                <br>
-                <br>
-    <div>
+
+    <div class="information">
     Name: <br><input type="text" name="FirstName" placeholder="Fedor" required>
                 <br>
                 <br>
@@ -63,28 +53,38 @@
                 <br>
                 <br>
 
+    Inter your mail <br><input type="email" placeholder="mail" required>
+        <br>
+        <br>
+
     Date birthday:  <br><input type="date">
                 <br>
                 <br>
 
-    I agree with the newsletter?
-                <br>
+        <select id="country" name="country">
+            <option value="au">Australia</option>
+            <option value="ca">Canada</option>
+            <option value="usa">USA</option>
+        </select>
+
     </div>
-    <div>
-        <input name="" type="radio" value="Yes" checked>Yes
-        <input name="" type="radio" value="No">No
-    </div>
-            <br>
-            <br>
+
 
     <div>
-    Inter your mail <br><input type="email" placeholder="mail" required>
-            <br>
-            <br>
+        I agree with the newsletter?
+        <br>
+        <input name="newsletter" type="radio" value="Yes" checked>Yes
+        <input name="newsletter" type="radio" value="No">No
+    </div>
 
-        <textarea>Write what are you wish</textarea>
-            <br>
-            <br>
+
+    <div>
+
+    </div>
+    <div>
+        <textarea placeholder="Write something.." style="height:100px; width:50%",></textarea>
+        <br>
+        <br>
     </div>
     <div>
         <input type="submit" value="Submit">
@@ -108,7 +108,21 @@
     <a class="footer_png"></a><img src="https://t3.ftcdn.net/jpg/02/32/64/28/360_F_232642867_TrpW0l8SIV6lj2lecnlOtTg2zCbPxf0H.jpg" width="" height="">
     </div>
     -->
+
+    <p class="contact_text">
+
+        From opening our first store in 1989, on Billacombe Road, Plymouth, The Range is now the fastest growing retailer in the UK.
+        With over 175 stores nationwide, we stock more than 65,000 products across 16 different departments, from Homewares and Furniture to DIY and Art Supplies.
+        Our ethos has always been to bring our customers great quality products at the most competitive prices, drawing together everything you need for a beautiful home.
+
+        Pop into your local store to see what we have to offer, or alternatively, shop The Range from the comfort of your own home. You can browse and shop many products on our website,
+        and have them delivered straight to your door.
+    </p>
+    <br>
+
     <hr>
+
+
 <div class="footer"> <div class="container"><span class="sub">© Все права защищены <a href="https://mogilev.itstep.by">ItStep</a> 2021</span></div>
 
 </body>

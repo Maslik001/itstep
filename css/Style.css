@@ -33,7 +33,7 @@ nav {
 nav ul {
     padding:0;
     margin:0;
-    list-style: none;
+    list-style-type: none;
     position: relative;
 
 
@@ -116,12 +116,18 @@ li > a:only-child:after { content: ''; }
 
 }
 
-h2, h3{
+.title {
     color: black;
     font-size: 18px;
     font-weight: 400;
     background-color: #eaeaea;
     font-family: "Christmas Regular";
+}
+
+.shop_text{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .short_description, .detailed_description{

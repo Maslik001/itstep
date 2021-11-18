@@ -5,8 +5,17 @@ body{
 
 }
 
+.card{
+    border: 4px double black;
+    background: #e4e5e7;
+    padding: 10px;
+    margin: 10px;
+
+}
+
 .card a {
     text-decoration: none;
+
 }
 
 nav {
@@ -85,6 +94,7 @@ li > a:only-child:after { content: ''; }
 .specification{
     font-size: 14px;
     line-height: 16px;
+    float: left;
 }
 
 .specification ul{
@@ -195,4 +205,21 @@ input[type=submit], button:hover {
 
 .image_main{
     text-align: center;
+}
+
+.catalog{
+    display: inline-flex;
+    margin: 10px;
+}
+
+.item{
+    display: inline-flex;
+    margin: 10px;
+}
+
+.specification{
+    display: inline-flex;
+    float: left;
+    text-align: left;
+
 }

@@ -1,11 +1,11 @@
-body{
+body {
     font-family: "Century Gothic";
     cursor: url('../img/christmass_tree_ico.png'), auto;
 
 
 }
 
-.card{
+.card {
     border: 4px double black;
     background: #e4e5e7;
     padding: 10px;
@@ -16,6 +16,10 @@ body{
 .card a {
     text-decoration: none;
 
+}
+
+.top-menu {
+    display: flex;
 }
 
 nav {
@@ -31,8 +35,8 @@ nav {
 /* убираем отступы и поля, а также list-style для "ul",
  * и добавляем "position:relative" */
 nav ul {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
     list-style-type: none;
     position: relative;
 
@@ -42,19 +46,19 @@ nav ul {
 /* применяем inline-block позиционирование к элементам навигации */
 nav ul li {
     margin: 0px -7px 0 0;
-    display:inline-block;
+    display: inline-block;
     background-color: #4CAF50;
 
 }
 
 /* стилизуем ссылки */
 nav a {
-    display:block;
-    padding:0 10px;
+    display: block;
+    padding: 0 10px;
     color: #ffffff;
-    font-size:16px;
+    font-size: 16px;
     line-height: 60px;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 /* изменяем цвет фона при наведении курсора */
@@ -71,38 +75,44 @@ nav ul ul {
 
 /* отображаем выпадающий список при наведении */
 nav ul li:hover > ul {
-    display:inherit;
+    display: inherit;
 }
 
 /* первый уровень выпадающего списка */
 nav ul ul li {
-    min-width:170px;
-    float:none;
-    display:list-item;
+    min-width: 170px;
+    float: none;
+    display: list-item;
     position: relative;
 }
 
 nav ul ul ul {
     position: absolute;
-    top:0;
-    left:100%;
+    top: 0;
+    left: 100%;
 }
 
-li > a:after { content:  ' ↓'; }
-li > a:only-child:after { content: ''; }
+li > a:after {
+    content: ' ↓';
+}
 
-.specification{
+li > a:only-child:after {
+    content: '';
+}
+
+.specification {
     font-size: 14px;
     line-height: 16px;
     float: left;
 }
 
-.specification ul{
+.specification ul {
     list-style: none;
 
-    }
+}
+
 /*#id_li*/
-.list{
+.list {
     color: #0514a9;
     font-weight: normal;
     font-style: normal;
@@ -111,7 +121,7 @@ li > a:only-child:after { content: ''; }
 
 }
 
-.marker{
+.marker {
     list-style-image: url("../img/christmass_tree_ico3.png");
 
 }
@@ -124,24 +134,24 @@ li > a:only-child:after { content: ''; }
     font-family: "Christmas Regular";
 }
 
-.shop_text{
+.shop_text {
     color: white;
     font-size: 20px;
     font-weight: bold;
 }
 
-.short_description, .detailed_description{
+.short_description, .detailed_description {
     white-space: pre-wrap;
 }
 
-.short_description{
+.short_description {
     color: #707070;
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
 }
 
-.detailed_description{
+.detailed_description {
     color: #484343;
     font-size: 16px;
     font-width: 400;
@@ -154,7 +164,7 @@ li > a:only-child:after { content: ''; }
 input[type=text] {
     border: none;
     border-bottom: 2px solid red;
-    font-size: 14px;
+    font-size: 16px;
     color: darkblue;
 }
 
@@ -167,22 +177,34 @@ input[type=text] {
     background-size: 400px;
 }
 
-form{
+form {
 
 }
 
 input[type=text]:focus {
-    background-color: lightblue;
+    background-color: #d4fac1;
 
 }
 
-input[type=email], textarea{
+
+
+input[type=email], textarea {
     border: none;
     border-bottom: 2px solid red;
-    font-size: 14px;
+    font-size: 18px;
     color: darkblue;
+    font-style: italic;
+}
 
+input[type=email]:focus {
+    background-color: #d4fac1;
+}
 
+textarea::-webkit-input-placeholder { color: red; }
+
+input[type=text]:: first-child {
+    font-size: 24px;
+    font-style: bold;
 }
 
 select {
@@ -194,7 +216,7 @@ select {
 
 }
 
-input[type=submit], button{
+input[type=submit], button {
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
@@ -207,42 +229,43 @@ input[type=submit], button{
 input[type=submit], button:hover {
     background-color: #45a049;
 }
+
 * {
     box-sizing: border-box;
 }
 
-.contact_text, .footer{
+.contact_text, .footer {
     text-align: center;
 }
 
-.image_main{
+.image_main {
     text-align: center;
 }
 
-.catalog{
+.catalog {
     display: inline-flex;
     margin: 10px;
 }
 
-.item{
+.item {
     display: inline-flex;
     margin: 10px;
 }
 
-.specification{
+.specification {
     display: inline-flex;
     float: left;
     text-align: left;
 
 }
 
-.main_page{
+.main_page {
     background-image: url("https://64.media.tumblr.com/12f1039e1f59907d5325e3f00f7addf7/tumblr_ohkezkFd8t1twkrf5o1_500.gifv");
     background-size: contain;
     background-position: center;
     background-repeat: round;
 }
 
-.shop_name{
+.shop_name {
     color: white;
 }

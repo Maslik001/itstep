@@ -181,7 +181,7 @@ form {
 
 }
 
-input[type=text]:focus {
+input[type=text]:focus, input[type=email]:focus {
     background-color: #d4fac1;
 
 }
@@ -196,15 +196,16 @@ input[type=email], textarea {
     font-style: italic;
 }
 
-input[type=email]:focus {
-    background-color: #d4fac1;
-}
-
 textarea::-webkit-input-placeholder { color: red; }
 
-input[type=text]:: first-child {
-    font-size: 24px;
-    font-style: bold;
+/*  ПОЧЕМУ НЕ РАБОТАЕТ ?????
+
+.text-input::first-child{
+    text-transform: capitalize;
+}*/
+
+.text_in {
+    text-transform: capitalize;
 }
 
 select {

@@ -170,7 +170,7 @@ input[type=text] {
     color: darkblue;
 }
 
-.botton-footer {
+.bottom-footer {
     padding: 20px 20px 20px 0;
     display: inline-block;
 }
@@ -182,7 +182,7 @@ input[type=text]:focus, input[type=email]:focus {
 
 input[type=email], textarea {
     border: none;
-    border-bottom: 2px solid red;
+    border-bottpom: 2px solid red;
     font-size: 18px;
     color: darkblue;
     font-style: italic;
@@ -202,7 +202,7 @@ textarea::-webkit-input-placeholder { color: red; }
     background-color: #f1f1f1;
 }
 
-input[type=submit], button {
+input[type=submit],  .button{
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
@@ -211,7 +211,7 @@ input[type=submit], button {
     cursor: pointer;
 }
 
-input[type=submit], button:hover {
+input[type=submit], .button:hover {
     background-color: #45a049;
 }
 
@@ -263,6 +263,21 @@ input[type=submit], button:hover {
     display: block;
     top: 0;
     left: 0;
+}
 
+.color-red, .price{
+    color: red;
+    font-weight: bold;
 
+}
+
+.snow-pic{
+    position: relative;
+    height: 200px;
+    width: 200px;
+
+}
+
+.btn{
+    margin-top: 30px;
 }

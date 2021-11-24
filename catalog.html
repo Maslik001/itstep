@@ -44,16 +44,19 @@
 <section align="center" class="catalog">
     <br>
     <div class="card">
-        <p><a href="Small_tree.html">
-            <img src="./img/Small_tree.jpg" alt="Small Christmas tree" height="200" width="200">
+        <p>
+            <a href="Small_tree.html">
+                <img src="./img/Small_tree.jpg" alt="Small Christmas tree" height="200" width="200">
         <h3>Small Christmas tree</h3>
-        </a> </p>
-        <p class="price"><font color="red">200 USD</font></p>
+            </a>
+        </p>
+        <p class="color-red">200 USD</p>
         <p>The best solution for a small room</p>
 
-        <form action="Small_tree.html">
-            <button id="Small">Specification</button>
-        </form>
+        <!--Использование CSS !!!  -->
+        <div class="btn">
+            <a href="Small_tree.html" class="button" >Specification</a>
+        </div>
         <div class="catalog_description">
             <p>
             <h2 class="title">Short description</h2>
@@ -75,14 +78,18 @@
     <br>
     <br>
     <div class="card">
-        <p><a href="Medium_tree.html">
-            <img src="./img/medium_tree.jpg" alt="Medium Christmas tree" height="200" width="200">
+        <p>
+            <a href="Medium_tree.html">
+                <img src="./img/medium_tree.jpg" alt="Medium Christmas tree" height="200" width="200">
         <h3>Medium Christmas</h3>
-        </a> </p>
-        <p class="price"><font color="red">300 USD</font></p>
+            </a>
+        </p>
+        <p class="color-red">300 USD</p>
         <p>The best solution for a medium room</p>
+
+        <!--Кнопку <button> вкладываем внутрь элемента <form> и для формы указываем атрибут action с адресом веб-страницы !!!  -->
         <form action="Medium_tree.html">
-            <button id="Medium">Specification</button>
+            <button class="button">Specification</button>
         </form>
         <div class="catalog_description">
             <p>
@@ -109,11 +116,12 @@
         <h3>Big Christmas tree</h3>
         </a>
         </p>
-        <p class="price"><font color="red">500 USD</font></p>
+        <p class="color-red">500 USD</p>
         <p>The best solution for a big room</p>
-        <form action="Big_tree.html">
-            <button id="Big">Specification</button>
-        </form>
+
+        <!--ВАРИАНТ ПЕРЕХОДА ПО КНОПКЕ - JS !!!  -->
+        <button class="button" onclick="document.location='Big_tree.html'" name="Big">Specification</button>
+
         <div class="catalog_description">
             <p>
             <h2 class="title">Short description</h2>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-    <title>Contacts ELKI-PALKI</title>
+
     <meta charset="UTF-8" name="Description" content="Я купил тут самую красивую Новогоднюю Ёлку">
     <title>ELKI-PALKI</title>
     <link type="Image/x-icon" href="./img/Favicon.png" rel="icon">
@@ -41,11 +41,11 @@
             <legend><font size="12px"><b>write to us</b></font></legend>
 
             <div class="information">
-                <p>Name:</p>
-                <input type="text" name="FirstName" placeholder="Fedor" required>
+                <p>Name:</p> <!-- pattern="\D [^0-9]"  не работает-->
+                <input class="text_in" type="text" name="FirstName"  placeholder="Fedor" required>
 
                 <p>Surname:</p>
-                <input type="text" name="LastName" placeholder="Smit" required>
+                <input class="text_in" type="text" name="LastName" placeholder="Smit" required>
 
                 <p>Inter your mail</p>
                 <input type="email" placeholder="mail" required>
@@ -66,8 +66,8 @@
                 <input name="newsletter" type="radio" value="No">No
             </div>
 
-            <div class="text_input">
-                <textarea class="text_in" placeholder="Write something.." style="height:100px; width:50%" ,></textarea>
+            <div class="text_input ">
+                <textarea class="text_in information" placeholder="Write something.." style="height:100px; width:50%" ,></textarea>
             </div>
             <div>
                 <input type="submit" value="Submit">

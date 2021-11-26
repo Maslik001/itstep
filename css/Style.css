@@ -190,8 +190,9 @@ li > a:only-child:after {
 }
 
 .information{
-    line-height: 1.5;
+    line-height: 2;
     text-transform: capitalize;
+
 
 }
 
@@ -209,18 +210,20 @@ input[type=text] {
 
 input[type=text]:focus, input[type=email]:focus {
     background-color: #d4fac1;
-
 }
+
+
+textarea::-webkit-input-placeholder { color: red; }
 
 input[type=email], textarea {
     border: none;
-    border-bottpom: 2px solid red;
+    border-bottom: 2px solid red;
     font-size: 18px;
     color: darkblue;
     font-style: italic;
 }
 
-textarea::-webkit-input-placeholder { color: red; }
+
 
 .country {
     width: 10%;
@@ -245,7 +248,12 @@ input[type=submit], .button:hover {
 
 .text-in{
     text-transform: capitalize;
+}
 
+
+.text_input{
+    margin-top: 50px;
+    text-align: center;
 }
 
 .contact_text, .footer {
@@ -342,4 +350,12 @@ td, tr {
 
 .col2{
     background-color: #c7f5fd;
+}
+
+.container{
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: space-between;
+
 }

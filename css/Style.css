@@ -3,10 +3,27 @@
     cursor: url('../img/christmass_tree_ico.png'), auto;
     box-sizing: border-box;
     margin: 0px;
+
 }
+
+
+
+.container{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    height: 60px;
+}
+
 
 .top-menu {
     display: flex;
+    justify-content: flex-end;
+    margin: 0;
 }
 
 nav {
@@ -48,10 +65,18 @@ nav a {
     text-decoration: none;
 }
 
+.logo{
+    margin: 0 20px;
+    padding: 10px;
+
+
+}
+
 /* изменяем цвет фона при наведении курсора */
 nav a:hover {
     background-color: #45a049;
     cursor: url('../img/christmass_tree_ico.png'), auto;
+
 }
 
 nav ul ul {
@@ -88,6 +113,14 @@ li > a:only-child:after {
     content: '';
 }
 
+
+.catalog {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+}
+
 .card-section{
     text-align: center;
     display: block;
@@ -104,8 +137,8 @@ li > a:only-child:after {
     background: #e4e5e7;
     padding: 10px;
     margin: 50px;
-    display: block;
-
+    display: inline-block;
+    text-align: center;
 
 }
 
@@ -158,7 +191,8 @@ li > a:only-child:after {
 
 .short_description, .detailed_description {
     white-space: pre-line;
-
+    height: 400px;
+    overflow: auto;
 
 }
 
@@ -203,9 +237,20 @@ input[type=text] {
     color: darkblue;
 }
 
-.bottom-footer {
-    padding: 20px 20px 20px 0;
-    display: inline-block;
+.footer {
+    background-color: #45a049;
+    color: #f1f1f1;
+    margin: 0;
+    display: flex;
+    height: 20px;
+    justify-content: flex-end;
+
+
+}
+
+.bottom-footer{
+    position: relative;
+
 }
 
 input[type=text]:focus, input[type=email]:focus {
@@ -234,7 +279,7 @@ input[type=email], textarea {
 }
 
 input[type=submit],  .button{
-    background-color: #4CAF50;
+    background-color: #fa7878;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -243,7 +288,11 @@ input[type=submit],  .button{
 }
 
 input[type=submit], .button:hover {
-    background-color: #45a049;
+    background-color: #f12d2d;
+}
+
+input[type=submit], .button:active {
+    background-color: #480c0c;
 }
 
 .text-in{
@@ -260,13 +309,38 @@ input[type=submit], .button:hover {
     text-align: center;
 }
 
-.image_main {
-    text-align: center;
+
+.container-form{
+    display: flex;
+
 }
 
-.catalog {
-    display: inline-flex;
-    margin: 10px;
+.form{
+    margin: 0;
+    width: -webkit-fill-available;
+    float: left;
+
+}
+
+
+.map{
+    margin: 30px 0 0;
+    width: 100%;
+    height: 374px;
+}
+
+
+.image_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+
+}
+.image_main:hover{
+
+    justify-content: center;
+    transition: 10s;
 }
 
 .item {
@@ -286,10 +360,14 @@ input[type=submit], .button:hover {
 }
 
 .main_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     background-image: url("https://64.media.tumblr.com/12f1039e1f59907d5325e3f00f7addf7/tumblr_ohkezkFd8t1twkrf5o1_500.gifv");
     background-size: contain;
-    background-position: center;
-    background-repeat: round;
+    height: 800px;
+    margin: 0;
+
 }
 
 .shop_name {
@@ -305,7 +383,7 @@ input[type=submit], .button:hover {
 .snow-pic{
     position: relative;
     height: 200px;
-    width: 200px;
+    width: 300px;
 }
 
 .table{
@@ -352,10 +430,7 @@ td, tr {
     background-color: #c7f5fd;
 }
 
-.container{
-    display: flex;
-    align-items: stretch;
-    align-content: stretch;
-    justify-content: space-between;
 
+.sub{
+    margin: 10px 10px 0 0;
 }

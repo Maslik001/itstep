@@ -1,28 +1,24 @@
-*{
+* {
     font-family: "Century Gothic";
     cursor: url('../img/christmass_tree_ico.png'), auto;
     box-sizing: border-box;
     margin: 0px;
-
 }
 
-
-
-.container{
+.container {
     display: block;
     position: relative;
     width: 100%;
-    height: 100%;
 }
 
-.header{
+.header {
     height: 60px;
 }
 
-
 .top-menu {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+
     margin: 0;
 }
 
@@ -32,8 +28,6 @@ nav {
     background-color: #4CAF50;
     /*opacity: 0.6;*/
     text-align: left;
-
-
 }
 
 /* убираем отступы и поля, а также list-style для "ul",
@@ -43,16 +37,13 @@ nav ul {
     margin: 0;
     list-style-type: none;
     position: relative;
-
-
 }
 
 /* применяем inline-block позиционирование к элементам навигации */
 nav ul li {
-    margin: 0px -7px 0 0;
+    margin: 0px 8px 0 0;
     display: inline-block;
     background-color: #4CAF50;
-
 }
 
 /* стилизуем ссылки */
@@ -65,18 +56,15 @@ nav a {
     text-decoration: none;
 }
 
-.logo{
-    margin: 0 20px;
+.logo {
+    margin: 0px 20px;
     padding: 10px;
-
-
 }
 
 /* изменяем цвет фона при наведении курсора */
 nav a:hover {
     background-color: #45a049;
     cursor: url('../img/christmass_tree_ico.png'), auto;
-
 }
 
 nav ul ul {
@@ -108,20 +96,17 @@ li > a:after {
     content: '\2003\21D3';
 }
 
-
 li > a:only-child:after {
     content: '';
 }
-
 
 .catalog {
     display: flex;
     justify-content: center;
     margin: 10px;
-
 }
 
-.card-section{
+.card-section {
     text-align: center;
     display: block;
     position: center;
@@ -129,7 +114,6 @@ li > a:only-child:after {
 
 .card:hover {
     border: 2px solid white;
-
 }
 
 .card {
@@ -139,12 +123,10 @@ li > a:only-child:after {
     margin: 50px;
     display: inline-block;
     text-align: center;
-
 }
 
 .card a {
     text-decoration: none;
-
 }
 
 .specification {
@@ -184,7 +166,7 @@ li > a:only-child:after {
     font-weight: bold;
 }
 
-.description{
+.description {
     margin-left: 35px;
     margin-top: 20px;
 }
@@ -196,11 +178,10 @@ li > a:only-child:after {
 
 }
 
-.first-letter:first-letter{
+.first-letter:first-letter {
     font-weight: bold;
     color: red;
     font-size: 20px;
-
 }
 
 .bold {
@@ -220,14 +201,11 @@ li > a:only-child:after {
     font-width: 400;
     line-height: 24px;
     text-align: left;
-
 }
 
-.information{
+.information {
     line-height: 2;
     text-transform: capitalize;
-
-
 }
 
 input[type=text] {
@@ -244,21 +222,20 @@ input[type=text] {
     display: flex;
     height: 20px;
     justify-content: flex-end;
-
-
+    flex-direction: flex-end;
 }
 
-.bottom-footer{
+.bottom-footer {
     position: relative;
-
 }
 
 input[type=text]:focus, input[type=email]:focus {
     background-color: #d4fac1;
 }
 
-
-textarea::-webkit-input-placeholder { color: red; }
+textarea::-webkit-input-placeholder {
+    color: red;
+}
 
 input[type=email], textarea {
     border: none;
@@ -268,8 +245,6 @@ input[type=email], textarea {
     font-style: italic;
 }
 
-
-
 .country {
     width: 10%;
     padding: 16px 20px;
@@ -278,7 +253,7 @@ input[type=email], textarea {
     background-color: #f1f1f1;
 }
 
-input[type=submit],  .button{
+input[type=submit], .button {
     background-color: #fa7878;
     color: white;
     padding: 12px 20px;
@@ -295,12 +270,11 @@ input[type=submit], .button:active {
     background-color: #480c0c;
 }
 
-.text-in{
+.text-in {
     text-transform: capitalize;
 }
 
-
-.text_input{
+.text_input {
     margin-top: 50px;
     text-align: center;
 }
@@ -309,36 +283,29 @@ input[type=submit], .button:active {
     text-align: center;
 }
 
-
-.container-form{
+.container-form {
     display: flex;
-
 }
 
-.form{
+.form {
     margin: 0;
     width: -webkit-fill-available;
     float: left;
-
 }
 
-
-.map{
+.map {
     margin: 30px 0 0;
     width: 100%;
     height: 374px;
 }
 
-
 .image_main {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-
-
 }
-.image_main:hover{
 
+.image_main:hover {
     justify-content: center;
     transition: 10s;
 }
@@ -347,10 +314,10 @@ input[type=submit], .button:active {
     display: inline-flex;
     margin: 10px;
 }
-.main-specification{
+
+.main-specification {
     display: block;
     max-width: 200px;
-
 }
 
 .specification {
@@ -367,31 +334,28 @@ input[type=submit], .button:active {
     background-size: contain;
     height: 800px;
     margin: 0;
-
 }
 
 .shop_name {
     color: white;
 }
 
-
-.color-red, .price{
+.color-red, .price {
     color: red;
     font-weight: bold;
 }
 
-.snow-pic{
+.snow-pic {
     position: relative;
     height: 200px;
     width: 300px;
 }
 
-.table{
+.table {
     border: 1px solid black;
     height: 100px;
     width: 300px;
     margin: 20px 0 10px 0;
-
     border-collapse: collapse;
 }
 
@@ -399,7 +363,7 @@ td, tr {
     border: 1px solid black;
 }
 
-.first{
+.first {
     color: #070550;
     font-weight: bold;
 }
@@ -410,7 +374,7 @@ td, tr {
 }
 
 
-.tbl{
+.tbl {
     margin: 10px;
     width: 300px;
     height: 400px;
@@ -418,19 +382,19 @@ td, tr {
 }
 
 /*ДЗ задание №11*/
-.tbl-height{
+.tbl-height {
     height: 50px;
 }
 
-.col1{
+.col1 {
     background-color: #acc4f8;
 }
 
-.col2{
+.col2 {
     background-color: #c7f5fd;
 }
 
 
-.sub{
+.sub {
     margin: 10px 10px 0 0;
 }

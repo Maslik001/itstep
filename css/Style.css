@@ -16,7 +16,8 @@
 .wrapper{
     display: flex;
     flex-direction: column;
-    width: 1366px;
+    min-width: 1366px;
+
     margin: 0 auto;
 }
 
@@ -24,6 +25,7 @@
     text-align: center;
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
     min-height: 768px;
+    width: 100%;
 }
 
 .menu {
@@ -32,6 +34,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 41px 113px 0;
+
 }
 
 .notebook {
@@ -155,7 +158,7 @@
 }
 
 .main{
-
+    width: 100%;
 }
 
 .h2-main{
@@ -255,14 +258,70 @@
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 64px;
-    margin-left: 308px;
     text-align: center;
     letter-spacing: 0.05em;
     width: 750px;
     color: #222222;
 }
 
-.img-mask{
+.block-1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: flex-end;
+    margin-bottom: 32px;
 
-    margin: 0 113px 32px;
+
+}
+
+.img-block-1{
+    border-radius: 10px;
+
+}
+
+.text-block-1{
+    position: absolute;
+    margin: 64px 64px 0 0;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.img-mask{
+    position: absolute;
+    background: url(alberto-castillo-q-mx4mSkK9zeo-unsplash);
+    border-radius: 10px;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.block-2{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 112px;
+}
+
+.photo1{
+    position: absolute;
+    align-items: flex-start;
+}
+
+.Rectangle{
+    position: relative;
+}
+
+.img-block-2{
+    border-radius: 10px;
+
 }

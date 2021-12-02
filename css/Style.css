@@ -56,6 +56,7 @@
     align-items: center;
     width: 48px;
     height: 46px;
+
 }
 
 .logo {
@@ -421,21 +422,30 @@
 ____________________________________________*/
 
 .contact-wrapper{
-    display: flex;
-    flex-direction: column;
+
     margin: 0 auto;
-    width: 1366px;
-}
 
-.contact-text {
-    display: flex;
-    flex-flow: column;
-    margin: 54px 0 0;
-    align-items: center;
 
 }
-.contact-header{
+
+.header-2{
+
+}
+
+.menu_page2{
+    padding: 0 113px;
+}
+
+.img-contact-header{
+    width: 100%;
+    margin-top: 54px;
     position: absolute;
+}
+
+.contact-text{
+    display: flex;
+    position: relative;
+    justify-content: center;
 }
 
 .h3-contact{

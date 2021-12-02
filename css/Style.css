@@ -14,7 +14,6 @@
 .wrapper{
     display: flex;
     flex-direction: column;
-    /*min-width: 1366px;*/
     margin: 0 auto;
     width: 1366px;
     /*width: 1366px; -- выбирай как хочешь!!!*/
@@ -24,7 +23,8 @@
     text-align: center;
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
     min-height: 768px;
-    width: 100%;
+
+    margin: 0 113px;
 }
 
 .menu {
@@ -32,7 +32,6 @@
     position: relative;
     justify-content: space-between;
     align-items: center;
-    /*margin: 41px 113px 0;*/
     margin: 41px 0 0;
 }
 
@@ -173,7 +172,7 @@
 .container{
     display: flex;
     justify-content: space-around;
-    /*margin: 0 113px;*/
+    margin: 0 113px;
 }
 
 .item{
@@ -400,7 +399,7 @@
     margin: 64px 113px;
 }
 
-.info, .phone{
+.info, .phone, .info-p2{
     padding-left: 19px;
     font-size: 16px;
     line-height: 26px;
@@ -422,35 +421,29 @@
 ____________________________________________*/
 
 .contact-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
     width: 1366px;
-    padding: 0 113px;
-}
-
-.header-2{
-
 }
 
 .contact-text {
-    /*background-image: url("/img/MaskGroupPage2.svg");*/
-    /*background-repeat: no-repeat;*/
-    height: 250px;
-}
+    display: flex;
+    flex-flow: column;
+    margin: 54px 0 0;
+    align-items: center;
 
+}
 .contact-header{
     position: absolute;
-
-
-
 }
 
 .h3-contact{
     font-weight: 500;
     font-size: 44px;
     line-height: 74px;
-    text-align: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    margin: 0 auto;
     position: absolute;
 
 
@@ -459,15 +452,15 @@ ____________________________________________*/
 .text-cont-main{
     font-size: 20px;
     line-height: 30px;
-    text-align: center;
     letter-spacing: 0.04em;
     color: rgba(255, 255, 255, 0.6);
+    position: absolute;
 }
 
-.info:nth-child(2)::marker{
+.info-p2:nth-child(2)::marker{
     content: "T.";
 }
 
-.info:nth-child(3)::marker{
+.info-p2:nth-child(3)::marker{
     content: "E.";
 }

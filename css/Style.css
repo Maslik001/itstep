@@ -5,62 +5,49 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-
 .header, .main, .footer, {
     /*border: 1px solid red;*/
     padding: 0 113px;
 }
-
-.wrapper{
+.wrapper {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     width: 1366px;
-    /*width: 1366px; -- выбирай как хочешь!!!*/
 }
-
 .header {
     text-align: center;
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
     background-size: cover;
     min-height: 768px;
-
     padding: 0 113px;
 }
-
 .menu {
     display: flex;
     position: relative;
     justify-content: space-between;
     align-items: center;
     margin: 41px 0 0;
-
 }
-
 .notebook {
     color: #316099;
     font-size: 34px;
     align-items: center;
 }
-
 .notebook:hover {
     color: #3380dc;
     background-color: #ffffff;
 }
-
 .notebook:active {
     color: #021225;
 }
-
 .wrapper-logo {
     display: flex;
     position: relative;
     align-items: center;
     width: 48px;
     height: 46px;
-
 }
-
 .logo {
     border: 2px solid #316099;
     width: 32px;
@@ -70,29 +57,24 @@
     box-sizing: border-box;
     position: absolute;
 }
-
 .logo-1 {
     z-index: 1;
 }
-
 .logo-2 {
     background-color: #fff;
     left: 20px;
     z-index: 2;
 }
-
-.hero{
+.hero {
     display: flex;
     justify-content: space-between;
 }
-
 .hello-content {
     flex-direction: column;
     /*margin: 115px 13px 0 113px;*/
     margin: 115px 13px 0 0;
     text-align: left;
 }
-
 .title {
     width: 509px;
     margin: 0 auto;
@@ -102,7 +84,6 @@
     letter-spacing: 0.04em;
     color: #1F3F68;
 }
-
 .btn {
     display: inline-block;
     width: 220px;
@@ -112,7 +93,6 @@
     border: 0;
     color: white;
     text-rendering: auto;
-
     text-align: center;
     padding: 15px 50px;
     font-size: 16px;
@@ -120,15 +100,12 @@
     letter-spacing: 0.04em;
     box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
 }
-
 .btn:hover {
     background-color: #316099;
 }
-
 .btn:active {
     background-color: #021225;
 }
-
 .text-hero {
     width: 425px;
     height: 82px;
@@ -138,30 +115,23 @@
     letter-spacing: 0.05em;
     color: #1F3F68;
     line-height: 26px;
-    /*узначить что за blend: Pass through*/
 }
-
-.main-img{
-
-    /*box-sizing: border-box;*/
+.main-img {
     box-sizing: border-box;
     width: 648px;
     height: 549px;
-    margin: 72px 0 60px ; /*87px*/
+    margin: 72px 0 60px;
 }
-
-.image-1{
+.image-1 {
     box-sizing: border-box;
     margin: 37px 0 0 55px;
     width: 610px;
     height: 486px;
 }
-
-.main{
+.main {
     width: 100%;
 }
-
-.h2-main{
+.h2-main {
     text-align: center;
     margin-top: 64px;
     font-weight: 300;
@@ -171,14 +141,12 @@
     color: #000000;
     margin-bottom: 64px;
 }
-
-.container{
+.container {
     display: flex;
     justify-content: space-around;
     margin: 0 113px;
 }
-
-.item{
+.item {
     display: flex;
     flex-direction: column;
     width: 359px;
@@ -186,18 +154,14 @@
     background: #FFFFFF;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
-    /*position: relative;*/
     align-items: flex-start;
     -webkit-box-sizing: border-box;
     margin-left: 32px;
 }
-
-.item-1{
+.item-1 {
     margin-left: 0;
 }
-
-.h3-main{
-
+.h3-main {
     font-weight: 400;
     text-align: left;
     font-size: 20px;
@@ -206,25 +170,16 @@
     color: #1F3F68;
     margin: 0 44px 0 32px;
 }
-
-.text-main{
-
-    margin: 14px 58px 0 32px ;
+.text-main {
+    margin: 14px 58px 0 32px;
     text-align: left;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
-
     letter-spacing: 0.05em;
-
-    /* Blue_01 */
-
     color: #1F3F68;
-
     opacity: 0.6;
 }
-
-.learn{
+.learn {
     text-align: left;
     font-size: 14px;
     line-height: 30px;
@@ -233,19 +188,15 @@
     margin-top: 30px;
     margin-left: 32px;
 }
-
-.item-img{
-
+.item-img {
     margin: 44px 117px 50px;
     left: 28.05%;
     box-sizing: border-box;
 }
-
-.item-img-1{
+.item-img-1 {
     margin-left: 50px;
 }
-
-.h3-center{
+.h3-center {
     font-style: normal;
     font-weight: 300;
     font-size: 36px;
@@ -255,8 +206,7 @@
     color: #000000;
     margin-top: 64px;
 }
-
-.text-center{
+.text-center {
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 64px;
@@ -265,20 +215,17 @@
     width: 750px;
     color: #222222;
 }
-
-.block-1{
+.block-1 {
     display: flex;
     flex-direction: row;
     position: relative;
     justify-content: flex-end;
     margin-bottom: 32px;
 }
-
-.img-block-1{
+.img-block-1 {
     border-radius: 10px;
 }
-
-.text-block-1{
+.text-block-1 {
     position: absolute;
     margin: 64px 64px 0 0;
     font-size: 32px;
@@ -287,58 +234,55 @@
     letter-spacing: 0.05em;
     color: #FFFFFF;
 }
-
-.img-mask{
+.img-mask {
     position: absolute;
-    /*background: url('/img/alberto-castillo-q-mx4mSkK9zeo-unsplash.png');*/
-    /*border-radius: 10px;*/
 }
-
-.container-2{
+.container-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
-
-.block-2{
+.block-2 {
     display: flex;
-    /*position: relative;*/
     justify-content: space-between;
     margin-bottom: 112px;
 }
-.img-block-2{
+.img-block-2 {
     z-index: 2;
 }
-
-.Rectangle{
+.block-2__text {
+    position: absolute;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    z-index: 1;
+    margin: 32px;
+}
+.Rectangle {
     position: relative;
     width: 554px;
 }
-
-.Rectangle-1, .Rectangle-2{
+.Rectangle-1, .Rectangle-2 {
     position: absolute;
     top: 0;
     left: 0;
 }
-
-.photo1{
+.photo1 {
     position: relative;
     align-items: flex-start;
     width: 554px;
     margin-right: 32px;
 }
-
-.iphone{
+.iphone {
     position: absolute;
 }
-
-.img-block-2, .img-block-3{
+.img-block-2, .img-block-3 {
     border-radius: 10px;
 }
-
-.footer{
+.footer {
     display: flex;
     position: relative;
     background: #316099;
@@ -346,44 +290,37 @@
     width: 100%;
     padding: 91px 113px 0;
 }
-
-.footer-text{
+.footer-text {
     font-size: 36px;
     line-height: 46px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
     font-weight: 400;
 }
-
-.wrapper-footer-r{
+.wrapper-footer-r {
     text-align: right;
     width: 100%;
     margin-top: 74px;
 }
-
-.btn-1{
+.btn-1 {
     display: inline-block;
     width: 236px;
     height: 56px;
     padding-top: 15px;
     font-size: 16px;
     line-height: 26px;
-    /* identical to box height, or 162% */
     background: #5A98D0;
     text-align: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
 }
-
-.btn-1:hover{
+.btn-1:hover {
     background: #1F3F68;
 }
-
-.btn-1:active{
+.btn-1:active {
     background: #021225;
 }
-
-.footer-text-2{
+.footer-text-2 {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
@@ -392,23 +329,20 @@
     margin-bottom: 32px;
     width: 494px;
 }
-
-.footer-2{
+.footer-2 {
     border-top: 1px solid rgba(255, 255, 255, 0.6);
     display: inline-flex;
     background: #316099;
     width: 100%;
     flex-direction: column;
 }
-
 .contant {
     padding-left: 15px;
     justify-content: space-between;
     display: inline-flex;
     margin: 64px 113px;
 }
-
-.info, .phone, .info-p2{
+.info, .phone, .info-p2 {
     padding-left: 19px;
     font-size: 16px;
     line-height: 26px;
@@ -416,8 +350,7 @@
     letter-spacing: 0.05em;
     color: #FFFFFF;
 }
-
-.rights{
+.rights {
     padding: 0 113px 64px;
     font-size: 16px;
     line-height: 26px;
@@ -426,32 +359,29 @@
     opacity: 0.4;
 }
 
-/*Contact Page*
-____________________________________________*/
+/*Contact Page 2*____________________________________________*/
 
-.contact-wrapper{
+.contact-wrapper {
     width: 1366px;
     margin: 0 auto;
-
-
 }
-.menu_page2{
+.menu_page2 {
     padding: 0 113px;
 }
-.contact-text{
+.contact-text {
     display: flex;
     position: relative;
     justify-content: center;
 }
-.text-fot-cont{
+.text-fot-cont {
     position: absolute;
     justify-content: center;
     align-items: center;
 }
-.img-contact-header{
+.img-contact-header {
     margin-top: 54px;
 }
-.h1-contact{
+.h1-contact {
     padding-top: 92px;
     font-weight: 500;
     font-size: 44px;
@@ -461,7 +391,7 @@ ____________________________________________*/
     text-align: center;
     margin: 0 0 16px;
 }
-.text-cont-main{
+.text-cont-main {
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.04em;
@@ -470,78 +400,53 @@ ____________________________________________*/
     text-align: center;
     margin-top: 0;
 }
-
-
-
-
-
-
-
-
-.form{
+.form {
     display: flex;
     box-sizing: border-box;
     justify-content: center;
     padding: 0 213px;
-
 }
-
-.tel-form{
-
+.tel-form {
     margin-top: 120px;
 }
-
-.tel-form__img{
+.tel-form__img {
     width: 300px;
     height: 181px;
     box-sizing: border-box;
     margin-bottom: 56px;
     text-decoration: none;
 }
-
-.adress{
+.adress {
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
-    /* identical to box height, or 150% */
-
     letter-spacing: 0.04em;
-
-    /* Blue_01 */
     left: 0;
     color: #1F3F68;
 }
-.adress-text{
+.adress-text {
     font-weight: 300;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
-
     letter-spacing: 0.04em;
-
-    /* Blue_01 */
-
     color: #1F3F68;
-
     opacity: 0.6;
 }
-
 .phone-number {
     display: inline-block;
     text-decoration: none;
     list-style-type: none;
     list-style-image: url('/img/ic_phone_24px.svg');
     padding-left: 30px;
-
 }
-.mail-site{
+.mail-site {
     padding-left: 30px;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
     color: #1F3F68;
 }
-.mail-site__com{
+.mail-site__com {
     list-style-type: none;
     list-style-image: url('/img/ic_language_24px.svg');
     font-size: 16px;
@@ -551,8 +456,7 @@ ____________________________________________*/
     padding-left: 18px;
     margin-bottom: 16px;
 }
-
-.mail-site__gmail{
+.mail-site__gmail {
     list-style-type: none;
     list-style-image: url('/img/ic_email_24px.svg');
     font-size: 16px;
@@ -561,17 +465,16 @@ ____________________________________________*/
     color: #1F3F68;
     padding-left: 18px;
 }
-.phone-number__link{
+.phone-number__link {
     font-weight: 300;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.04em;
     color: #1F3F68;
     padding: 0 0 16px 19px;
-
 }
 
-.form-in{
+.form-in {
     width: 540px;
     height: 800px;
     margin: 65px 0 96px 101px;
@@ -579,9 +482,9 @@ ____________________________________________*/
     background: #FFFFFF;
     box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
-
 }
-.form-in__h3{
+
+.form-in__h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
@@ -589,20 +492,14 @@ ____________________________________________*/
     color: #1F3F68;
     margin-bottom: 48px;
 }
-.form-in-form__label{
+.form-in-form__label {
     font-size: 16px;
     line-height: 30px;
-    /* identical to box height, or 187% */
-
     letter-spacing: 0.04em;
-
-    /* Blue_01 */
-
     color: #1F3F68;
-
     opacity: 0.8;
 }
-.form-in-form__input{
+.form-in-form__input {
     display: flex;
     width: 428px;
     height: 72px;
@@ -613,8 +510,7 @@ ____________________________________________*/
     align-items: center;
     margin-bottom: 32px;
 }
-
-.form-in-form__textarea{
+.form-in-form__textarea {
     width: 428px;
     height: 144px;
     border: 1px solid rgba(53, 110, 173, 0.4);
@@ -624,24 +520,21 @@ ____________________________________________*/
     padding-top: 21px;
     padding-left: 36px;
 }
-
-input::placeholder{
+input::placeholder {
     font-weight: 300;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.04em;
     color: rgba(31, 63, 104, 0.2);
 }
-textarea::placeholder{
+textarea::placeholder {
     font-weight: 300;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.04em;
     color: rgba(31, 63, 104, 0.2);
 }
-
-
-.submit{
+.submit {
     width: 428px;
     height: 72px;
     background: #5A98D0;
@@ -657,27 +550,21 @@ textarea::placeholder{
     outline: none;
     border: none
 }
-
-.submit:hover{
+.submit:hover {
     background: #1F3F68;
 }
-.submit:active{
+.submit:active {
     background: #021225;
 }
-
-
-.map{
+.map {
     margin: 0px auto;
     width: 940px;
     height: 480px;
     margin-bottom: 112px;
-
 }
-
-.info-p2:nth-child(2)::marker{
+.info-p2:nth-child(2)::marker {
     content: "T.";
 }
-
-.info-p2:nth-child(3)::marker{
+.info-p2:nth-child(3)::marker {
     content: "E.";
 }

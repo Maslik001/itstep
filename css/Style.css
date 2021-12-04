@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 * {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     box-sizing: border-box;
 }
-.header, .main, .footer, {
+.header, .main, .footer {
     /*border: 1px solid red;*/
     padding: 0 113px;
 }
@@ -557,7 +557,7 @@ textarea::placeholder {
     background: #021225;
 }
 .map {
-    margin: 0px auto;
+    margin: 0 auto;
     width: 940px;
     height: 480px;
     margin-bottom: 112px;

@@ -7,27 +7,26 @@
 }
 .header, .main, .footer {
     /*border: 1px solid red;*/
-    padding: 0 113px;
+    /*padding: 0 113px;*/
 }
-.wrapper {
-    display: flex;
-    flex-direction: column;
+.header__wrapper {
     margin: 0 auto;
-    width: 1366px;
+    min-height: 100%;
+    padding-top: 34px;
+    box-sizing: border-box;
+    width: 1140px;
 }
 .header {
-    text-align: center;
-    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
-    background-size: cover;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%),
+    url("../img/illustration.svg") no-repeat 73% 65%;
     min-height: 768px;
-    padding: 0 113px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .menu {
     display: flex;
-    position: relative;
     justify-content: space-between;
     align-items: center;
-    margin: 41px 0 0;
+
 }
 .notebook {
     color: #316099;
@@ -41,7 +40,7 @@
 .notebook:active {
     color: #021225;
 }
-.wrapper-logo {
+.menu__logo {
     display: flex;
     position: relative;
     align-items: center;
@@ -65,11 +64,11 @@
     left: 20px;
     z-index: 2;
 }
-.hero {
+.hello {
     display: flex;
     justify-content: space-between;
 }
-.hello-content {
+.hello__content {
     flex-direction: column;
     /*margin: 115px 13px 0 113px;*/
     margin: 115px 13px 0 0;
@@ -116,12 +115,7 @@
     color: #1F3F68;
     line-height: 26px;
 }
-.main-img {
-    box-sizing: border-box;
-    width: 648px;
-    height: 549px;
-    margin: 72px 0 60px;
-}
+
 .image-1 {
     box-sizing: border-box;
     margin: 37px 0 0 55px;
@@ -130,6 +124,7 @@
 }
 .main {
     width: 100%;
+    padding: 0 113px;
 }
 .h2-main {
     text-align: center;

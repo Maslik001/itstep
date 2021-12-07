@@ -140,6 +140,7 @@
     display: flex;
     justify-content: space-around;
     margin: 0 113px;
+    gap: 32px;
 }
 .item {
     display: flex;
@@ -151,7 +152,6 @@
     border-radius: 10px;
     align-items: flex-start;
     -webkit-box-sizing: border-box;
-    margin-left: 32px;
 }
 .item-1 {
     margin-left: 0;

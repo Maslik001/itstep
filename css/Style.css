@@ -6,15 +6,14 @@
     box-sizing: border-box;
 }
 .header, .main, .footer {
-    /*border: 1px solid red;*/
-    /*padding: 0 113px;*/
+
 }
 .header__wrapper {
     margin: 0 auto;
     min-height: 100%;
-    padding-top: 34px;
+    padding: 34px 32px 0 32px;
     box-sizing: border-box;
-    width: 1140px;
+    max-width: 1140px;
 }
 .header {
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%),
@@ -64,11 +63,8 @@
     left: 20px;
     z-index: 2;
 }
-.hello {
-    display: flex;
-    justify-content: space-between;
-}
 .hello__content {
+    display: flex;
     flex-direction: column;
     /*margin: 115px 13px 0 113px;*/
     margin: 115px 13px 0 0;
@@ -82,6 +78,7 @@
     line-height: 74px;
     letter-spacing: 0.04em;
     color: #1F3F68;
+    margin-left: 0;
 }
 .btn {
     display: inline-block;
@@ -124,7 +121,6 @@
 }
 .main {
     width: 100%;
-    padding: 0 113px;
 }
 .h2-main {
     text-align: center;
@@ -139,19 +135,20 @@
 .container {
     display: flex;
     justify-content: space-around;
-    margin: 0 113px;
+
     gap: 32px;
 }
 .item {
     display: flex;
     flex-direction: column;
     width: 359px;
-    height: 480px;
+    min-heightl: 480px;
     background: #FFFFFF;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
     align-items: flex-start;
-    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
 }
 .item-1 {
     margin-left: 0;
@@ -184,12 +181,12 @@
     margin-left: 32px;
 }
 .item-img {
-    margin: 44px 117px 50px;
-    left: 28.05%;
+    left: 28%;
     box-sizing: border-box;
+    padding: 44px 50px;
 }
 .item-img-1 {
-    margin-left: 50px;
+    padding-left: 100px;
 }
 .h3-center {
     font-style: normal;
@@ -249,6 +246,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 112px;
+    gap: 32px;
 }
 .img-block-2 {
     z-index: 2;
@@ -275,7 +273,7 @@
     position: relative;
     align-items: flex-start;
     width: 554px;
-    margin-right: 32px;
+
 }
 .iphone {
     position: absolute;
@@ -570,10 +568,16 @@ textarea::placeholder {
     content: "E.";
 }
 
-@media (max-width: 1199.98px){
-    .container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+@media (max-width: 1199.98px) {
+    .header {
+        background: linear-gradient(
+                0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%),
+        url(../img/illustration.svg) no-repeat 87% 93%;
+        background-size: 46%;
     }
+}
+
+@media (max-width: 991.98px) {
+
+
 }

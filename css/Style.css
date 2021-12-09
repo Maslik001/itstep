@@ -11,10 +11,6 @@
     margin: 0 auto;
 }
 
-.header, .main, .footer {
-
-}
-
 .header__wrapper {
     margin: 0 auto;
     min-height: 100%;
@@ -35,7 +31,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    max-width: 1366px;
 
 }
 
@@ -47,7 +43,7 @@
 
 .notebook:hover {
     color: #3380dc;
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
 }
 
 .notebook:active {
@@ -307,7 +303,7 @@
 
 .Rectangle {
     position: relative;
-    width: 554px;
+    /*width: 554px;*/
 }
 
 .Rectangle-1, .Rectangle-2 {
@@ -318,8 +314,8 @@
 
 .photo1 {
     position: relative;
-    align-items: flex-start;
-    width: 554px;
+    /*align-items: flex-start;*/
+    /*width: 554px;*/
 
 }
 
@@ -331,13 +327,32 @@
     border-radius: 10px;
 }
 
-.footer {
+.footer_wrapper{
+    display: flex;
+    flex-direction: column;
+    background: #316099;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-top {
     display: flex;
     position: relative;
-    background: #316099;
-    height: 391px;
+    /*background: #316099;*/
+    min-height: 391px;
     width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+
+}
+
+.wrapper-footer-l{
+    width: 1366px;
     padding: 91px 113px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .footer-text {
@@ -385,12 +400,12 @@
     width: 494px;
 }
 
-.footer-2 {
-    border-top: 1px solid rgba(255, 255, 255, 0.6);
+.footer-bottom {
+
     display: inline-flex;
-    background: #316099;
-    width: 100%;
+    width: 1366px;
     flex-direction: column;
+    border-width: 100%;
 }
 
 .contant {
@@ -439,12 +454,13 @@
 
 }
 
+
 .contact-text {
     display: flex;
-    position: relative;
     justify-content: center;
-
     width: 100%;
+    flex-direction: column;
+    align-items: center;
 }
 
 .text-fot-cont {
@@ -458,14 +474,15 @@
 }
 
 .h1-contact {
-    padding-top: 92px;
+    /* padding-top: 50px; */
     font-weight: 500;
     font-size: 44px;
     line-height: 74px;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     text-align: center;
-    margin: 0 0 16px;
+    /* margin: 0 0 16px; */
+    gap: 32px;
 }
 
 .text-cont-main {
@@ -672,20 +689,20 @@ textarea::placeholder {
     content: "E.";
 }
 
-@media (max-width: 1366px) {
-    /*.section{*/
-    /*    width: 768px;*/
-    /*}*/
+@media (max-width: 1199.98px) {
     .header {
         background: linear-gradient(
                 0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%),
         url(../img/illustration.svg) no-repeat 87% 93%;
         background-size: 46%;
+        background-position: right;
     }
 
 }
 
 @media (max-width: 991.98px) {
+        .section{
 
+        }
 
 }

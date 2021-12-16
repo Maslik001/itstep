@@ -832,6 +832,10 @@ textarea::placeholder {
 @media (max-width: 767.98px) {
 
     /*FIRST PAGE______________*/
+
+    .header {
+        background-size: 38%;
+    }
     .title{
         width: 100%;
     }
@@ -887,6 +891,7 @@ textarea::placeholder {
 
     .contant li {
         width: 100%;
+        padding-left: 10px;
     }
 
     .rights {
@@ -905,7 +910,11 @@ textarea::placeholder {
         padding-left: 40px;
     }
 }
-
+@media (max-width: 650.98px) {
+    .header {
+        background-size: 29%;
+    }
+}
 
 @media (max-width: 600.98px) {
     .header {
@@ -954,7 +963,7 @@ textarea::placeholder {
     }
 
     .item-img-1 {
-        padding-left: 0;
+        padding-left: 55px;
     }
 
     .hello__content {

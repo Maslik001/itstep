@@ -423,9 +423,8 @@
 
 .contant {
     width: 100%;
-    padding: 91px 113px 0;
+    padding: 91px 0 0 113px;
     display: flex;
-    justify-content: space-between;
     margin: 0 auto;
     max-width: 1366px;
 }
@@ -475,7 +474,7 @@
     min-height: 250px;
     background: url("../img/MaskGroupPage2.svg");
     /*background-repeat: no-repeat;*/
-    /*background-size: 100%;*/
+    background-size: cover;
 
 }
 
@@ -611,7 +610,7 @@
 
 .form-in {
     width: 540px;
-    height: 800px;
+    max-height: 800px;
     margin: 65px 0 96px 101px;
     padding: 56px;
     background: #FFFFFF;
@@ -657,6 +656,7 @@
     margin-bottom: 32px;
     padding-top: 21px;
     padding-left: 36px;
+    resize: none;
 }
 
 input::placeholder {
@@ -720,6 +720,10 @@ textarea::placeholder {
         background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%),
         url(../img/illustration.svg) no-repeat 87% 93%;
         background-size: 46%;
+    }
+
+    .info, .phone, .info-p2 {
+        padding-left: 5px;
     }
 }
 
@@ -828,6 +832,10 @@ textarea::placeholder {
 @media (max-width: 767.98px) {
 
     /*FIRST PAGE______________*/
+    .title{
+        width: 100%;
+    }
+
     .text-block-1 {
         margin: 16px;
         font-size: 16px;

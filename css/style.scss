@@ -1,13 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
-
+@import url(//db.onlinewebfonts.com/c/1a0f9c82ae37cc35dc3c8e6c81ea95a4?family=Larsseit);
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300&display=swap');
+@import url(//db.onlinewebfonts.com/c/30a71dcf9a1c39558ca4e97c92a4b2fa?family=Noe+Display+Bold);
 * {
-  font-family: 'Roboto', sans-serif;
+
   text-decoration: none;
   box-sizing: border-box;
 }
 
+$font_Larss: "Larsseit";
+$font_Noe: "Noe Display";
+$font_Play: "Playfair Display";
+$backgraund_header:
+
+
+
+@mixin display_fl_col{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+@mixin display_jb_sb{
+  display: flex;
+  justify-content: space-between ;
+
+}
+
+
+
+
+
 .header {
   width: 100%;
   margin: 0 auto;
+  &_container{
+    padding: 0 252px 0 238px;
+    background-color: darkblue;
+    background-size: 100%;
+
 }
+}
+
+  .menu{
+
+    @include display_jb_sb;
+
+
+  &_logo{
+    font-family: $font_Play;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 190%;
+    color: #FFFFFF;
+  }
+}
+
+

@@ -17,14 +17,20 @@ $bgr_col_light: rgba(65, 234, 212, 1);
 $font_color: rgba(255, 255, 255, 1);
 
 
-@mixin font_size_title_top {
+@mixin font_size_title($font_title_size:72px) {
   font-family: $font_Noe;
   font-style: normal;
   font-weight: bold;
-  font-size: 120px;
-  line-height: 153px;
   letter-spacing: -0.02em;
   color: $font_color;
+  font-size: $font_title_size;
+  //  @if $font_title_size==size {
+  //  font-size: $font_title_size;
+  //} @else {
+  //    font-size: 120px;
+  //    line-height: 153px;
+  //    color: $bgr_col_light;
+  //}
 }
 
 @mixin display_fl_col {
@@ -38,7 +44,7 @@ $font_color: rgba(255, 255, 255, 1);
   justify-content: space-between;
 }
 
-@mixin button ($br_radius:48px) {
+@mixin button($br_radius:48px) {
   box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
   background-color: $bgr_col_light;
   font-family: $font_Larss;
@@ -55,7 +61,6 @@ $font_color: rgba(255, 255, 255, 1);
 }
 
 
-
 /*хочу сделать If для радиуса -
 если в меню то 48px, если нет то 183px*/
 
@@ -70,12 +75,18 @@ $font_color: rgba(255, 255, 255, 1);
 
   &_container {
     @include display_jc_sb;
-    //padding: 75px 252px 0 238px;
+    flex-direction: column;
+    padding: 75px 250px;
     margin: 0 auto;
-    padding-top: 74px;
-    max-width: 1180px;
+    //padding-top: 74px;
+    //padding-left: 20px;
+    //max-width: 1180px;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
+
+    &__top {
+      @include display_jc_sb;
+    }
   }
 }
 
@@ -86,15 +97,16 @@ $font_color: rgba(255, 255, 255, 1);
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    //line-height: 190%;
     color: $font_color;
     margin: 0;
+    line-height: 190%;
   }
 }
 
 .menu {
   min-width: 200px;
-  .search{
+
+  .search {
     display: flex;
     gap: 37px;
 
@@ -104,24 +116,36 @@ $font_color: rgba(255, 255, 255, 1);
     width: 30px;
     box-sizing: border-box;
     border: none;
-    //border-radius: 10px;
     font-size: 16px;
     background-color: inherit;
     background-image: url("../img/search.png");
     background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s linear;
-    transition: width 0.4s linear;
+    padding: 12px 20px 10px 40px;
+    -webkit-transition: width 2s linear;
+    transition: width 2s linear;
     background-position: right 10px center;
-
+    color: $font_color;
+    outline: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 48px;
+    text-transform: capitalize;
+    //opacity: 0.8;
   }
 
   input::-webkit-input-placeholder {
-    color: white;
+    color: $font_color;
+    opacity: 0.8;
+
   }
 
-  input[type=text]:focus {
-    width: 100%;
+  input[type=text]:hover {
+    width: 400px;
+    //transform: translate(1px, 1px); если нужен эффект нажатия
+    outline: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 48px;
+    color: $font_color;
+    opacity: 0.8;
+    transition: 2s;
+
   }
 
   .btn_menu {
@@ -132,18 +156,94 @@ $font_color: rgba(255, 255, 255, 1);
     @include button;
     border-radius: 48px;
     border: none;
-    &:active{
+
+    &:active {
       top: 1px;
       left: 1px;
     }
   }
-  .line{
+
+  .line {
     position: absolute;
-    border: 1px solid #ffff ;
+    border: 1px solid $font_color;
     width: 30px;
     border-radius: 16px;
     right: -15px;
     top: 30px;
+  }
+}
+
+.title {
+  margin: 0 auto;
+  box-sizing: border-box;
+  @include display_fl_col;
+  text-align: center;
+  align-items: center;
+
+  &_top {
+    @include font_size_title(120px);
+    margin: 0;
+    padding-top: 156px;
+
+    &__slogan {
+      font-family: $font_Larss;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: $font_color;
+      padding: 14px 0 50px;
+    }
+
+    &__text {
+      font-family: $font-Larss;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 150%;
+      text-align: center;
+      color: $font_color;
+      max-width: 643px;
+    }
+  }
+}
+
+.header_wrapper {
+    @include display_jc_sb;
+    padding-top: 192px;
+  .scroll {
+    position: relative;
+    &_line {
+      background: linear-gradient(180deg, #09F4F4 0%, #00C9E0 100%);
+      border-radius: 13px;
+      width: 2px;
+      height: 80px;
+
+    }
+
+    &_text {
+      position: absolute;
+      font-family: $font_Larss;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 190%;
+      letter-spacing: 0.05em;
+      color: $font_color;
+      opacity: 0.9;
+      transform: rotate(-90deg);
+      margin: 0;
+    }
+  }
+  .social{
+    @include display_fl_col;
+    gap: 26px;
+  }
+  .social_img:hover{
+    box-shadow: 5px 15px 30px rgba(0, 201, 224, 0.1);
+
   }
 
 }

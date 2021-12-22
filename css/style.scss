@@ -67,23 +67,26 @@ $font_color: rgba(255, 255, 255, 1);
 .header {
   width: 100%;
   margin: 0 auto;
-  min-height: 1282px;
+  //min-height: 1282px;
   background-image: url("../img/bg-header.png");
   background-size: 100%;
   background-repeat: no-repeat;
 
-
+  .container{
+    padding: 75px 250px;
+    margin: 0 auto;
+    max-width: 1920px;
+  }
   &_container {
     @include display_jc_sb;
     flex-direction: column;
-    padding: 75px 250px;
-    margin: 0 auto;
     //padding-top: 74px;
     //padding-left: 20px;
     //max-width: 1180px;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
-
+    background: linear-gradient(180deg, rgba(1, 22, 39, 0) 28%, #011627 90.64%, #011627 0%);
+    background-size: 100%;
     &__top {
       @include display_jc_sb;
     }
@@ -211,10 +214,13 @@ $font_color: rgba(255, 255, 255, 1);
 }
 
 .header_wrapper {
-    @include display_jc_sb;
-    padding-top: 192px;
+  @include display_jc_sb;
+  padding-top: 192px;
+  padding-bottom: 234px;
+
   .scroll {
     position: relative;
+
     &_line {
       background: linear-gradient(180deg, #09F4F4 0%, #00C9E0 100%);
       border-radius: 13px;
@@ -237,14 +243,24 @@ $font_color: rgba(255, 255, 255, 1);
       margin: 0;
     }
   }
-  .social{
+
+  .social {
     @include display_fl_col;
     gap: 26px;
+    transition: 2s;
+
   }
-  .social_img:hover{
-    box-shadow: 5px 15px 30px rgba(0, 201, 224, 0.1);
+
+  .social_img:hover {
+    transform: rotate(360deg);
+    transition: 2s;
 
   }
 
 }
 
+
+.main{
+  background-color: #011627FF;
+  background-image: url("../img/bg_top_light.png");
+}

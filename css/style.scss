@@ -1,6 +1,7 @@
 @import url(//db.onlinewebfonts.com/c/1a0f9c82ae37cc35dc3c8e6c81ea95a4?family=Larsseit);
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300&display=swap');
 @import url(//db.onlinewebfonts.com/c/30a71dcf9a1c39558ca4e97c92a4b2fa?family=Noe+Display+Bold);
+
 * {
 
   text-decoration: none;
@@ -10,50 +11,140 @@
 $font_Larss: "Larsseit";
 $font_Noe: "Noe Display";
 $font_Play: "Playfair Display";
-$backgraund_header:
+$bgr_col_footer: rgba(1, 22, 39, 1);
+$bgr_col_footer_item: rgba(2, 34, 59, 1);
+$bgr_col_light: rgba(65, 234, 212, 1);
+$font_color: rgba(255, 255, 255, 1);
 
 
+@mixin font_size_title_top {
+  font-family: $font_Noe;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 120px;
+  line-height: 153px;
+  letter-spacing: -0.02em;
+  color: $font_color;
+}
 
-@mixin display_fl_col{
+@mixin display_fl_col {
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
+
 }
 
-@mixin display_jb_sb{
+@mixin display_jc_sb {
   display: flex;
-  justify-content: space-between ;
+  justify-content: space-between;
+}
 
+@mixin button ($br_radius:48px) {
+  box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+  background-color: $bgr_col_light;
+  font-family: $font_Larss;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $font_color;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: $br_radius;
 }
 
 
 
-
+/*хочу сделать If для радиуса -
+если в меню то 48px, если нет то 183px*/
 
 .header {
   width: 100%;
   margin: 0 auto;
-  &_container{
-    padding: 0 252px 0 238px;
-    background-color: darkblue;
-    background-size: 100%;
+  min-height: 1282px;
+  background-image: url("../img/bg-header.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 
+
+  &_container {
+    @include display_jc_sb;
+    //padding: 75px 252px 0 238px;
+    margin: 0 auto;
+    padding-top: 74px;
+    max-width: 1180px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
 }
-}
 
-  .menu{
+.logo {
 
-    @include display_jb_sb;
-
-
-  &_logo{
+  &__text {
     font-family: $font_Play;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    line-height: 190%;
-    color: #FFFFFF;
+    //line-height: 190%;
+    color: $font_color;
+    margin: 0;
   }
 }
 
+.menu {
+  min-width: 200px;
+  .search{
+    display: flex;
+    gap: 37px;
+
+  }
+
+  input[type=text] {
+    width: 30px;
+    box-sizing: border-box;
+    border: none;
+    //border-radius: 10px;
+    font-size: 16px;
+    background-color: inherit;
+    background-image: url("../img/search.png");
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s linear;
+    transition: width 0.4s linear;
+    background-position: right 10px center;
+
+  }
+
+  input::-webkit-input-placeholder {
+    color: white;
+  }
+
+  input[type=text]:focus {
+    width: 100%;
+  }
+
+  .btn_menu {
+    position: relative;
+    width: 167px;
+    height: 62px;
+    background-color: $bgr_col_light;
+    @include button;
+    border-radius: 48px;
+    border: none;
+    &:active{
+      top: 1px;
+      left: 1px;
+    }
+  }
+  .line{
+    position: absolute;
+    border: 1px solid #ffff ;
+    width: 30px;
+    border-radius: 16px;
+    right: -15px;
+    top: 30px;
+  }
+
+}
 

@@ -24,12 +24,13 @@ $font_color: rgba(255, 255, 255, 1);
   letter-spacing: -0.02em;
   color: $font_color;
   font-size: $font_title_size;
-  //  @if $font_title_size==size {
-  //  font-size: $font_title_size;
-  //} @else {
-  //    font-size: 120px;
-  //    line-height: 153px;
-  //    color: $bgr_col_light;
+  line-height: 79px;
+  //  //@if $font_title_size {
+  //  //  line-height: 79px;  }
+  //  //@else {
+  //  //  font-size: 120px;
+  //  //  line-height: 153px;
+  //  //  color: $bgr_col_light;
   //}
 }
 
@@ -69,15 +70,20 @@ $font_color: rgba(255, 255, 255, 1);
   margin: 0 auto;
   //min-height: 1282px;
   background-image: url("../img/bg-header.png");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 
-  .container{
-    padding: 75px 250px;
+
+  .container {
+    width: 100%;
+    background: linear-gradient(180deg, rgba(1, 22, 39, 0) 69%, #011627 95.64%, #011627 43%)
+  }
+
+  &_container {
+    padding: 75px 250px 0;
     margin: 0 auto;
     max-width: 1920px;
-  }
-  &_container {
+
     @include display_jc_sb;
     flex-direction: column;
     //padding-top: 74px;
@@ -85,8 +91,7 @@ $font_color: rgba(255, 255, 255, 1);
     //max-width: 1180px;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    background: linear-gradient(180deg, rgba(1, 22, 39, 0) 28%, #011627 90.64%, #011627 0%);
-    background-size: 100%;
+
     &__top {
       @include display_jc_sb;
     }
@@ -124,8 +129,8 @@ $font_color: rgba(255, 255, 255, 1);
     background-image: url("../img/search.png");
     background-repeat: no-repeat;
     padding: 12px 20px 10px 40px;
-    -webkit-transition: width 2s linear;
-    transition: width 2s linear;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
     background-position: right 10px center;
     color: $font_color;
     outline: 1px solid rgba(255, 255, 255, 0);
@@ -142,7 +147,8 @@ $font_color: rgba(255, 255, 255, 1);
 
   input[type=text]:hover {
     width: 400px;
-    //transform: translate(1px, 1px); если нужен эффект нажатия
+    //transform: translate(1px, 1px);
+    // если нужен эффект нажатия
     outline: 1px solid rgba(255, 255, 255, 0.7);
     border-radius: 48px;
     color: $font_color;
@@ -187,6 +193,7 @@ $font_color: rgba(255, 255, 255, 1);
     @include font_size_title(120px);
     margin: 0;
     padding-top: 156px;
+    line-height: 153px;
 
     &__slogan {
       font-family: $font_Larss;
@@ -220,17 +227,26 @@ $font_color: rgba(255, 255, 255, 1);
 
   .scroll {
     position: relative;
+    transform: rotate(-90deg);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
+    left: 30px;
+    top: 25px;
+
 
     &_line {
+      //position: absolute;
       background: linear-gradient(180deg, #09F4F4 0%, #00C9E0 100%);
       border-radius: 13px;
-      width: 2px;
-      height: 80px;
+      width: 80px;
+      height: 2px;
 
     }
 
     &_text {
-      position: absolute;
+      //position: absolute;
       font-family: $font_Larss;
       font-style: normal;
       font-weight: bold;
@@ -239,7 +255,9 @@ $font_color: rgba(255, 255, 255, 1);
       letter-spacing: 0.05em;
       color: $font_color;
       opacity: 0.9;
-      transform: rotate(-90deg);
+      position: absolute;
+      left: 100px;
+      top: -12px;
       margin: 0;
     }
   }
@@ -248,19 +266,98 @@ $font_color: rgba(255, 255, 255, 1);
     @include display_fl_col;
     gap: 26px;
     transition: 2s;
-
   }
 
   .social_img:hover {
     transform: rotate(360deg);
     transition: 2s;
-
   }
 
 }
 
 
-.main{
-  background-color: #011627FF;
-  background-image: url("../img/bg_top_light.png");
+.main {
+  margin: 0 auto;
+  width: 100%;
+  background-color: $bgr_col_footer;
+  //border: 1px solid #ffff;
+
+
+  .wrapper_main {
+    width: 100%;
+    background-image: url("../img/bg_top_light.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1100px;
+    //background-attachment: fixed;
+  }
+
+
+  &_container {
+
+    padding-top: 0;
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+    box-sizing: border-box;
+
+    &__top {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: start;
+      gap: 39px;
+    }
+
+    &__title {
+      @include font_size_title();
+      letter-spacing: -0.02em;
+      padding-left: 107px;
+      padding-bottom: 18px;
+    }
+
+    &__text {
+      max-width: 349px;
+      font-family: $font-Larss;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: -0.02em;
+      color: $font-color;
+    }
+
+    .close {
+      cursor: pointer;
+      opacity: 1;
+
+      &:active {
+        transition: step-start;
+        opacity: 0;
+      }
+    }
+
+    .nav {
+      width: 100%;
+      padding-top: 85px;
+      &_main{
+        @include display_jc_sb;
+        max-width: 1025px;
+        margin: 0 auto;
+        &__link{
+          font-family: $font-Larss;
+          text-decoration: none;
+          list-style-type: none;
+          font-style: normal;
+          font-size: 18px;
+          line-height: 24px;
+          text-align: center;
+          letter-spacing: -0.02em;
+          color: $bgr_col_light;
+          opacity: 0.5;
+        }
+        &__link:hover{
+
+        }
+      }
+    }
+  }
 }

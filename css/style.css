@@ -76,7 +76,7 @@
     height: 62px;
     background-color: #41ead4;
     box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
-    background-color: #41ead4;
+    background-color: #00c9e0;
     font-family: "Larsseit";
     font-style: normal;
     font-weight: bold;
@@ -88,7 +88,7 @@
     text-align: center;
     padding-top: 5px;
     border-radius: 48px;
-    border-radius: 48px;
+    cursor: pointer;
     border: none; }
     .menu .btn_menu:active {
       top: 1px;
@@ -194,7 +194,7 @@
     padding-top: 0;
     display: flex;
     align-items: flex-start;
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box; }
     .main_container__top {
       display: flex;
@@ -227,13 +227,18 @@
         transition: step-start;
         opacity: 0; }
     .main_container .nav {
+      margin: 0 auto;
       width: 100%;
-      padding-top: 85px; }
+      max-width: 1200px;
+      padding-top: 85px;
+      border-bottom: 1px solid rgba(65, 234, 212, 0.5);
+      padding-bottom: 33px; }
       .main_container .nav_main {
         display: flex;
         justify-content: space-between;
         max-width: 1025px;
-        margin: 0 auto; }
+        margin: 0 auto;
+        padding-left: 0; }
         .main_container .nav_main__link {
           font-family: "Larsseit";
           text-decoration: none;
@@ -244,6 +249,113 @@
           text-align: center;
           letter-spacing: -0.02em;
           color: #41ead4;
-          opacity: 0.5; }
+          opacity: 0.5;
+          cursor: pointer; }
+        .main_container .nav_main .link_line {
+          border-bottom: 1px solid #41ead4;
+          border-width: 100%; }
+        .main_container .nav_main__link:hover {
+          opacity: 1; }
+    .main_container .main_offer {
+      padding-top: 135px;
+      padding-bottom: 300px;
+      display: flex; }
+      .main_container .main_offer .main_offer__wrapper {
+        position: relative;
+        z-index: 1; }
+        .main_container .main_offer .main_offer__wrapper .offer_pic {
+          padding-left: 107px;
+          position: relative; }
+          .main_container .main_offer .main_offer__wrapper .offer_pic .pic_1 {
+            clip-path: polygon(0% 0%, 100% 0%, 100% 542px, 363px 542px, 355px 100%, 50% 100%, 0 100%); }
+          .main_container .main_offer .main_offer__wrapper .offer_pic .btn_img {
+            position: absolute;
+            right: -14px;
+            bottom: -38px; }
+            .main_container .main_offer .main_offer__wrapper .offer_pic .btn_img .img_l {
+              position: absolute;
+              right: 67px; }
+              .main_container .main_offer .main_offer__wrapper .offer_pic .btn_img .img_l:hover {
+                transform: translateX(1); }
+            .main_container .main_offer .main_offer__wrapper .offer_pic .btn_img .arrow {
+              position: absolute;
+              bottom: 62px;
+              right: -33px; }
+              .main_container .main_offer .main_offer__wrapper .offer_pic .btn_img .arrow_1 {
+                transform: rotate(180deg);
+                right: 100px; }
+      .main_container .main_offer .offer_number {
+        position: absolute;
+        top: 230px; }
+        .main_container .main_offer .offer_number_text {
+          font-family: "Larsseit";
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 150%;
+          letter-spacing: 0.15em;
+          color: white;
+          max-width: 204px;
+          margin: 0; }
+      .main_container .main_offer .dots {
+        position: absolute;
+        left: 53px;
+        bottom: -51px;
+        z-index: -1; }
+      .main_container .main_offer .one {
+        color: #41ead4; }
+      .main_container .main_offer__text {
+        padding-left: 126px; }
+        .main_container .main_offer__text .title_offer_h1 {
+          font-family: "Noe Display";
+          font-style: normal;
+          font-weight: bold;
+          letter-spacing: -0.02em;
+          color: white;
+          font-size: 72px;
+          line-height: 79px; }
+        .main_container .main_offer__text .title_offer_h2 {
+          max-width: 485px;
+          font-family: "Larsseit";
+          font-style: normal;
+          font-weight: bold;
+          font-size: 17px;
+          line-height: 150%;
+          letter-spacing: -0.02em;
+          color: white;
+          padding-bottom: 25px; }
+        .main_container .main_offer__text .title_offer_p {
+          max-width: 485px;
+          font-family: "Larsseit";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 150%;
+          letter-spacing: -0.02em;
+          color: white; }
+        .main_container .main_offer__text .btn_main {
+          position: relative;
+          box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+          background-color: #00c9e0;
+          font-family: "Larsseit";
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 21px;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          color: white;
+          text-align: center;
+          padding-top: 5px;
+          border-radius: 183px;
+          cursor: pointer;
+          width: 282px;
+          height: 65px;
+          box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+          border: none;
+          margin-top: 45px; }
+          .main_container .main_offer__text .btn_main:active {
+            top: 1px;
+            left: 1px; }
 
 /*# sourceMappingURL=style.css.map */

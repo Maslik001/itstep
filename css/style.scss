@@ -557,47 +557,78 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
       }
     }
 
-    .main-offer-contact-text {
+    .main-offer-contact {
+      display: flex;
+      &-text {
 
-      @include display_fl_col;
-      .contact-text_h1{
-        font-family: $font_Noe;
-        font-weight: bold;
-        font-size: 72px;
-        line-height: 110%;
-        text-align: center;
-        letter-spacing: -0.02em;
-        color: #FFFFFF;
-        text-align: left;
-      }
-      .contact-text{
-        max-width: 321px;
-        font-family: $font_Larss;
-        font-style: normal;
+        @include display_fl_col;
 
-        font-size: 18px;
-        line-height: 150%;
-        /* or 27px */
-
-        letter-spacing: -0.02em;
-
-        color: #FFFFFF;
-      }
-      .btn-contact {
-        width: 282px;
-        height: 65px;
-        position: relative;
-        @include button(183px);
-
-        box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
-        border: none;
-        margin-top: 45px;
-
-        &:active {
-          top: 1px;
-          left: 1px;
-          color: #D7D3D3FF;
+        .contact-text_h1 {
+          font-family: $font_Noe;
+          font-weight: bold;
+          font-size: 72px;
+          line-height: 110%;
+          text-align: center;
+          letter-spacing: -0.02em;
+          color: #FFFFFF;
+          text-align: left;
         }
+
+        .contact-text-bold {
+          max-width: 321px;
+          font-family: $font_Larss;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 150%;
+          letter-spacing: -0.02em;
+          color: #FFFFFF;
+        }
+
+        .contact-text-normal {
+          max-width: 321px;
+          font-family: $font_Larss;
+          font-style: normal;
+          font-weight: 200;
+          font-size: 18px;
+          line-height: 150%;
+          letter-spacing: -0.02em;
+          color: #FFFFFF;
+        }
+
+        .btn-contact {
+          width: 282px;
+          height: 65px;
+          position: relative;
+          @include button(183px);
+
+          box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+          border: none;
+          margin-top: 45px;
+
+          &:active {
+            top: 1px;
+            left: 1px;
+            color: #D7D3D3FF;
+          }
+        }
+
+
+      }
+      .contact-img {
+        margin-left: 120px;
+        margin-right: 0;
+        padding-right: 0;
+        position: relative;
+        gap: 0;
+
+      }
+      .dots-2{
+        max-width: 70px;
+        max-height: 470px;
+        position: absolute;
+        bottom: 160px;
+        margin-left: 5px;
       }
     }
   }

@@ -399,50 +399,73 @@
           line-height: 150%;
           letter-spacing: 0.15em;
           color: #FFFFFF; }
-    .main-container .main-offer-contact-text {
-      display: flex;
-      flex-direction: column; }
-      .main-container .main-offer-contact-text .contact-text_h1 {
-        font-family: "Noe Display";
-        font-weight: bold;
-        font-size: 72px;
-        line-height: 110%;
-        text-align: center;
-        letter-spacing: -0.02em;
-        color: #FFFFFF;
-        text-align: left; }
-      .main-container .main-offer-contact-text .contact-text {
-        max-width: 321px;
-        font-family: "Larsseit";
-        font-style: normal;
-        font-size: 18px;
-        line-height: 150%;
-        /* or 27px */
-        letter-spacing: -0.02em;
-        color: #FFFFFF; }
-      .main-container .main-offer-contact-text .btn-contact {
-        width: 282px;
-        height: 65px;
+    .main-container .main-offer-contact {
+      display: flex; }
+      .main-container .main-offer-contact-text {
+        display: flex;
+        flex-direction: column; }
+        .main-container .main-offer-contact-text .contact-text_h1 {
+          font-family: "Noe Display";
+          font-weight: bold;
+          font-size: 72px;
+          line-height: 110%;
+          text-align: center;
+          letter-spacing: -0.02em;
+          color: #FFFFFF;
+          text-align: left; }
+        .main-container .main-offer-contact-text .contact-text-bold {
+          max-width: 321px;
+          font-family: "Larsseit";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 150%;
+          letter-spacing: -0.02em;
+          color: #FFFFFF; }
+        .main-container .main-offer-contact-text .contact-text-normal {
+          max-width: 321px;
+          font-family: "Larsseit";
+          font-style: normal;
+          font-weight: 200;
+          font-size: 18px;
+          line-height: 150%;
+          letter-spacing: -0.02em;
+          color: #FFFFFF; }
+        .main-container .main-offer-contact-text .btn-contact {
+          width: 282px;
+          height: 65px;
+          position: relative;
+          box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+          background-color: #00c9e0;
+          font-family: "Larsseit";
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 21px;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          color: white;
+          text-align: center;
+          border-radius: 183px;
+          cursor: pointer;
+          box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+          border: none;
+          margin-top: 45px; }
+          .main-container .main-offer-contact-text .btn-contact:active {
+            top: 1px;
+            left: 1px;
+            color: #D7D3D3FF; }
+      .main-container .main-offer-contact .contact-img {
+        margin-left: 120px;
+        margin-right: 0;
+        padding-right: 0;
         position: relative;
-        box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
-        background-color: #00c9e0;
-        font-family: "Larsseit";
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 21px;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-        color: white;
-        text-align: center;
-        border-radius: 183px;
-        cursor: pointer;
-        box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
-        border: none;
-        margin-top: 45px; }
-        .main-container .main-offer-contact-text .btn-contact:active {
-          top: 1px;
-          left: 1px;
-          color: #D7D3D3FF; }
+        gap: 0; }
+      .main-container .main-offer-contact .dots-2 {
+        max-width: 70px;
+        max-height: 470px;
+        position: absolute;
+        bottom: 160px;
+        margin-left: 5px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -88,6 +88,9 @@
     text-align: center;
     border-radius: 48px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: none; }
     .menu .btn-menu:active {
       top: 1px;
@@ -380,6 +383,9 @@
           text-align: center;
           border-radius: 183px;
           cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
           width: 282px;
           height: 65px;
           box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
@@ -398,9 +404,10 @@
           font-size: 15px;
           line-height: 150%;
           letter-spacing: 0.15em;
-          color: #FFFFFF; }
+          color: white; }
     .main-container .main-offer-contact {
-      display: flex; }
+      display: flex;
+      margin-bottom: 275px; }
       .main-container .main-offer-contact-text {
         display: flex;
         flex-direction: column; }
@@ -411,7 +418,7 @@
           line-height: 110%;
           text-align: center;
           letter-spacing: -0.02em;
-          color: #FFFFFF;
+          color: white;
           text-align: left; }
         .main-container .main-offer-contact-text .contact-text-bold {
           max-width: 321px;
@@ -421,7 +428,7 @@
           font-size: 18px;
           line-height: 150%;
           letter-spacing: -0.02em;
-          color: #FFFFFF; }
+          color: white; }
         .main-container .main-offer-contact-text .contact-text-normal {
           max-width: 321px;
           font-family: "Larsseit";
@@ -430,7 +437,7 @@
           font-size: 18px;
           line-height: 150%;
           letter-spacing: -0.02em;
-          color: #FFFFFF; }
+          color: white; }
         .main-container .main-offer-contact-text .btn-contact {
           width: 282px;
           height: 65px;
@@ -448,6 +455,9 @@
           text-align: center;
           border-radius: 183px;
           cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
           box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
           border: none;
           margin-top: 45px; }
@@ -467,5 +477,139 @@
         position: absolute;
         bottom: 160px;
         margin-left: 5px; }
+  .main .reviews {
+    max-width: 1680px;
+    padding: 100px 250px 0;
+    background: #011627;
+    border-radius: 8px;
+    margin: 0 auto;
+    box-sizing: border-box; }
+    .main .reviews-title {
+      font-family: "Noe Display";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 72px;
+      line-height: 110%;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: white;
+      margin-bottom: 32px;
+      margin-top: 0; }
+      .main .reviews-title-h2 {
+        font-family: "Larsseit";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.15em;
+        color: white;
+        max-width: 450px;
+        margin: 0 auto; }
+    .main .reviews .reviews-human {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      margin: 0; }
+    .main .reviews .reviews {
+      max-width: 510px;
+      min-height: 504px;
+      background: #02223B;
+      box-shadow: 0px 20px 30px rgba(0, 201, 224, 0.03);
+      border-radius: 5px;
+      padding: 75px 75px 75px 50px;
+      margin: 0; }
+    .main .reviews .bye {
+      margin-top: 150px;
+      margin-bottom: 31px; }
+    .main .reviews .wrapper-human-text {
+      display: flex; }
+    .main .reviews .pic-human-text {
+      object-fit: contain;
+      margin-bottom: auto;
+      margin-right: 20px; }
+    .main .reviews .human-text {
+      font-family: "Larsseit";
+      font-style: normal;
+      font-size: 18px;
+      line-height: 190%;
+      color: white; }
+    .main .reviews .title-human-text {
+      margin-top: auto; }
+    .main .reviews .human-pic {
+      display: flex;
+      padding-left: 50px;
+      padding-top: 50px; }
+      .main .reviews .human-pic-name {
+        font-family: "Larsseit";
+        margin-left: 12px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 170%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: white;
+        max-width: 195px; }
+
+.footer {
+  margin: 0 auto;
+  background: #011627;
+  padding: 0 250px; }
+  .footer .footer-line {
+    display: block;
+    padding-top: 108px;
+    padding-bottom: 97px;
+    margin: 0 auto; }
+  .footer .footer-nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1044px;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0 auto; }
+    .footer .footer-nav-link {
+      display: flex;
+      flex-direction: column;
+      font-family: "Larsseit";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 24px;
+      align-items: flex-start;
+      text-transform: uppercase;
+      color: white; }
+    .footer .footer-nav .site-map-menu {
+      padding-left: 0;
+      font-family: "Larsseit";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 19px;
+      color: white; }
+  .footer .follow {
+    padding-left: 100px; }
+  .footer .footer-nav-line {
+    padding: 19px 0;
+    object-fit: none;
+    left: 0; }
+    .footer .footer-nav-line:hover {
+      cursor: pointer;
+      transform: translateX(10%); }
+  .footer .copy {
+    font-family: "Larsseit";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    margin-top: 69px;
+    margin-bottom: 26px; }
+  .footer .footer-logo {
+    text-align: center;
+    padding-bottom: 160px; }
 
 /*# sourceMappingURL=style.css.map */

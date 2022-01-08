@@ -4,7 +4,8 @@
 @import url(//db.onlinewebfonts.com/c/30a71dcf9a1c39558ca4e97c92a4b2fa?family=Noe+Display+Bold);
 * {
   text-decoration: none;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
 
 /*хочу сделать If для радиуса -
 если в меню то 48px, если нет то 183px*/
@@ -18,7 +19,7 @@
     width: 100%;
     background: linear-gradient(180deg, rgba(1, 22, 39, 0) 69%, #011627 95.64%, #011627 43%); }
   .header-container {
-    padding: 75px 250px 0;
+    padding: 75px 13% 0;
     margin: 0 auto;
     max-width: 1920px;
     display: flex;
@@ -194,9 +195,7 @@
   background-color: #011627; }
   .main .main-wrapper {
     width: 100%;
-    background-image: url("../img/bg_top_light.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url("../img/bg_top_light.png") top/cover no-repeat, url("../img/bg_main.png") bottom/auto no-repeat;
     min-height: 1100px; }
   .main-container {
     padding-top: 0;
@@ -284,10 +283,12 @@
     .main-container .main-offer {
       padding-top: 135px;
       padding-bottom: 245px;
-      display: flex; }
+      display: flex;
+      width: 100%; }
       .main-container .main-offer-wrapper {
         position: relative;
-        z-index: 1; }
+        z-index: 1;
+        height: fit-content; }
         .main-container .main-offer-wrapper .offer_pic {
           padding-left: 107px;
           position: relative;
@@ -407,7 +408,8 @@
           color: white; }
     .main-container .main-offer-contact {
       display: flex;
-      margin-bottom: 275px; }
+      margin-bottom: 275px;
+      margin-left: 120px; }
       .main-container .main-offer-contact-text {
         display: flex;
         flex-direction: column; }
@@ -424,7 +426,7 @@
           max-width: 321px;
           font-family: "Larsseit";
           font-style: normal;
-          font-weight: 600;
+          font-weight: 700;
           font-size: 18px;
           line-height: 150%;
           letter-spacing: -0.02em;
@@ -470,21 +472,22 @@
         margin-right: 0;
         padding-right: 0;
         position: relative;
-        gap: 0; }
+        display: flex;
+        flex-wrap: wrap; }
       .main-container .main-offer-contact .dots-2 {
         max-width: 70px;
         max-height: 470px;
         position: absolute;
-        bottom: 160px;
-        margin-left: 5px; }
-  .main .reviews {
+        right: -40px; }
+  .main .reviews-block {
     max-width: 1680px;
     padding: 100px 250px 0;
     background: #011627;
     border-radius: 8px;
     margin: 0 auto;
-    box-sizing: border-box; }
-    .main .reviews-title {
+    box-sizing: border-box;
+    position: relative; }
+    .main .reviews-block-title {
       font-family: "Noe Display";
       font-style: normal;
       font-weight: bold;
@@ -495,7 +498,7 @@
       color: white;
       margin-bottom: 32px;
       margin-top: 0; }
-      .main .reviews-title-h2 {
+      .main .reviews-block-title-h2 {
         font-family: "Larsseit";
         font-style: normal;
         font-weight: bold;
@@ -506,12 +509,19 @@
         color: white;
         max-width: 450px;
         margin: 0 auto; }
-    .main .reviews .reviews-human {
+    .main .reviews-block .reviews-line {
+      display: block;
+      margin: 0 auto;
+      position: absolute;
+      left: 50%;
+      top: -35px; }
+    .main .reviews-block .reviews-human {
       display: flex;
       flex-wrap: wrap;
       gap: 24px;
-      margin: 0; }
-    .main .reviews .reviews {
+      margin: 0;
+      padding-top: 73px; }
+    .main .reviews-block .reviews {
       max-width: 510px;
       min-height: 504px;
       background: #02223B;
@@ -519,28 +529,28 @@
       border-radius: 5px;
       padding: 75px 75px 75px 50px;
       margin: 0; }
-    .main .reviews .bye {
+    .main .reviews-block .bye {
       margin-top: 150px;
       margin-bottom: 31px; }
-    .main .reviews .wrapper-human-text {
+    .main .reviews-block .wrapper-human-text {
       display: flex; }
-    .main .reviews .pic-human-text {
+    .main .reviews-block .pic-human-text {
       object-fit: contain;
       margin-bottom: auto;
       margin-right: 20px; }
-    .main .reviews .human-text {
+    .main .reviews-block .human-text {
       font-family: "Larsseit";
       font-style: normal;
       font-size: 18px;
       line-height: 190%;
       color: white; }
-    .main .reviews .title-human-text {
+    .main .reviews-block .title-human-text {
       margin-top: auto; }
-    .main .reviews .human-pic {
+    .main .reviews-block .human-pic {
       display: flex;
       padding-left: 50px;
       padding-top: 50px; }
-      .main .reviews .human-pic-name {
+      .main .reviews-block .human-pic-name {
         font-family: "Larsseit";
         margin-left: 12px;
         font-style: normal;
@@ -567,8 +577,6 @@
     display: flex;
     justify-content: space-between;
     max-width: 1044px;
-    text-decoration: none;
-    list-style-type: none;
     margin: 0 auto; }
     .footer .footer-nav-link {
       display: flex;
@@ -588,7 +596,14 @@
       font-weight: normal;
       font-size: 15px;
       line-height: 19px;
-      color: white; }
+      color: white;
+      text-decoration: none;
+      list-style-type: none; }
+      .footer .footer-nav .site-map-menu:hover {
+        color: #41ead4;
+        transform: translateX(10%); }
+      .footer .footer-nav .site-map-menu_link {
+        color: inherit; }
   .footer .follow {
     padding-left: 100px; }
   .footer .footer-nav-line {

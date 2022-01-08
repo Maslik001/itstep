@@ -5,6 +5,7 @@
 * {
   text-decoration: none;
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 $font_Larss: "Larsseit";
@@ -81,7 +82,7 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
   }
 
   &-container {
-    padding: 75px 250px 0;
+    padding: 75px 13% 0;
     margin: 0 auto;
     max-width: 1920px;
     @include display_jc_sb;
@@ -286,9 +287,7 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
 
   .main-wrapper {
     width: 100%;
-    background-image: url("../img/bg_top_light.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url("../img/bg_top_light.png") top/cover no-repeat, url("../img/bg_main.png") bottom/auto no-repeat;
     min-height: 1100px;
     //background-attachment: fixed;
   }
@@ -403,10 +402,12 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
       padding-top: 135px;
       padding-bottom: 245px;
       display: flex;
+      width: 100%;
 
       &-wrapper {
         position: relative;
         z-index: 1;
+        height: fit-content;
 
         .offer_pic {
           padding-left: 107px;
@@ -415,7 +416,9 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
           width: 100%;
           height: 100%;
 
+
           .pic-1 {
+
             clip-path: polygon(0% 0%, 100% 0%, 100% 542px, 363px 542px, 355px 100%, 50% 100%, 0 100%);
           }
 
@@ -563,6 +566,7 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
     .main-offer-contact {
       display: flex;
       margin-bottom: 275px;
+      margin-left: 120px;
 
       &-text {
 
@@ -583,7 +587,7 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
           max-width: 321px;
           font-family: $font_Larss;
           font-style: normal;
-          font-weight: 600;
+          font-weight: 700;
           font-size: 18px;
           line-height: 150%;
           letter-spacing: -0.02em;
@@ -617,8 +621,6 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
             color: #D7D3D3FF;
           }
         }
-
-
       }
 
       .contact-img {
@@ -626,28 +628,28 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
         margin-right: 0;
         padding-right: 0;
         position: relative;
-        gap: 0;
-
+        display: flex;
+        flex-wrap: wrap;
       }
 
       .dots-2 {
         max-width: 70px;
         max-height: 470px;
         position: absolute;
-        bottom: 160px;
-        margin-left: 5px;
+
+        right: -40px;
       }
     }
-
   }
 
-  .reviews {
+  .reviews-block {
     max-width: 1680px;
     padding: 100px 250px 0;
     background: #011627;
     border-radius: 8px;
     margin: 0 auto;
     box-sizing: border-box;
+    position: relative;
 
     &-title {
       font-family: $font_Noe;
@@ -674,12 +676,19 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
         margin: 0 auto;
       }
     }
-
+    .reviews-line{
+      display: block;
+      margin: 0 auto;
+      position: absolute;
+      left: 50%;
+      top: -35px;
+    }
     .reviews-human {
       display: flex;
       flex-wrap: wrap;
       gap: 24px;
       margin: 0;
+      padding-top: 73px;
     }
 
     .reviews {
@@ -762,8 +771,7 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
     display: flex;
     justify-content: space-between;
     max-width: 1044px;
-    text-decoration: none;
-    list-style-type: none;
+
     margin: 0 auto;
 
     &-link {
@@ -788,6 +796,20 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
       font-size: 15px;
       line-height: 19px;
       color: $font-color;
+      text-decoration: none;
+      list-style-type: none;
+      &:hover{
+        color: $bgr_col_light;
+        transform: translateX(10%);
+
+      }
+
+      &_link{
+        color: inherit;
+
+      }
+
+
     }
   }
 

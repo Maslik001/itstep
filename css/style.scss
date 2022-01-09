@@ -82,7 +82,7 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
   }
 
   &-container {
-    padding: 75px 13% 0;
+    padding: 75px 12% 0;
     margin: 0 auto;
     max-width: 1920px;
     @include display_jc_sb;
@@ -566,10 +566,10 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
     .main-offer-contact {
       display: flex;
       margin-bottom: 275px;
-      margin-left: 120px;
+      //margin-left: 120px;
 
       &-text {
-
+        padding-left: 97px;
         @include display_fl_col;
 
         .contact-text_h1 {
@@ -623,21 +623,29 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
         }
       }
 
-      .contact-img {
-        margin-left: 120px;
-        margin-right: 0;
-        padding-right: 0;
-        position: relative;
+      .wrapper-contacts {
         display: flex;
-        flex-wrap: wrap;
-      }
+        padding-left: 120px;
+        align-items: center;
+        .contact-img {
 
-      .dots-2 {
-        max-width: 70px;
-        max-height: 470px;
-        position: absolute;
+          margin-right: 0;
+          padding-right: 0;
+          position: relative;
+          display: flex;
+          flex-wrap: wrap;
+        }
 
-        right: -40px;
+        .contatc-dots-2 {
+
+          .dots-2 {
+            max-width: 70px;
+            max-height: 470px;
+            //position: absolute;
+            right: -4%;
+            top: 20%;
+          }
+        }
       }
     }
   }
@@ -676,13 +684,15 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
         margin: 0 auto;
       }
     }
-    .reviews-line{
+
+    .reviews-line {
       display: block;
       margin: 0 auto;
       position: absolute;
       left: 50%;
       top: -35px;
     }
+
     .reviews-human {
       display: flex;
       flex-wrap: wrap;
@@ -798,13 +808,14 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
       color: $font-color;
       text-decoration: none;
       list-style-type: none;
-      &:hover{
+
+      &:hover {
         color: $bgr_col_light;
         transform: translateX(10%);
 
       }
 
-      &_link{
+      &_link {
         color: inherit;
 
       }

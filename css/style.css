@@ -19,7 +19,7 @@
     width: 100%;
     background: linear-gradient(180deg, rgba(1, 22, 39, 0) 69%, #011627 95.64%, #011627 43%); }
   .header-container {
-    padding: 75px 13% 0;
+    padding: 75px 12% 0;
     margin: 0 auto;
     max-width: 1920px;
     display: flex;
@@ -408,9 +408,9 @@
           color: white; }
     .main-container .main-offer-contact {
       display: flex;
-      margin-bottom: 275px;
-      margin-left: 120px; }
+      margin-bottom: 275px; }
       .main-container .main-offer-contact-text {
+        padding-left: 97px;
         display: flex;
         flex-direction: column; }
         .main-container .main-offer-contact-text .contact-text_h1 {
@@ -467,18 +467,21 @@
             top: 1px;
             left: 1px;
             color: #D7D3D3FF; }
-      .main-container .main-offer-contact .contact-img {
-        margin-left: 120px;
-        margin-right: 0;
-        padding-right: 0;
-        position: relative;
+      .main-container .main-offer-contact .wrapper-contacts {
         display: flex;
-        flex-wrap: wrap; }
-      .main-container .main-offer-contact .dots-2 {
-        max-width: 70px;
-        max-height: 470px;
-        position: absolute;
-        right: -40px; }
+        padding-left: 120px;
+        align-items: center; }
+        .main-container .main-offer-contact .wrapper-contacts .contact-img {
+          margin-right: 0;
+          padding-right: 0;
+          position: relative;
+          display: flex;
+          flex-wrap: wrap; }
+        .main-container .main-offer-contact .wrapper-contacts .contatc-dots-2 .dots-2 {
+          max-width: 70px;
+          max-height: 470px;
+          right: -4%;
+          top: 20%; }
   .main .reviews-block {
     max-width: 1680px;
     padding: 100px 250px 0;

@@ -2,6 +2,7 @@
 @import url(//db.onlinewebfonts.com/c/1a0f9c82ae37cc35dc3c8e6c81ea95a4?family=Larsseit);
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300&display=swap");
 @import url(//db.onlinewebfonts.com/c/30a71dcf9a1c39558ca4e97c92a4b2fa?family=Noe+Display+Bold);
+@import url(media.css);
 * {
   text-decoration: none;
   box-sizing: border-box;
@@ -184,15 +185,16 @@
 .social {
   display: flex;
   gap: 26px;
+  -webkit-transition: 2s;
   transition: 2s;
   opacity: 1;
-  transition-property: all; }
+  transform: rotate(-360deg) scale(1); }
 
 .social_img:hover {
   transform: rotate(360deg) scale(3);
+  -webkit-transition: 2s;
   transition: 2s;
-  opacity: 0;
-  transition-property: all; }
+  opacity: 0; }
 
 .main {
   margin: 0 auto;
@@ -292,6 +294,10 @@
       display: flex;
       width: 100%;
       justify-content: space-around; }
+      @media (max-width: 1399.98px) {
+        .main-container .main-offer {
+          flex-direction: column-reverse;
+          align-items: center; } }
       .main-container .main-offer-wrapper {
         position: relative;
         z-index: 1;
@@ -419,7 +425,7 @@
       display: flex;
       margin-bottom: 275px; }
       .main-container .main-offer-contact-text {
-        padding-left: 85px;
+        padding-left: 135px;
         display: flex;
         flex-direction: column; }
         .main-container .main-offer-contact-text .contact-text_h1 {
@@ -484,8 +490,9 @@
         .main-container .main-offer-contact .wrapper-contacts .contact-img {
           justify-content: end;
           position: relative;
-          display: flex;
-          flex-wrap: wrap; }
+          display: grid;
+          grid-template-columns: auto 1fr;
+          margin-left: 100px; }
         .main-container .main-offer-contact .wrapper-contacts .contatc-dots-2 .dots-2 {
           margin-left: 10px; }
   .main .reviews-block {

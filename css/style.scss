@@ -1,7 +1,7 @@
 @import url(//db.onlinewebfonts.com/c/1a0f9c82ae37cc35dc3c8e6c81ea95a4?family=Larsseit);
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300&display=swap');
 @import url(//db.onlinewebfonts.com/c/30a71dcf9a1c39558ca4e97c92a4b2fa?family=Noe+Display+Bold);
-
+@import "media.css";
 
 * {
   text-decoration: none;
@@ -154,8 +154,6 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
     color: $font_color;
     opacity: 0.8;
     transition: 2s;
-
-
   }
 
   .btn-menu {
@@ -228,6 +226,7 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
   padding-top: 192px;
   padding-bottom: 234px;
 
+
   .scroll {
     position: relative;
     transform: rotate(-90deg);
@@ -273,16 +272,17 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
 .social {
   display: flex;
   gap: 26px;
+  -webkit-transition: 2s;
   transition: 2s;
   opacity: 1;
-  transition-property: all;
+  transform: rotate(-360deg) scale(1);
 }
 
 .social_img:hover {
   transform: rotate(360deg) scale(3);
+  -webkit-transition: 2s;
   transition: 2s;
   opacity: 0;
-  transition-property: all;
 }
 
 .main {
@@ -394,6 +394,7 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
             left: 0;
             transition: width 0.5s linear;
             transform: translateX(0%);
+
           }
         }
 
@@ -411,6 +412,10 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
       display: flex;
       width: 100%;
       justify-content: space-around;
+      @media (max-width: 1399.98px){
+        flex-direction: column-reverse;
+        align-items: center;
+      }
 
       &-wrapper {
         position: relative;
@@ -558,11 +563,10 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
       }
       .media-1{
         display: none;
+
       }
       .share {
         margin-top: auto;
-
-
 
         &-text {
           font-family: $font_Larss;
@@ -582,8 +586,11 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
       //margin-left: 120px;
 
       &-text {
-        padding-left: 85px;
+        padding-left: 135px;
         @include display_fl_col;
+        //@media (max-width: 1800px) {
+        //  padding-left: 0;
+        //}
 
         .contact-text_h1 {
           font-family: $font_Noe;
@@ -648,8 +655,9 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
         .contact-img {
           justify-content: end;
           position: relative;
-          display: flex;
-          flex-wrap: wrap;
+          display: grid;
+          grid-template-columns: auto 1fr;
+          margin-left: 100px;
         }
 
         .contatc-dots-2 {

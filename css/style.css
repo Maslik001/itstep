@@ -196,6 +196,7 @@
   .main .main-wrapper {
     width: 100%;
     background: url("../img/bg_top_light.png") top/cover no-repeat, url("../img/bg_main.png") bottom/auto no-repeat;
+    background-size: 100%;
     min-height: 1100px; }
   .main-container {
     padding-top: 0;
@@ -418,7 +419,6 @@
           font-weight: bold;
           font-size: 72px;
           line-height: 110%;
-          text-align: center;
           letter-spacing: -0.02em;
           color: white;
           text-align: left; }
@@ -432,6 +432,7 @@
           letter-spacing: -0.02em;
           color: white; }
         .main-container .main-offer-contact-text .contact-text-normal {
+          min-width: 320px;
           max-width: 321px;
           font-family: "Larsseit";
           font-style: normal;
@@ -440,6 +441,8 @@
           line-height: 150%;
           letter-spacing: -0.02em;
           color: white; }
+          .main-container .main-offer-contact-text .contact-text-normal .top-text {
+            margin-top: 0; }
         .main-container .main-offer-contact-text .btn-contact {
           width: 282px;
           height: 65px;
@@ -469,11 +472,9 @@
             color: #D7D3D3FF; }
       .main-container .main-offer-contact .wrapper-contacts {
         display: flex;
-        padding-left: 120px;
         align-items: center; }
         .main-container .main-offer-contact .wrapper-contacts .contact-img {
-          margin-right: 0;
-          padding-right: 0;
+          justify-content: end;
           position: relative;
           display: flex;
           flex-wrap: wrap; }
@@ -523,7 +524,8 @@
       flex-wrap: wrap;
       gap: 24px;
       margin: 0;
-      padding-top: 73px; }
+      padding-top: 73px;
+      justify-content: center; }
     .main .reviews-block .reviews {
       max-width: 510px;
       min-height: 504px;
@@ -590,8 +592,8 @@
       font-size: 18px;
       line-height: 24px;
       align-items: flex-start;
-      text-transform: uppercase;
-      color: white; }
+      color: white;
+      gap: 16px; }
     .footer .footer-nav .site-map-menu {
       padding-left: 0;
       font-family: "Larsseit";

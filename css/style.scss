@@ -288,6 +288,7 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
   .main-wrapper {
     width: 100%;
     background: url("../img/bg_top_light.png") top/cover no-repeat, url("../img/bg_main.png") bottom/auto no-repeat;
+    background-size: 100%;
     min-height: 1100px;
     //background-attachment: fixed;
   }
@@ -577,7 +578,6 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
           font-weight: bold;
           font-size: 72px;
           line-height: 110%;
-          text-align: center;
           letter-spacing: -0.02em;
           color: $font_color;
           text-align: left;
@@ -595,6 +595,7 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
         }
 
         .contact-text-normal {
+          min-width: 320px;
           max-width: 321px;
           font-family: $font_Larss;
           font-style: normal;
@@ -603,7 +604,12 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
           line-height: 150%;
           letter-spacing: -0.02em;
           color: $font_color;
+          .top-text {
+            margin-top: 0;
+          }
         }
+
+
 
         .btn-contact {
           width: 282px;
@@ -625,12 +631,11 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
 
       .wrapper-contacts {
         display: flex;
-        padding-left: 120px;
-        align-items: center;
-        .contact-img {
 
-          margin-right: 0;
-          padding-right: 0;
+        align-items: center;
+
+        .contact-img {
+          justify-content: end;
           position: relative;
           display: flex;
           flex-wrap: wrap;
@@ -699,6 +704,7 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
       gap: 24px;
       margin: 0;
       padding-top: 73px;
+      justify-content: center;
     }
 
     .reviews {
@@ -793,9 +799,8 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
       font-size: 18px;
       line-height: 24px;
       align-items: flex-start;
-
-      text-transform: uppercase;
       color: $font-color;
+      gap: 16px;
     }
 
     .site-map-menu {

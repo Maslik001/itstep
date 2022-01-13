@@ -322,9 +322,8 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
       line-height: 150%;
       letter-spacing: -0.02em;
       color: $font-color;
+      overflow: hidden;
     }
-
-
   }
 }
 
@@ -383,7 +382,7 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
         }
       }
 
-      &:after {
+      &::after {
         content: '';
         position: absolute;
         background-color: rgba(65, 234, 212, 1);
@@ -631,13 +630,34 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
 .wrapper-contacts {
   display: flex;
   align-items: center;
-
+  position: relative;
+  &__btn{
+    width: 186px;
+    height: 75px;
+    @include button(186px);
+    box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+    border-radius: 8px;
+    position: absolute;
+    left: 0;
+    top: 33%;
+    z-index: 1;
+    margin-left: 38px;
+    background-color: $font-color;
+    color: black;
+    padding: 26px 19px;
+    letter-spacing: 0.05em;
+    font-size: 15px;
+    &:nth-child(3n){
+      color: $bgr_col_light;
+    }
+  }
   &__img {
     justify-content: end;
     position: relative;
     display: grid;
     grid-template-columns: auto 1fr;
     margin-left: 100px;
+
   }
 
   &__dots-2 {

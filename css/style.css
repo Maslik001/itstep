@@ -2,7 +2,6 @@
 @import url(//db.onlinewebfonts.com/c/1a0f9c82ae37cc35dc3c8e6c81ea95a4?family=Larsseit);
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300&display=swap");
 @import url(//db.onlinewebfonts.com/c/30a71dcf9a1c39558ca4e97c92a4b2fa?family=Noe+Display+Bold);
-@import url(media.css);
 * {
   text-decoration: none;
   box-sizing: border-box;
@@ -191,11 +190,11 @@
   opacity: 1;
   transform: rotate(-360deg) scale(1); }
 
-.social__img:hover {
-  transform: rotate(360deg) scale(3);
-  -webkit-transition: 2s;
-  transition: 2s;
-  opacity: 0; }
+.social__img {
+  transition: transform 2s, opacity 2s; }
+  .social__img:hover {
+    transform: rotate(360deg) scale(3);
+    opacity: 0; }
 
 .main {
   margin: 0 auto;
@@ -713,5 +712,67 @@
 .footer-logo {
   text-align: center;
   padding-bottom: 160px; }
+
+@media (max-width: 767.98px) {
+  .footer-nav-line {
+    padding-inline-start: 0; }
+
+  .follow {
+    padding-left: 0; } }
+@media (max-width: 1799.98px) {
+  .main-offer-contact-text {
+    padding-left: 0; }
+
+  .wrapper-contacts {
+    position: relative;
+    display: flex;
+    flex-direction: column; }
+
+  .wrapper-contacts__dots-2 {
+    transform: rotate(90deg);
+    bottom: -280px;
+    position: absolute;
+    right: 40%; }
+
+  .wrapper-contacts__img {
+    margin-left: 90px; } }
+@media (max-width: 1599.98px) {
+  .wrapper-contacts__img {
+    margin-left: 0%; } }
+@media (max-width: 1399.98px) {
+  .main-offer {
+    flex-direction: column-reverse;
+    align-items: center; }
+
+  .main-offer-wrapper {
+    left: -2%; }
+
+  .main-offer_text {
+    padding-left: 50px;
+    padding-right: 50px; }
+
+  .main-offer_text_tittle {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px; }
+
+  .title-offer_h2 {
+    max-width: none; }
+
+  .share {
+    /*bottom: 135px;*/ }
+
+  .main-offer-contact {
+    flex-wrap: wrap;
+    justify-content: center; }
+
+  .wrapper-contacts {
+    margin-top: 50px; }
+
+  .contact-img {
+    margin-left: 0; } }
 
 /*# sourceMappingURL=style.css.map */

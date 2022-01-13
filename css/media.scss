@@ -1,4 +1,4 @@
-@import "style.scss";
+
 
 @media (max-width: 575.98px) {
 }
@@ -23,7 +23,7 @@
 @media (max-width: 1799.98px) {
 
     .main-offer-contact-text {
-        padding-left: 0 !important;
+        padding-left: 0;
     }
 
     .wrapper-contacts {
@@ -39,13 +39,13 @@
         right: 40%;
     }
     .wrapper-contacts__img {
-        margin-left: 90px !important;
+        margin-left: 90px;
     }
 }
 
 @media (max-width: 1599.98px) {
     .wrapper-contacts__img {
-        margin-left: 0% !important;
+        margin-left: 0%;
     }
 }
 

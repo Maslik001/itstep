@@ -401,10 +401,7 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
   display: flex;
   width: 100%;
   justify-content: space-around;
-  @media (max-width: 1399.98px) {
-    flex-direction: column-reverse;
-    align-items: center;
-  }
+
 
   &-wrapper {
     position: relative;
@@ -543,6 +540,9 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
 
 .media-1 {
   display: none;
+  position: absolute;
+  right: -8%;
+  top: 50%;
 }
 
 .share {
@@ -629,24 +629,26 @@ $bgr_col_bottom: rgba(0, 201, 224, 1);
   display: flex;
   align-items: center;
   position: relative;
-  &__btn{
+  &__name{
     width: 186px;
     height: 75px;
     @include button(186px);
     box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
     border-radius: 8px;
     position: absolute;
-    left: 0;
+    left: 4%;
     top: 33%;
     z-index: 1;
-    margin-left: 38px;
+    //margin-left: 38px;
     background-color: $font-color;
     color: black;
     padding: 26px 19px;
     letter-spacing: 0.05em;
     font-size: 15px;
-    &:nth-child(3n){
-      color: $bgr_col_light;
+    &:nth-child(2){
+      color: $bgr_col_light ;
+      //color: red;       не работает ????-----
+
     }
   }
   &__img {

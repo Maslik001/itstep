@@ -426,6 +426,9 @@
   right: -8%;
   top: 50%; }
 
+.media-2 {
+  margin-right: 2%; }
+
 .share {
   margin-top: auto; }
   .share__text {
@@ -904,7 +907,7 @@
 
   .wrapper-contacts__dots-2 {
     width: 10%;
-    bottom: -150px; }
+    bottom: -14%; }
 
   .wrapper-contacts__dots-2 .dots-2 {
     width: 100%; }

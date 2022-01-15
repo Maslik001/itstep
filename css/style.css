@@ -822,6 +822,9 @@
   .main-offer-wrapper {
     margin: 0 auto; }
 
+  .nav-main__link {
+    max-width: 20%; }
+
   .offer-pic {
     padding-left: 0; }
 
@@ -831,6 +834,9 @@
 
   .media-1 {
     right: -1%; }
+
+  .main-container__title {
+    padding-left: 50px; }
 
   .wrapper-contacts__name {
     left: 0%; }
@@ -920,5 +926,8 @@
 
   .footer-nav-link {
     padding-left: 0; } }
+@media (max-width: 469.98px) {
+  .nav-main__link {
+    max-width: 25%; } }
 
 /*# sourceMappingURL=style.css.map */

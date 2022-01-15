@@ -187,8 +187,7 @@
   gap: 26px;
   -webkit-transition: 2s;
   transition: 2s;
-  opacity: 1;
-  transform: rotate(-360deg) scale(1); }
+  opacity: 1; }
 
 .social__img {
   transition: transform 2s, opacity 2s; }
@@ -537,7 +536,7 @@
     padding: 26px 19px;
     letter-spacing: 0.05em;
     font-size: 15px; }
-    .wrapper-contacts__name:nth-child(2) {
+    .wrapper-contacts__name span {
       color: #41ead4; }
   .wrapper-contacts__img {
     justify-content: end;
@@ -848,7 +847,10 @@
     grid-gap: 1%; }
 
   .dots {
-    left: 25%; } }
+    left: 25%; }
+
+  .wrapper-contacts__dots-2 {
+    right: 42%; } }
 @media (max-width: 575.98px) {
   .offer-pic {
     width: 95%;

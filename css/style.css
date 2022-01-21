@@ -93,6 +93,9 @@
     align-items: center;
     justify-content: center;
     border: none; }
+    .menu-btn:hover {
+      color: #171101;
+      box-shadow: 0px 5px 35px 2px #171101; }
     .menu-btn:active {
       top: 1px;
       left: 1px;
@@ -414,6 +417,9 @@
   box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
   border: none;
   margin-top: 45px; }
+  .btn-main:hover {
+    color: #171101;
+    box-shadow: 0px 5px 35px 2px #171101; }
   .btn-main:active {
     top: 1px;
     left: 1px;
@@ -497,6 +503,9 @@
       box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
       border: none;
       margin-top: 45px; }
+      .main-offer-contact-text__btn:hover {
+        color: #171101;
+        box-shadow: 0px 5px 35px 2px #171101; }
       .main-offer-contact-text__btn:active {
         top: 1px;
         left: 1px;
@@ -535,7 +544,8 @@
     color: black;
     padding: 26px 19px;
     letter-spacing: 0.05em;
-    font-size: 15px; }
+    font-size: 15px;
+    cursor: default; }
     .wrapper-contacts__name span {
       color: #41ead4; }
   .wrapper-contacts__img {
@@ -694,9 +704,9 @@
   left: 0;
   transition: 1s; }
   .footer-nav__line:hover {
-    cursor: pointer;
     transform: translateX(10%);
-    transition: 1s; }
+    transition: 1s;
+    cursor: default; }
 
 .copy {
   font-family: "Larsseit";

@@ -1,11 +1,10 @@
-@import url(//db.onlinewebfonts.com/c/623c7118249e082fe87a78e08506cb4b?family=Segoe+UI);
-
 * {
   text-decoration: none;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
 
+/*-----переменные------*/
 $font_Segoe: "Segoe UI";
 
 $bgr_color: #FAFCFF;
@@ -13,26 +12,14 @@ $font_color: rgb(255, 255, 255);
 $bgr_col_bottom: #4579CBFF;
 $text_color: #666666;
 
-@mixin font_size_title($font_title_size:72px) {
-  font-family: $font_Noe;
-  font-style: normal;
-  font-weight: bold;
-  letter-spacing: -0.02em;
-  color: $font_color;
-  font-size: $font_title_size;
-  line-height: 79px;
+@mixin text($font-size:16px) {
+  font-family: $font_Segoe;
+  color: $text_color;
+  font-size: $font-size;
 
 }
 
-@mixin display_fl_col {
-  display: flex;
-  flex-direction: column;
-}
-
-@mixin display_jc_sb {
-  display: flex;
-  justify-content: space-between;
-}
+/*-----mixin's------*/
 
 @mixin button($br_radius:8px) {
   font-family: $font_Segoe;
@@ -51,6 +38,8 @@ $text_color: #666666;
   justify-content: center;
 }
 
+/*-----page------*/
+
 .header {
   width: 100%;
   margin: 0 auto;
@@ -58,63 +47,199 @@ $text_color: #666666;
   background-size: cover;
   background-repeat: no-repeat;
 
+  .wrapper {
+    background: url("../img/Union.png") 0 20ch/ contain no-repeat;
+
+  }
+
   &-menu {
     width: 100%;
     display: flex;
     padding: 24px 12% 0;
+    position: sticky;
+    top: 0px;
+    background-color: $bgr_color;
 
-    &__logo{
-      font-family: $font_Segoe;
-      //font-style: normal;
+    &__logo {
+      @include text(36px);
+      font-style: normal;
       font-weight: 800;
-      font-size: 36px;
       line-height: 48px;
       color: $bgr_col_bottom;
       cursor: pointer;
       text-decoration: none;
+      transition: text-shadow 3s, color 2s;
+      box-sizing: border-box;
+
+      &:hover {
+        //-webkit-text-stroke-width: 1px;
+        //-webkit-text-stroke-color: $bgr_col_bottom;
+        text-shadow: 2px 2px 10px $bgr_col_bottom;
+        color: $font_color;
+
+      }
     }
   }
-.menu{
+}
+
+.menu {
   display: flex;
   justify-content: flex-end;
   width: 100%;
   align-items: center;
-  & ul{
+
+
+  & ul {
     display: flex;
     justify-content: flex-end;
     width: 100%;
     list-style-type: none;
     gap: 10%;
     padding: 0 5%;
-  }
 
+  }
 }
 
-  .menu-link{
-    font-family: $font_Segoe;
+.menu-link {
+  @include text();
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+
+
+  & a {
+    text-decoration: none;
+  }
+
+  &:hover {
+    transform: translateX(1px);
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #4579CBFF, 0 0 30px #4579CBFF;
+    cursor: pointer;
+    color: darkmagenta;
+  }
+}
+
+.btn {
+  @include button;
+  transition: color 0.2s, background-color 0.2s;
+
+  &:hover {
+    color: $bgr_col_bottom;
+    background-color: $font_color;
+    border: 1px solid $bgr_col_bottom;
+  }
+}
+
+.header-text {
+  max-width: 1046px;
+  min-height: 234px;
+  margin: 0 auto;
+  padding-top: 140px;
+
+
+  &__title {
+    @include text(56px);
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    color: $text_color;
-    &:hover{
-      transform: translateX(1px);
-      text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #3982e3, 0 0 30px #4579CBFF, 0 0 40px #4579CBFF, 0 0 55px #4579CBFF, 0 0 75px #4579CBFF;
-      cursor: pointer;
+    line-height: 78px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    & span {
+      color: $bgr_col_bottom;
     }
   }
-.btn{
 
-  @include button;
+  &__text {
+    @include text();
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    max-width: 825px;
+    margin: 0 auto;
+    text-align: center;
+    word-break: break-all;
+    padding-bottom: 38px;
+  }
 
-  &:active{
+  &_btn {
+    margin: 0 auto;
+  }
 
-    left: 1px;
-    top: 1px;
+}
+
+.video {
+  text-align: center;
+  margin: 21px 0 117px;
+
+  .lets-look {
+    @include text(14px);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
   }
 }
 
+.tittle-h2 {
+  @include text(26px);
+  font-style: normal;
+  font-weight: bold;
+  line-height: 48px;
+  text-align: center;
+
 }
+
+.header-text__text2 {
+  @include text();
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  text-align: center;
+  margin: 20px 0 0;
+}
+
+.partners {
+  display: flex;
+  justify-content: space-between;
+  margin: 46px 0 23px;
+
+}
+
+.ellipse {
+  text-align: center;
+  margin-bottom: 114px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  cursor: pointer;
+
+}
+
+.scroll-ellipse {
+  width: 16px;
+  height: 16px;
+  background: #E6E6E6;
+  border-radius: 50%;
+}
+
+.scroll_active{
+  &:hover {
+    .active{
+      width: 16px;
+      height: 16px;
+      background: #E6E6E6;
+      border-radius: 50%; ;
+    }
+  }
+}
+
+.active {
+  width: 20px;
+  height: 20px;
+  background: $bgr_col_bottom;
+}
+
 
 @import "media";
 

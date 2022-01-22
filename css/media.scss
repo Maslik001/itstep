@@ -1,0 +1,259 @@
+@media (max-width: 1799.98px) {
+
+  .main-offer-contact-text {
+    padding-left: 0;
+  }
+
+  .wrapper-contacts {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wrapper-contacts__dots-2 {
+    transform: rotate(90deg);
+    bottom: -280px;
+    position: absolute;
+    right: 40%;
+  }
+  .wrapper-contacts__img {
+    margin-left: 22%;
+  }
+
+  .media-2 {
+    display: none;
+  }
+  .media-1 {
+    display: block;
+  }
+}
+
+@media (max-width: 1599.98px) {
+  .main-container {
+    align-items: center;
+  }
+  .main-offer {
+    padding-bottom: 130px;
+  }
+  .main-offer-contact-text {
+    align-items: center;
+  }
+  .main-offer-contact-text__h1 {
+    margin-bottom: 10px;
+  }
+  .main-offer-contact {
+    flex-direction: column;
+
+  }
+  .main-offer-contact-text__normal {
+    max-width: 100%;
+    text-align: center;
+  }
+  .wrapper-contacts {
+    align-items: flex-end;
+  }
+  .wrapper-contacts__name {
+    left: -5%;
+  }
+  .wrapper-contacts__dots-2 {
+    right: 45%;
+  }
+  .main-offer-contact-text__btn {
+    margin-bottom: 45px;
+  }
+  .reviews-block {
+    padding: 100px 1% 0;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .main-offer {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  .main-offer-wrapper {
+    left: -7%;
+  }
+  .main-offer-text {
+    padding-left: 0;
+  }
+  .btn-main {
+    margin: 45px auto;
+  }
+  .footer {
+    padding: 0 5%;
+  }
+
+}
+
+@media (max-width: 991.98px) {
+  .header-container-top {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu {
+    width: 100%;
+  }
+  .menu .search {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu input[type=text] {
+    width: 40%;
+    padding: 10px;
+  }
+  .wrapper-contacts__name {
+    left: 5%;
+    top: 17%;
+  }
+  .wrapper-contacts__img {
+    margin: 0 auto;
+    grid-template-columns: auto;
+  }
+  .footer-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5%;
+    grid-area: fl;
+    grid-template-areas:
+            "fl fl fl"
+            "fl . fl";
+  }
+  .follow {
+    padding-left: revert;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .main-offer-wrapper {
+    margin: 0 auto;
+  }
+  .nav-main__link {
+    max-width: 20%;
+  }
+  .offer-pic {
+    padding-left: 0;
+
+  }
+  .offer-number {
+    left: -4%;
+    top: 15%;
+  }
+  .media-1 {
+    right: -1%;
+  }
+  .main-container__title {
+    padding-left: 50px;
+  }
+  .wrapper-contacts__name {
+    left: 0%;
+  }
+  .footer-nav {
+    grid-gap: 1%;
+  }
+  .dots {
+    left: 25%;
+  }
+  .wrapper-contacts__dots-2{
+    right: 42%;
+  }
+
+}
+
+@media (max-width: 575.98px) {
+
+  .offer-pic {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .header-wrapper {
+    padding-top: 100px;
+    padding-bottom: 0;
+  }
+  .header-container {
+    padding: 75px 3% 0;
+  }
+  .title-top__h1 {
+    padding-top: 50px;
+  }
+  .main-offer-contact-text {
+    padding: 0 10%;
+
+  }
+  .close {
+    display: none;
+  }
+  .main-container__title {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .main-container__text {
+    display: none;
+  }
+  .main-offer-wrapper {
+    left: 0%;
+  }
+  .pic__1 {
+    width: 100%;
+  }
+  .dots {
+    left: 15%;
+  }
+  .offer-number {
+    left: 0%;
+    top: 70%;
+  }
+  .media-1 {
+    display: none;
+  }
+  .main-offer-contact {
+    width: 100%;
+  }
+  .main-offer-contact-text {
+    padding: 0 5%;
+  }
+  .wrapper-contacts__img {
+    padding: 0px 7%;
+    width: 100%;
+    margin: 0;
+  }
+
+  .wrapper-contacts__dots-2 {
+    width: 10%;
+    bottom: -14%;
+  }
+  .wrapper-contacts__dots-2 .dots-2 {
+    width: 100%;
+  }
+  .wrapper-contacts__img img {
+
+    width: 100%;
+
+
+  }
+  .main-offer-contact {
+    margin-bottom: 175px;
+  }
+  .reviews {
+    padding: 75px 2%;
+  }
+
+  .footer {
+    padding: 0 5%;
+  }
+  .footer-nav {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-nav-link {
+    padding-left: 0;
+  }
+
+}
+
+@media (max-width: 469.98px){
+  .nav-main__link {
+    max-width: 25%;
+  }
+}

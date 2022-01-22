@@ -2,125 +2,325 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/Style.css">
-    <link rel="shortcut icon" href="/img/logo.png" type="image/png">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Automation Tool</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--    <link rel="stylesheet" href="css/media.scss">-->
+    <link rel="shortcut icon" href="img/logo.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night Trips</title>
     <script src="https://kit.fontawesome.com/f09d84fea0.js" crossorigin="anonymous">
     </script>
 </head>
-
 <body>
-<div class="section">
-    <div class="header">
-        <div class="header__wrapper" id="main-page">
-            <div class="menu">
-                <a href="index.html" class="menu__logo">
-                    <div class="logo logo-1"></div>
-                    <div class="logo logo-2"></div>
-                </a>
-                <a href="contact.html" class="fas fa-address-book notebook"></a> </a>
-            </div>
-            <!---->
-            <div class="hello__content">
-                <h2 class="title">New Automation Tool for Your </h2>
-                <p class="text-hero">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus tristique
-                    vulputate ultrices ut mauris tellus at. Posuere sollicitudin odio tellus elit.</p>
-                <a href="#project" class="btn">See Our Project</a>
-            </div>
-        </div>
-    </div>
+<header class="header">
+    <div class="container">
+        <div class="header-container">
+            <div class="header-container-top">
+                <div class="logo">
+                    <a href="index.html" class="logo__text">NT.</a>
+                </div>
+                <div class="menu">
+                    <div class="search">
+                        <input type="text" name="search" placeholder="Search..">
 
-    <div class="main header__wrapper">
-        <h2 class="h2-main">What we do to help our client grow in digital era</h2>
-        <div class="container">
-            <div class="item item-1">
-                <img src="./img/1.svg" alt="pic" class="item-img ">
-                <h2 class="h3-main">Make Your business To Be
-                    Better Famous In Internet</h2>
-                <p class="text-main">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. </p>
-                <a href="#" class="learn">Learn more &#160 &#8594</a>
-            </div>
-            <div class="item">
-                <img src="./img/2.svg" alt="pic" class="item-img item-img-1">
-                <h3 class="h3-main">Bring Technology To Your
-                    Comfrotable Home</h3>
-                <p class="text-main">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. </p>
-                <a href="#" class="learn">Learn more &#160 &#8594</a>
-            </div>
-            <div class="item">
-                <img src="./img/3.svg" alt="pic" class="item-img">
-                <h3 class="h3-main">Bring Technology To Your
-                    Comfrotable Home</h3>
-                <p class="text-main">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. </p>
-                <a href="#" class="learn">Learn more &#160 &#8594</a>
-            </div>
-        </div>
-        <div class="container-2">
-            <h3 class="h3-center" id="project">Our Finished Project</h3>
-            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            <div class="block-1">
-                <img src="./img/MaskGroup.svg" alt="mask" class="img-mask">
-                <img src="./img/alberto-castillo-q-mx4mSkK9zeo-unsplash.png" alt="img-block" class="img-block-1">
-                <p class="text-block-1">Smart Home Installation</p>
-            </div>
-            <div class="block-2">
-                <div class="photo1">
-                    <p class="block-2__text">Sparklite App</p>
-                    <img src="./img/Dribble-iphonex-mockup.png" alt="iphone" class="img-block-2">
-                    <img src="./img/Rectangle-2.2.svg" alt="iphone" class="Rectangle-1">
-                </div>
-                <div class="Rectangle">
-                    <p class="block-2__text">Car-Rapetition App</p>
-                    <img src="./img/upload.png" alt="iphone" class="img-block-3">
-                    <img src="./img/Rectangle-2.3.svg" alt="iphone" class="Rectangle-2">
+                        <button class="menu-btn">
+                            MENU
+                            <div class="line"></div>
+                        </button>
+                    </div>
                 </div>
             </div>
-            <div class="wrapper-main">
-                <div class="block">
+            <div class="title-top">
+                <h1 class="title-top__h1">Night Trips</h1>
+                <h2 class="title-top__slogan">WE GOT TRIPS FOR THE TRIPPSTER IN YOU</h2>
+                <p class="title-top__text">Neque, eros commodo, nascetur ullamcorper vitae. Tincidunt ut venenatis,
+                    volutpat
+                    lorem ut faucibus mauris, quisque. Integer gravida sed quis congue. Vel risus, arcu a viverra leo id
+                    pulvinar ultricies. Enim in in in pulvinar nulla sollicitudin. Ullamcorper.</p>
+            </div>
+            <div class="header-wrapper">
+                <div class="scroll">
+                    <div class="scroll-line"></div>
+                    <p class="scroll-text">SCROLL</p>
                 </div>
-                <div class="block">
+                <div class="social">
+                    <a href="#"><img src="./img/twitter_logo.png" alt="twitter" class="social__img"></a>
+                    <a href="#"><img src="./img/instagram_logo.png" alt="instagram" class="social__img"></a>
+                    <a href="#"><img src="./img/facebook_logo.png" alt="facebook" class="social__img"></a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="footer">
-        <div class="footer_wrapper">
-            <div class="footer-top">
-                <div class="wrapper-footer-l">
-                    <div class="left-side">
-                        <h3 class="footer-text">Intersted to woek
-                            with our team?</h3>
-                        <p class="footer-text-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                            eiusmod
-                            tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+</header>
+
+<main class="main">
+    <div class="main-wrapper">
+        <div class="main-container header-container">
+            <div class="main-container-top">
+                <p class="main-container__title title">Pick your trip</p>
+                <img src="./img/x.png" alt="x" class="close">
+                <p class="main-container__text">Our team put together some trips to you to discover,
+                    feel free to discover each of them.</p>
+            </div>
+            <nav class="nav">
+                <ul class="nav-main">
+                    <li class="nav-main__link">Chill Adventure</li>
+                    <li class="nav-main__link">Spooky Times</li>
+                    <li class="nav-main__link">Desert Madness</li>
+                    <li class="nav-main__link">Out in the wild</li>
+                </ul>
+            </nav>
+            <div class="main-offer">
+                <div class="main-offer-wrapper">
+                    <div class="offer-pic">
+                        <img src="./img/Dots.png" alt="" class="dots">
+                        <img src="./img/gill_main.png" alt="offer_pic" class="pic__1">
+                        <div class="offer-pic__btn">
+                            <div class="img-l">
+                                <img src="./img/Rectangle_btn_left.png" alt="">
+                                <img class="arrow" src="./img/arrow-down.png" alt="">
+                            </div>
+                            <div class="img-r">
+                                <img src="./img/Rectangle_btn_right.png" alt="">
+                                <img class="arrow arrow_1" src="./img/arrow-down.png" alt="">
+                            </div>
+                        </div>
                     </div>
-                    <div class="bottom-1">
-                        <a href="contact.html" class="btn-1">Let’s Talk</a>
+                    <div class="offer-number">
+                        <img src="./img/offer_number_line.png" alt="">
+                        <p class="offer-number__text one">01.</p>
+                        <p class="offer-number__text">GRAND DUNES LANDSCAPE</p>
+                    </div>
+                    <div class="share media-1">
+                        <p class="share__text">SHARE IT:</p>
+                        <div class="social">
+                            <a href="#"><img src="./img/instagram_logo.png" alt="instagram" class="social__img"></a>
+                            <a href="#"><img src="./img/facebook_logo.png" alt="facebook" class="social__img"></a>
+                            <a href="#"><img src="./img/twitter_logo.png" alt="twitter" class="social__img"></a>
+                        </div>
+                        <img src="./img/Gimmick_line.png" alt="">
                     </div>
                 </div>
+                <div class="main-offer-text">
+                    <div class="main-offer-text-tittle">
+                        <h1 class="main-offer-text__h1">Chill Adventure</h1>
+                        <h2 class="main-offer-text__h2">Ornare vivamus molestie pellentesque nunc. Sed sapien erat
+                            ultrices
+                            curabitur. Erat id
+                            fringilla arcu condimentum fames.</h2>
+                        <p class="main-offer-text__p">Aliquet dictum aliquet faucibus cursus turpis. Suspendisse cum
+                            rutrum
+                            sit ut sociis.
+                            Pellentesque neque orci adipiscing pharetra lacus, dignissim pharetra ipsum blandit. Feugiat
+                            quis quam consectetur lectus id quis tortor vel, mattis.</p>
+                        <button class="btn-main">
+                            SEE OUR LATEST OFFER
+                            <div class="line"></div>
+                        </button>
+                    </div>
+                </div>
+                <div class="share media-2">
+                    <p class="share__text">SHARE IT:</p>
+                    <div class="social">
+                        <a href="#"><img src="./img/instagram_logo.png" alt="instagram" class="social__img"></a>
+                        <a href="#"><img src="./img/facebook_logo.png" alt="facebook" class="social__img"></a>
+                        <a href="#"><img src="./img/twitter_logo.png" alt="twitter" class="social__img"></a>
+                    </div>
+                    <img src="./img/Gimmick_line.png" alt="">
+                </div>
             </div>
-            <div class="footer-bottom">
-                <ol class="contant">
-                    <li class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                    <li class="info"><a href="tel:+781273134321" class="info">+7-812-7313-4321</a></li>
-                    <li class="info"><a href="mailto:hello.site@gmail.com" class="info">hello.site@gmail.com</a></li>
-                </ol>
-                <div class="rights">
-                    <p>2021 All rights reserved.</p>
+            <div class="main-offer-contact">
+                <div class="main-offer-contact-text">
+                    <h1 class="main-offer-contact-text__h1">About Us</h1>
+                    <p class="main-offer-contact-text__bold">We’re a team of four passioned people.</p>
+                    <div class="main-offer-contact-text__normal">
+                        <p class="main-offer-contact-text__normal_top-text">We’re ready to take the world by storm and
+                            let you find new travel opportunities.
+                        </p>
+                        <p class="main-offer-contact-text__normal_bottom-text">
+                            Our everyday task is to make sure that you satisfied with the services and products that we
+                            provide.
+                        </p>
+                    </div>
+                    <p class="main-offer-contact-text__bold">With
+                        &#128150; from Amsterdam, Netherlands.</p>
+                    <botton class="main-offer-contact-text__btn">
+                        READ MORE ABOUT US
+                        <div class="line"></div>
+                    </botton>
+                </div>
+                <div class="wrapper-contacts">
+                    <div class="wrapper-contacts__name">
+                        MARTIN JACK, <span>&nbsp;CEO</span>
+                    </div>
+                    <div class="wrapper-contacts__img">
+                        <img src="./img/brooke-cagle-1.png" alt="">
+                        <img src="./img/brooke-cagle-2.png" alt="">
+                        <img src="./img/brooke-cagle-3.png" alt="">
+                        <img src="./img/brooke-cagle-4.png" alt="">
+                    </div>
+                    <div class="wrapper-contacts__dots-2">
+                        <img class="dots-2" src="./img/Dots-2.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="reviews-block">
+            <img class="reviews-block__line" src="./img/Rectangle-footer.png" alt="">
+            <h1 class="reviews-block__title">People’s thoughts</h1>
+            <h2 class="reviews-block__title-h2">SEE WHAT ARE OTHERS SAYING</h2>
+            <div class="reviews-human">
+                <div class="reviews">
+                    <div class="wrapper-human-text">
+                        <img class="quote" src="./img/quotes.png" alt="">
+                        <div class="human-text">
+                            <h3 class="human-text__title">Elementum mi felis, sit velit lobortis ultricies non.
+                                Mattis enim, nisl</h3>
+                            adipiscing natoque diam et. Cum posuere in velit massa sagittis augue egestas. Eu
+                            sollicitudin
+                            et quam eu. Nunc, sed imperdiet blandit morbi. Maecenas lobortis tristique rutrum.
+                        </div>
+                    </div>
+                    <div class="human-pic">
+                        <img src="./img/karoline-soares.png" alt="">
+                        <p class="human-pic__name">Judy ROSELESS
+                            MARKETING HEAD at ROM.</p>
+                    </div>
+                </div>
+                <div class="reviews">
+                    <div class="wrapper-human-text">
+                        <img class="quote" src="./img/quotes.png" alt="">
+                        <div class="human-text">
+                            <h3 class="human-text__title">Elementum mi felis, sit velit lobortis ultricies non.
+                                Mattis enim, nisl</h3>
+                            adipiscing natoque diam et. Cum posuere in velit massa sagittis augue egestas. Eu
+                            sollicitudin
+                            et quam eu. Nunc, sed imperdiet blandit morbi. Maecenas lobortis tristique rutrum.
+                        </div>
+                    </div>
+                    <div class="human-pic">
+                        <img src="./img/karoline-soares.png" alt="">
+                        <p class="human-pic__name">Judy ROSELESS
+                            MARKETING HEAD at ROM.</p>
+                    </div>
+                </div>
+                <div class="reviews">
+                    <div class="wrapper-human-text">
+                        <img class="quote" src="./img/quotes.png" alt="">
+                        <div class="human-text">
+                            <h3 class="human-text__title">Elementum mi felis, sit velit lobortis ultricies non.
+                                Mattis enim, nisl</h3>
+                            adipiscing natoque diam et. Cum posuere in velit massa sagittis augue egestas. Eu
+                            sollicitudin
+                            et quam eu. Nunc, sed imperdiet blandit morbi. Maecenas lobortis tristique rutrum.
+                        </div>
+                    </div>
+                    <div class="human-pic">
+                        <img src="./img/karoline-soares.png" alt="">
+                        <p class="human-pic__name">Judy ROSELESS
+                            MARKETING HEAD at ROM.</p>
+                    </div>
+                </div>
+                <div class="reviews">
+                    <div class="wrapper-human-text">
+                        <img class="quote" src="./img/quotes.png" alt="">
+                        <div class="human-text">
+                            <h3 class="human-text__title">Elementum mi felis, sit velit lobortis ultricies non.
+                                Mattis enim, nisl</h3>
+                            adipiscing natoque diam et. Cum posuere in velit massa sagittis augue egestas. Eu
+                            sollicitudin
+                            et quam eu. Nunc, sed imperdiet blandit morbi. Maecenas lobortis tristique rutrum.
+                        </div>
+                    </div>
+                    <div class="human-pic">
+                        <img src="./img/karoline-soares.png" alt="">
+                        <p class="human-pic__name">Judy ROSELESS
+                            MARKETING HEAD at ROM.</p>
+                    </div>
+                </div>
+            </div>
+            <h1 class="reviews-block__title bye">See you soon!</h1>
+            <h2 class="reviews-block__title-h2">We hope to meet each other very soon.</h2>
+        </div>
     </div>
-</div>
+</main>
+<footer class="footer ">
+    <img class="footer__line" src="./img/Rectangle-footer.png" alt="">
+    <nav class="footer-nav">
+
+        <ul class="footer-nav-link">
+            About
+            <img class="footer-nav__line" src="./img/Divider.png" alt="">
+            <li class="site-map-menu">
+                <a class="site-map-menu__link" href="#">Our Mission</a>
+            </li>
+            <li class="site-map-menu">
+                <a class="site-map-menu__link" href="#">Terms</a>
+            </li>
+            <li class="site-map-menu">
+                <a class="site-map-menu__link" href="#">Copyrights</a>
+            </li>
+        </ul>
+        <ul class="footer-nav-link">
+            FAQ
+            <img class="footer-nav__line" src="./img/Divider.png" alt="">
+            <li class="site-map-menu">
+                <a class="site-map-menu__link" href="#">Rules</a>
+            </li>
+            <li class="site-map-menu">
+                <a class="site-map-menu__link" href="#">Tickets</a>
+            </li>
+            <li class="site-map-menu">
+                <a class="site-map-menu__link" href="#">Editions</a>
+            </li>
+            <li class="site-map-menu">
+                <a class="site-map-menu__link" href="#">Contribute</a>
+            </li>
+        </ul>
+        <ul class="footer-nav-link">
+            Events
+            <img class="footer-nav__line" src="./img/Divider.png" alt="">
+            <li class="site-map-menu">
+                <a class="site-map-menu__link" href="#">Star Gazing</a>
+            </li>
+            <li class="site-map-menu">
+                <a class="site-map-menu__link" href="#">Desert Mania</a>
+            </li>
+            <li class="site-map-menu">
+                <a class="site-map-menu__link" href="#">Dunes Madness</a>
+            </li>
+            <li class="site-map-menu">
+                <a class="site-map-menu__link" href="#">Spooky Land</a>
+            </li>
+        </ul>
+        <ul class="footer-nav-link">
+            Contact us
+            <img class="footer-nav__line" src="./img/Divider.png" alt="">
+            <li class="site-map-menu">
+                <a class="site-map-menu__link" href="mailto:hello@example.com">hello@example.com</a>
+            </li>
+            <li class="site-map-menu">
+                <a class="site-map-menu__link" href="tel:(405) 555-0128">(405)&nbsp;555-0128</a>
+            </li>
+            <li class="site-map-menu">
+                <a class="site-map-menu__link" href="tel:(252) 555-0126">(252)&nbsp;555-0126</a>
+            </li>
+        </ul>
+        <ul class="footer-nav-link follow">Follow us
+            <img class="footer-nav__line" src="./img/Divider.png" alt="">
+            <div class="social">
+                <a href="#"><img src="./img/instagram_logo.png" alt="instagram" class="social__img"></a>
+                <a href="#"><img src="./img/facebook_logo.png" alt="facebook" class="social__img"></a>
+                <a href="#"><img src="./img/twitter_logo.png" alt="twitter" class="social__img"></a>
+            </div>
+        </ul>
+    </nav>
+    <div class="copy">Copyright &#169; Night Trips 2019. All rights reserved.</div>
+    <div class="logo footer-logo">
+        <a href="index.html" class="logo__text ">NT.</a>
+    </div>
+</footer>
 
 </body>
 </html>

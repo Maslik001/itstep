@@ -1,0 +1,948 @@
+@charset "UTF-8";
+@import url(//db.onlinewebfonts.com/c/1a0f9c82ae37cc35dc3c8e6c81ea95a4?family=Larsseit);
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300&display=swap");
+@import url(//db.onlinewebfonts.com/c/30a71dcf9a1c39558ca4e97c92a4b2fa?family=Noe+Display+Bold);
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+/*хочу сделать If для радиуса -
+если в меню то 48px, если нет то 183px*/
+.header {
+  width: 100%;
+  margin: 0 auto;
+  background-image: url("../img/bg-header.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .header .container {
+    width: 100%;
+    background: linear-gradient(180deg, rgba(1, 22, 39, 0) 69%, #011627 95.64%, #011627 43%); }
+  .header-container {
+    padding: 75px 12% 0;
+    margin: 0 auto;
+    max-width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; }
+    .header-container-top {
+      display: flex;
+      justify-content: space-between; }
+
+.logo__text {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  color: white;
+  margin: 0;
+  line-height: 190%; }
+
+.menu {
+  min-width: 200px; }
+  .menu .search {
+    display: flex;
+    gap: 37px; }
+  .menu input[type=text] {
+    width: 30px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px;
+    background-color: inherit;
+    background-image: url("../img/search.png");
+    background-repeat: no-repeat;
+    padding: 12px 20px 10px 40px;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+    background-position: right 10px center;
+    color: white;
+    outline: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 48px;
+    text-transform: capitalize; }
+  .menu input::-webkit-input-placeholder {
+    color: white;
+    opacity: 0.8; }
+  .menu input[type=text]:hover {
+    width: 400px;
+    outline: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 48px;
+    color: white;
+    opacity: 0.8;
+    transition: 2s; }
+  .menu-btn {
+    position: relative;
+    width: 167px;
+    height: 62px;
+    background-color: #41ead4;
+    box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+    background-color: #00c9e0;
+    font-family: "Larsseit";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    border-radius: 48px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none; }
+    .menu-btn:hover {
+      color: #171101;
+      box-shadow: 0px 5px 35px 2px #171101; }
+    .menu-btn:active {
+      top: 1px;
+      left: 1px;
+      color: #D7D3D3FF; }
+
+.line {
+  position: absolute;
+  border: 1px solid white;
+  width: 30px;
+  border-radius: 16px;
+  right: -15px;
+  top: 30px; }
+
+.title-top {
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center; }
+  .title-top__h1 {
+    font-family: "Noe Display";
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+    color: white;
+    font-size: 120px;
+    line-height: 79px;
+    margin: 0;
+    padding-top: 156px;
+    line-height: 153px; }
+  .title-top__slogan {
+    font-family: "Larsseit";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+    padding: 14px 0 50px; }
+  .title-top__text {
+    font-family: "Larsseit";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 150%;
+    text-align: center;
+    color: white;
+    max-width: 643px; }
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 192px;
+  padding-bottom: 234px; }
+  .header-wrapper .social {
+    display: flex;
+    flex-direction: column;
+    transition: 2s; }
+
+.scroll {
+  position: relative;
+  transform: rotate(-90deg);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 15px;
+  left: 30px;
+  top: 25px; }
+  .scroll-line {
+    background: linear-gradient(180deg, #09F4F4 0%, #00C9E0 100%);
+    border-radius: 13px;
+    width: 80px;
+    height: 2px; }
+  .scroll-text {
+    font-family: "Larsseit";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 190%;
+    letter-spacing: 0.05em;
+    color: white;
+    opacity: 0.9;
+    position: absolute;
+    left: 100px;
+    top: -12px;
+    margin: 0; }
+
+.social {
+  display: flex;
+  gap: 26px;
+  -webkit-transition: 2s;
+  transition: 2s;
+  opacity: 1; }
+
+.social__img {
+  transition: transform 2s, opacity 2s; }
+  .social__img:hover {
+    transform: rotate(360deg) scale(3);
+    opacity: 0; }
+
+.main {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #011627; }
+  .main-wrapper {
+    width: 100%;
+    background: url("../img/bg_top_light.png") top/cover no-repeat, url("../img/bg_main.png") bottom/auto no-repeat;
+    background-size: 100%;
+    min-height: 1100px; }
+  .main-container {
+    padding-top: 0;
+    display: flex;
+    align-items: flex-start;
+    margin: 0 auto;
+    box-sizing: border-box; }
+    .main-container-top {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: start;
+      gap: 39px; }
+    .main-container__title {
+      font-family: "Noe Display";
+      font-style: normal;
+      font-weight: bold;
+      letter-spacing: -0.02em;
+      color: white;
+      font-size: 72px;
+      line-height: 79px;
+      letter-spacing: -0.02em;
+      padding-left: 107px;
+      padding-bottom: 18px; }
+    .main-container__text {
+      max-width: 349px;
+      font-family: "Larsseit";
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: -0.02em;
+      color: white;
+      overflow: hidden; }
+
+.close {
+  cursor: pointer;
+  opacity: 1; }
+  .close:active {
+    transition: step-start;
+    opacity: 0; }
+
+.nav {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding-top: 85px;
+  border-bottom: 1px solid rgba(65, 234, 212, 0.5);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  .nav-main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding-left: 0;
+    height: 100%; }
+    .nav-main__link {
+      position: relative;
+      display: inline-block;
+      height: 100%;
+      font-family: "Larsseit";
+      text-decoration: none;
+      list-style-type: none;
+      font-style: normal;
+      font-size: 18px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: #41ead4;
+      opacity: 0.5;
+      cursor: pointer;
+      padding-bottom: 33px;
+      width: 25%;
+      overflow: hidden;
+      flex: 1 1 auto;
+      transition: 0.5s; }
+      .nav-main__link:hover {
+        opacity: 1; }
+        .nav-main__link:hover:after {
+          width: 100%; }
+      .nav-main__link::after {
+        content: '';
+        position: absolute;
+        background-color: #41ead4;
+        height: 3px;
+        width: 0;
+        bottom: 0;
+        left: 0;
+        transition: width 0.5s linear;
+        transform: translateX(0%); }
+
+.main-offer {
+  padding-top: 135px;
+  padding-bottom: 245px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around; }
+  .main-offer-wrapper {
+    position: relative;
+    z-index: 1;
+    height: fit-content;
+    width: fit-content; }
+  .main-offer-text {
+    padding-left: 126px; }
+    .main-offer-text__h1 {
+      font-family: "Noe Display";
+      font-style: normal;
+      font-weight: bold;
+      letter-spacing: -0.02em;
+      color: white;
+      font-size: 72px;
+      line-height: 79px; }
+    .main-offer-text__h2 {
+      max-width: 485px;
+      font-family: "Larsseit";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 17px;
+      line-height: 150%;
+      letter-spacing: -0.02em;
+      color: white;
+      padding-bottom: 25px; }
+    .main-offer-text__p {
+      max-width: 485px;
+      font-family: "Larsseit";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 150%;
+      letter-spacing: -0.02em;
+      color: white; }
+
+.offer-pic {
+  padding-left: 107px;
+  position: relative;
+  object-fit: contain;
+  width: 100%;
+  height: 100%; }
+  .offer-pic__btn {
+    position: absolute;
+    right: -14px;
+    bottom: -38px; }
+
+.img-l {
+  position: absolute;
+  right: 67px; }
+
+.pic__1 {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 542px, 363px 542px, 355px 100%, 50% 100%, 0 100%); }
+
+.arrow {
+  position: absolute;
+  bottom: 62px;
+  right: -33px; }
+  .arrow:hover {
+    cursor: pointer;
+    transform: scale(1.5); }
+  .arrow:active {
+    transform: translateX(1px); }
+  .arrow_1 {
+    transform: rotate(180deg);
+    right: 100px; }
+    .arrow_1:hover {
+      transform: scale(1.5) rotate(180deg); }
+    .arrow_1:active {
+      transform: translateX(1px) rotate(180deg); }
+
+.offer-number {
+  position: absolute;
+  top: 230px; }
+  .offer-number__text {
+    font-family: "Larsseit";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.15em;
+    color: white;
+    max-width: 204px;
+    margin: 0; }
+
+.dots {
+  position: absolute;
+  left: 53px;
+  bottom: -51px;
+  z-index: -1; }
+
+.one {
+  color: #41ead4; }
+
+.btn-main {
+  position: relative;
+  box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+  background-color: #00c9e0;
+  font-family: "Larsseit";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  border-radius: 183px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 282px;
+  height: 65px;
+  box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+  border: none;
+  margin-top: 45px; }
+  .btn-main:hover {
+    color: #171101;
+    box-shadow: 0px 5px 35px 2px #171101; }
+  .btn-main:active {
+    top: 1px;
+    left: 1px;
+    color: #D7D3D3FF; }
+
+.media-1 {
+  display: none;
+  position: absolute;
+  right: -8%;
+  top: 50%; }
+
+.media-2 {
+  margin-right: 2%; }
+
+.share {
+  margin-top: auto; }
+  .share__text {
+    font-family: "Larsseit";
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 0.15em;
+    color: white; }
+
+.main-offer-contact {
+  display: flex;
+  margin-bottom: 275px; }
+  .main-offer-contact-text {
+    padding-left: 135px;
+    display: flex;
+    flex-direction: column; }
+    .main-offer-contact-text__h1 {
+      font-family: "Noe Display";
+      font-weight: bold;
+      font-size: 72px;
+      line-height: 110%;
+      letter-spacing: -0.02em;
+      color: white;
+      text-align: left; }
+    .main-offer-contact-text__bold {
+      max-width: 321px;
+      font-family: "Larsseit";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 150%;
+      letter-spacing: -0.02em;
+      color: white; }
+    .main-offer-contact-text__normal {
+      min-width: 320px;
+      max-width: 321px;
+      font-family: "Larsseit";
+      font-style: normal;
+      font-weight: 200;
+      font-size: 18px;
+      line-height: 150%;
+      letter-spacing: -0.02em;
+      color: white; }
+      .main-offer-contact-text__normal_top-text {
+        margin-top: 0; }
+    .main-offer-contact-text__btn {
+      width: 282px;
+      height: 65px;
+      position: relative;
+      box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+      background-color: #00c9e0;
+      font-family: "Larsseit";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 21px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: white;
+      text-align: center;
+      border-radius: 183px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+      border: none;
+      margin-top: 45px; }
+      .main-offer-contact-text__btn:hover {
+        color: #171101;
+        box-shadow: 0px 5px 35px 2px #171101; }
+      .main-offer-contact-text__btn:active {
+        top: 1px;
+        left: 1px;
+        color: #D7D3D3FF; }
+
+.wrapper-contacts {
+  display: flex;
+  align-items: center;
+  position: relative; }
+  .wrapper-contacts__name {
+    width: 186px;
+    height: 75px;
+    box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+    background-color: #00c9e0;
+    font-family: "Larsseit";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    border-radius: 186px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+    border-radius: 8px;
+    position: absolute;
+    left: 4%;
+    top: 33%;
+    z-index: 1;
+    background-color: white;
+    color: black;
+    padding: 26px 19px;
+    letter-spacing: 0.05em;
+    font-size: 15px;
+    cursor: default; }
+    .wrapper-contacts__name span {
+      color: #41ead4; }
+  .wrapper-contacts__img {
+    justify-content: end;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin-left: 100px; }
+  .wrapper-contacts__dots-2 .dots-2 {
+    margin-left: 10px; }
+
+.reviews-block {
+  max-width: 1680px;
+  padding: 100px 12% 0;
+  background: #011627;
+  border-radius: 8px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  position: relative; }
+  .reviews-block__title {
+    font-family: "Noe Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: white;
+    margin-bottom: 32px;
+    margin-top: 0; }
+    .reviews-block__title-h2 {
+      font-family: "Larsseit";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 150%;
+      text-align: center;
+      letter-spacing: 0.15em;
+      color: white;
+      max-width: 450px;
+      margin: 0 auto; }
+  .reviews-block__line {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: -35px; }
+
+.reviews-human {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 0;
+  padding-top: 73px;
+  justify-content: center; }
+
+.reviews {
+  max-width: 510px;
+  min-height: 504px;
+  background: #02223B;
+  box-shadow: 0px 20px 30px rgba(0, 201, 224, 0.03);
+  border-radius: 5px;
+  padding: 75px 75px 75px 50px;
+  margin: 0; }
+
+.bye {
+  margin-top: 150px;
+  margin-bottom: 31px; }
+
+.wrapper-human-text {
+  display: flex; }
+
+.quote {
+  object-fit: contain;
+  margin-bottom: auto;
+  margin-right: 20px; }
+
+.human-text {
+  font-family: "Larsseit";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 190%;
+  color: white; }
+  .human-text__title {
+    margin-top: auto; }
+
+.human-pic {
+  display: flex;
+  padding-left: 50px;
+  padding-top: 50px; }
+  .human-pic__name {
+    font-family: "Larsseit";
+    margin-left: 12px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 170%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: white;
+    max-width: 195px; }
+
+.footer {
+  margin: 0 auto;
+  background: #011627;
+  padding: 0 12%; }
+  .footer__line {
+    display: block;
+    padding-top: 108px;
+    padding-bottom: 97px;
+    margin: 0 auto; }
+  .footer-nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1044px;
+    margin: 0 auto; }
+    .footer-nav-link {
+      display: flex;
+      flex-direction: column;
+      font-family: "Larsseit";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 24px;
+      align-items: flex-start;
+      color: white;
+      gap: 16px;
+      margin-top: 0; }
+
+.site-map-menu {
+  padding-left: 0;
+  font-family: "Larsseit";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  transition: 1s; }
+  .site-map-menu:hover {
+    color: #41ead4;
+    transform: translateX(10%);
+    transition: 1s; }
+  .site-map-menu__link {
+    color: inherit; }
+
+.follow {
+  padding-left: 100px; }
+
+.footer-nav__line {
+  padding: 19px 0;
+  object-fit: none;
+  left: 0;
+  transition: 1s; }
+  .footer-nav__line:hover {
+    transform: translateX(10%);
+    transition: 1s;
+    cursor: default; }
+
+.copy {
+  font-family: "Larsseit";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: white;
+  margin-top: 69px;
+  margin-bottom: 26px; }
+
+.footer-logo {
+  text-align: center;
+  padding-bottom: 160px; }
+
+@media (max-width: 1799.98px) {
+  .main-offer-contact-text {
+    padding-left: 0; }
+
+  .wrapper-contacts {
+    position: relative;
+    display: flex;
+    flex-direction: column; }
+
+  .wrapper-contacts__dots-2 {
+    transform: rotate(90deg);
+    bottom: -280px;
+    position: absolute;
+    right: 40%; }
+
+  .wrapper-contacts__img {
+    margin-left: 22%; }
+
+  .media-2 {
+    display: none; }
+
+  .media-1 {
+    display: block; } }
+@media (max-width: 1599.98px) {
+  .main-container {
+    align-items: center; }
+
+  .main-offer {
+    padding-bottom: 130px; }
+
+  .main-offer-contact-text {
+    align-items: center; }
+
+  .main-offer-contact-text__h1 {
+    margin-bottom: 10px; }
+
+  .main-offer-contact {
+    flex-direction: column; }
+
+  .main-offer-contact-text__normal {
+    max-width: 100%;
+    text-align: center; }
+
+  .wrapper-contacts {
+    align-items: flex-end; }
+
+  .wrapper-contacts__name {
+    left: -5%; }
+
+  .wrapper-contacts__dots-2 {
+    right: 45%; }
+
+  .main-offer-contact-text__btn {
+    margin-bottom: 45px; }
+
+  .reviews-block {
+    padding: 100px 1% 0; } }
+@media (max-width: 1199.98px) {
+  .main-offer {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center; }
+
+  .main-offer-wrapper {
+    left: -7%; }
+
+  .main-offer-text {
+    padding-left: 0; }
+
+  .btn-main {
+    margin: 45px auto; }
+
+  .footer {
+    padding: 0 5%; } }
+@media (max-width: 991.98px) {
+  .header-container-top {
+    flex-direction: column;
+    align-items: center; }
+
+  .menu {
+    width: 100%; }
+
+  .menu .search {
+    flex-direction: column;
+    align-items: center; }
+
+  .menu input[type=text] {
+    width: 40%;
+    padding: 10px; }
+
+  .wrapper-contacts__name {
+    left: 5%;
+    top: 17%; }
+
+  .wrapper-contacts__img {
+    margin: 0 auto;
+    grid-template-columns: auto; }
+
+  .footer-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5%;
+    grid-area: fl;
+    grid-template-areas: "fl fl fl" "fl . fl"; }
+
+  .follow {
+    padding-left: revert; } }
+@media (max-width: 767.98px) {
+  .main-offer-wrapper {
+    margin: 0 auto; }
+
+  .nav-main__link {
+    max-width: 20%; }
+
+  .offer-pic {
+    padding-left: 0; }
+
+  .offer-number {
+    left: -4%;
+    top: 15%; }
+
+  .media-1 {
+    right: -1%; }
+
+  .main-container__title {
+    padding-left: 50px; }
+
+  .wrapper-contacts__name {
+    left: 0%; }
+
+  .footer-nav {
+    grid-gap: 1%; }
+
+  .dots {
+    left: 25%; }
+
+  .wrapper-contacts__dots-2 {
+    right: 42%; } }
+@media (max-width: 575.98px) {
+  .offer-pic {
+    width: 95%;
+    margin: 0 auto; }
+
+  .header-wrapper {
+    padding-top: 100px;
+    padding-bottom: 0; }
+
+  .header-container {
+    padding: 75px 3% 0; }
+
+  .title-top__h1 {
+    padding-top: 50px; }
+
+  .main-offer-contact-text {
+    padding: 0 10%; }
+
+  .close {
+    display: none; }
+
+  .main-container__title {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center; }
+
+  .main-container__text {
+    display: none; }
+
+  .main-offer-wrapper {
+    left: 0%; }
+
+  .pic__1 {
+    width: 100%; }
+
+  .dots {
+    left: 15%; }
+
+  .offer-number {
+    left: 0%;
+    top: 70%; }
+
+  .media-1 {
+    display: none; }
+
+  .main-offer-contact {
+    width: 100%; }
+
+  .main-offer-contact-text {
+    padding: 0 5%; }
+
+  .wrapper-contacts__img {
+    padding: 0px 7%;
+    width: 100%;
+    margin: 0; }
+
+  .wrapper-contacts__dots-2 {
+    width: 10%;
+    bottom: -14%; }
+
+  .wrapper-contacts__dots-2 .dots-2 {
+    width: 100%; }
+
+  .wrapper-contacts__img img {
+    width: 100%; }
+
+  .main-offer-contact {
+    margin-bottom: 175px; }
+
+  .reviews {
+    padding: 75px 2%; }
+
+  .footer {
+    padding: 0 5%; }
+
+  .footer-nav {
+    grid-template-columns: 1fr 1fr; }
+
+  .footer-nav-link {
+    padding-left: 0; } }
+@media (max-width: 469.98px) {
+  .nav-main__link {
+    max-width: 25%; } }
+
+/*# sourceMappingURL=style.css.map */

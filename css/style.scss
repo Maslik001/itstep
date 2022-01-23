@@ -73,7 +73,7 @@ $text_color: #666666;
     color: $bgr_col_bottom;
     cursor: pointer;
     text-decoration: none;
-    transition: text-shadow 3s, color 2s;
+    transition: text-shadow 2s, color 1s;
     box-sizing: border-box;
 
     &:hover {
@@ -200,6 +200,7 @@ $text_color: #666666;
   justify-content: space-between;
   margin: 46px 0 23px;
 
+
 }
 
 .ellipse {
@@ -210,6 +211,7 @@ $text_color: #666666;
   justify-content: center;
   cursor: pointer;
 
+
 }
 
 .scroll-ellipse {
@@ -217,16 +219,18 @@ $text_color: #666666;
   height: 16px;
   background: #E6E6E6;
   border-radius: 50%;
+
 }
 
 .scroll_active {
-  &:hover {
-    .active {
-      width: 16px;
-      height: 16px;
-      background: #E6E6E6;
-      border-radius: 50%;;
-    }
+
+  &:hover .active {
+
+    width: 16px;
+    height: 16px;
+    background: #E6E6E6;
+    border-radius: 50%;;
+
   }
 }
 
@@ -417,6 +421,7 @@ $text_color: #666666;
   height: 40px;
   border-radius: 4px;
   position: relative;
+  transition: all 1s;
 
   &:active {
     left: 1px;
@@ -426,6 +431,7 @@ $text_color: #666666;
   &:hover {
     background-color: #E6E6E6;
     border: none;
+    transform: scale(0.9);
   }
 
 
@@ -452,24 +458,48 @@ $text_color: #666666;
   display: flex;
   justify-content: space-between;
   gap: 30px;
+  transition: all 2s;
+  padding-bottom: 100px;
 
 }
 
 .video-1, .video-2 {
   position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+
+  &:hover .ground {
+    transform: translateX(-500px);
+  }
+
+  &:hover .circle {
+    transform: scale(1.1);
+    opacity: 0.8;
+
+  }
+
+  &:hover .arrow-video {
+    transform: scale(1.2);
+  }
+
+  &:hover .video-1__img {
+    transform: scale(1.2);
+  }
 }
 
 .video-1__img {
-  border-radius: 30px;
   position: relative;
+  transition: all 1s;
 }
 
 .ground {
   position: absolute;
   left: 0;
   top: 0;
+  transition: all 1s;
 }
-.circle{
+
+.circle {
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -478,11 +508,119 @@ $text_color: #666666;
   position: absolute;
   left: 40%;
   top: 30%;
+  transition: all 0.5s;
+  cursor: pointer;
 }
-.arrow-video{
+
+.arrow-video {
   position: absolute;
-  left: 47%;
-  top: 40%;
+  left: 48%;
+  top: 39%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.asked {
+  padding: 0 134px;
+  text-align: center;
+
+  &__tittle {
+    @include text(26px);
+    font-weight: bold;
+    line-height: 48px;
+  }
+
+  &__text {
+    @include text();
+    padding: 24px 0 60px;
+  }
+}
+
+.award-wrapper {
+  margin: 0 auto;
+  max-width: 875px;
+  text-align: center;
+}
+
+.award-item {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 55px;
+}
+
+.award {
+  background-color: $font_color;
+  padding-bottom: 120px;
+
+  &__tittle {
+    @include text(26px);
+    font-weight: bold;
+    line-height: 48px;
+  }
+
+  &__text {
+    @include text();
+    padding: 24px 0 55px;
+  }
+}
+
+.sub-main {
+  background-color: $font_color;
+}
+
+.sub {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 770px;
+
+  &__tittle {
+    @include text(26px);
+    font-weight: bold;
+    line-height: 48px;
+  }
+
+  &__text {
+    @include text();
+    padding: 24px 33px;
+  }
+}
+
+.mail {
+  position: relative;
+  padding-bottom: 80px;
+
+  & input {
+    width: 770px;
+    height: 80px;
+    background: #E6E6E6;
+    padding-left: 34px;
+    border: none;
+    border-radius: 16px;
+    @include text(20px);
+
+  }
+  &:valid {
+    background: url("../img/arrow-video.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+  }
+  ::-webkit-input-placeholder {
+    @include text(20px);
+    line-height: 28px;
+  }
+
+
+}
+.sub_btn {
+  position: absolute;
+  right: 2%;
+  top: 10%;
+}
+.input-btn{
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
 @import "media";

@@ -401,13 +401,31 @@
   justify-content: space-between;
   gap: 30px; }
 
-.video-1 .video-2 {
+.video-1, .video-2 {
   position: relative; }
 
 .video-1__img {
-  border-radius: 30px; }
+  border-radius: 30px;
+  position: relative; }
 
-.ground-1 {
-  position: absolute; }
+.ground {
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+.circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #E6E6E6;
+  opacity: 0.5;
+  position: absolute;
+  left: 40%;
+  top: 30%; }
+
+.arrow-video {
+  position: absolute;
+  left: 40%;
+  top: 30%; }
 
 /*# sourceMappingURL=style.css.map */

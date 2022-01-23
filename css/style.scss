@@ -239,7 +239,10 @@ $text_color: #666666;
   height: 20px;
   background: $bgr_col_bottom;
 }
-
+.main-blog{
+  margin: 0 auto;
+  padding: 0 146px 0 134px;
+}
 
 @import "media";
 

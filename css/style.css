@@ -7,21 +7,24 @@
 /*-----переменные------*/
 /*-----mixin's------*/
 /*-----page------*/
-.header {
-  width: 100%;
-  margin: 0 auto;
+.main-wrapper {
   background-color: #FAFCFF;
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat; }
+
+.header {
+  max-width: 1440px;
+  margin: 0 auto; }
   .header .wrapper {
     background: url("../img/Union.png") 0 20ch/contain no-repeat; }
 
 .header-menu {
   width: 100%;
   display: flex;
-  padding: 24px 12% 0;
+  padding: 24px 12%;
   position: sticky;
-  top: 0px;
+  top: 0;
   z-index: 10;
   background-color: #FAFCFF; }
   .header-menu__logo {
@@ -169,7 +172,13 @@
 .partners {
   display: flex;
   justify-content: space-between;
-  margin: 46px 0 23px; }
+  padding: 46px 0 23px;
+  max-width: 1140px; }
+  .partners__img {
+    object-fit: contain;
+    transition: all 1s; }
+    .partners__img:hover {
+      transform: scale(1.3); }
 
 .ellipse {
   text-align: center;
@@ -197,14 +206,14 @@
   background: #4579CBFF; }
 
 .main {
-  background-color: #FAFCFF; }
+  max-width: 1440px;
+  margin: 0 auto; }
 
 .main-blog {
   margin: 0 auto;
-  padding: 0 135px 0 147px;
+  padding: 0 135px 120px 147px;
   display: flex;
-  justify-content: space-between;
-  padding-bottom: 120px; }
+  justify-content: space-between; }
   .main-blog_row {
     flex-direction: row-reverse; }
   .main-blog__tittle {
@@ -227,6 +236,7 @@
     margin: 24px 0 30px;
     max-width: 527px; }
   .main-blog__img {
+    object-fit: contain;
     transition: all 2s; }
     .main-blog__img:hover {
       transform: scale(1.1); }
@@ -478,6 +488,11 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 55px; }
+  .award-item__img {
+    object-fit: contain;
+    transition: all 1s; }
+    .award-item__img:hover {
+      transform: scale(1.3); }
 
 .award {
   background-color: white;
@@ -565,10 +580,15 @@
   outline: none;
   box-shadow: none; }
 
+.footer {
+  width: 100%;
+  background-color: #4579CBFF; }
+
 .footer-wrapper {
   display: flex;
-  background-color: #4579CBFF;
-  padding: 28px 210px 0 135px; }
+  padding: 28px 210px 0 135px;
+  max-width: 1440px;
+  margin: 0 auto; }
 
 .footer-logo_footer {
   font-family: "Segoe UI";

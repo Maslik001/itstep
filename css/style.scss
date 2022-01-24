@@ -629,7 +629,7 @@ $text_color: #666666;
   box-shadow: none;
 }
 
-.footer {
+.footer-wrapper {
   display: flex;
   background-color: $bgr_col_bottom;
   padding: 28px 210px 0 135px;
@@ -659,5 +659,17 @@ $text_color: #666666;
     color: $font_color;
   }
 }
+.footer-nav{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ &__tittle{
+
+ }
+  &__link{
+    list-style-type: none;
+  }
+
+}
+
   @import "media";
 

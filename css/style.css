@@ -565,4 +565,35 @@
   outline: none;
   box-shadow: none; }
 
+.footer {
+  background-color: #4579CBFF;
+  padding: 28px 210px 0 135px; }
+
+.footer-logo_footer {
+  font-family: "Segoe UI";
+  color: #666666;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 48px;
+  color: white;
+  transition: all 2s; }
+  .footer-logo_footer:hover {
+    text-shadow: 2px 2px 2px white;
+    color: #4579CBFF; }
+.footer-logo__text {
+  padding: 31px 0 81px;
+  margin: 0;
+  max-width: 278px;
+  font-family: "Segoe UI";
+  color: #666666;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  color: white; }
+
 /*# sourceMappingURL=style.css.map */

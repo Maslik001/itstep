@@ -584,7 +584,7 @@ $text_color: #666666;
 
 .asked-menu-block {
   margin: 0;
-  width: 570px;
+  max-width: 570px;
   height: 70px;
   list-style-type: none;
   border: 1px solid #CACACA;
@@ -697,7 +697,7 @@ $text_color: #666666;
   justify-content: space-between;
   max-width: 1440px;
   margin: 0 auto;
-  padding-bottom: 55px;
+  padding: 0 34px 55px;
 
   &-wrapper {
 
@@ -825,6 +825,7 @@ $text_color: #666666;
   padding: 35px 210px 0 135px;
   max-width: 1440px;
   margin: 0 auto;
+
 }
 
 .footer-logo {
@@ -858,8 +859,12 @@ $text_color: #666666;
   grid-template-columns: repeat(3, 1fr);
   padding-left: 125px;
   padding-top: 10px;
-  grid-gap: 130px;
+  grid-gap: 40px;
 
+
+  &-block{
+    padding: 0;
+  }
   &__h3 {
     @include text(20px);
     font-weight: bold;
@@ -870,16 +875,35 @@ $text_color: #666666;
 
   &-tittle {
     list-style-type: none;
+    & ol{
+      padding-left: 0;
+      padding-top: 31px;
+    }
+    &_pad{
+      padding-left: 20px;
+    }
+
   }
 
+
   &__link {
-    padding-left: 0;
+    //padding-left: 0;
     text-decoration: none;
     list-style-type: none;
     @include text(14px);
     color: $font_color;
+    padding: 8px 0;
+    img{
+      padding-right: 16px;
+    }
   }
-
+  &-social{
+    display: flex;
+    list-style-type: none;
+    padding-top: 32px;
+    gap: 18px;
+    padding-left: 20px;
+  }
 }
 
 @import "media";

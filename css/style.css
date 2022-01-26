@@ -502,7 +502,7 @@
 
 .asked-menu-block {
   margin: 0;
-  width: 570px;
+  max-width: 570px;
   height: 70px;
   list-style-type: none;
   border: 1px solid #CACACA;
@@ -589,7 +589,7 @@
   justify-content: space-between;
   max-width: 1440px;
   margin: 0 auto;
-  padding-bottom: 55px; }
+  padding: 0 34px 55px; }
   .award-item-wrapper {
     width: 170px;
     height: 239px;
@@ -751,7 +751,9 @@
   grid-template-columns: repeat(3, 1fr);
   padding-left: 125px;
   padding-top: 10px;
-  grid-gap: 130px; }
+  grid-gap: 40px; }
+  .footer-nav-block {
+    padding: 0; }
   .footer-nav__h3 {
     font-family: "Segoe UI";
     color: #666666;
@@ -765,8 +767,12 @@
     padding-bottom: 30px; }
   .footer-nav-tittle {
     list-style-type: none; }
+    .footer-nav-tittle ol {
+      padding-left: 0;
+      padding-top: 31px; }
+    .footer-nav-tittle_pad {
+      padding-left: 20px; }
   .footer-nav__link {
-    padding-left: 0;
     text-decoration: none;
     list-style-type: none;
     font-family: "Segoe UI";
@@ -775,6 +781,42 @@
     font-style: normal;
     font-weight: normal;
     line-height: 24px;
-    color: white; }
+    color: white;
+    padding: 8px 0; }
+    .footer-nav__link img {
+      padding-right: 16px; }
+  .footer-nav-social {
+    display: flex;
+    list-style-type: none;
+    padding-top: 32px;
+    gap: 18px;
+    padding-left: 20px; }
+
+@media (max-width: 1350px) {
+  .footer-wrapper {
+    padding: 35px 150px 0 120px; } }
+@media (max-width: 1225px) {
+  .main-blog {
+    padding: 0 10px 120px 60px; }
+    .main-blog__img {
+      width: 50%; }
+
+  .top_img {
+    margin-left: -30px;
+    padding-left: 0;
+    padding-right: 45px; }
+
+  .wrapper-wont-block {
+    grid-gap: 15px;
+    margin: 0 18px; }
+
+  .director-wrapper {
+    padding: 0 3% 120px; }
+
+  .our-cam {
+    padding: 0 25px 100px; }
+
+  .footer-wrapper {
+    padding: 35px 110px 0 95px; } }
 
 /*# sourceMappingURL=style.css.map */

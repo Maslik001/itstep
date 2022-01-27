@@ -3,10 +3,17 @@
     padding: 35px 150px 0 120px;
 
   }
+
+  .top_img {
+    padding-right: 20px;
+  }
 }
 
 
 @media (max-width: 1225px) {
+  .header-menu {
+    padding: 24px 3% 24px;
+  }
   .main-blog {
     padding: 0 10px 120px 60px;
     &__img{
@@ -14,6 +21,7 @@
     }
 
   }
+
   .top_img {
     margin-left: -30px;
     padding-left: 0;
@@ -30,21 +38,74 @@
     padding: 0 3% 120px;
   }
   .our-cam {
-    padding: 0 25px 100px;
+    padding: 0 25px;
+  }
+  .asked {
+    padding: 0 50px;
+  }
+  .award-item {
+    padding: 0 30px 55px;
+    :nth-child(5n) ~ div{
+      display: none;
+    }
   }
   .footer-wrapper {
-    padding: 35px 110px 0 95px;
-
+    padding: 35px 3% 0;
   }
 
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 990px) {
+  .main-top-text {
+    padding: 140px 20px 0;
+  }
+  .director-wrapper {
+    flex-wrap: wrap;
+  }
+  .director-wrapper-img {
+    margin: 0 auto;
+  }
+  .director-block {
+    padding-top: 40px;
+    margin: 0 auto;
+  }
+  .award-item {
+    justify-content: space-around;
+    :nth-child(4n) ~ div{
+      display: none;
+    }
+  }
+  .video-block {
 
+    flex-direction: column;
+  }
+  .ground {
+    left: -100px;
+    width: 100%;
+
+  }
+  .arrow-video {
+    left: 35%;
+    top: 30%;
+  }
+  .circle {
+    top: 35%;
+  }
+  .circle-wrapper {
+    top: 36%;
+  }
+  .mail {
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 767.98px) {
-
+  .arrow-video {
+    left: 46%;
+    top: 37%;
+  }
 
 }
 

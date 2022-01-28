@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   text-decoration: none;
   box-sizing: border-box;
@@ -6,886 +7,151 @@
 
 /*-----переменные------*/
 /*-----mixin's------*/
+/*@mixin button($br_radius:8px) {
+  font-family: $font_Segoe;
+  width: 170px;
+  height: 50px;
+  background: $bgr_col_bottom;
+  @include text();
+  font-weight: bold;
+  color: $bgr_color;
+  text-align: center;
+  border-radius: $br_radius;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}*/
 /*-----page------*/
-.header-wrapper {
+.header {
   width: 100%;
-  background: #FAFCFF;
-  position: fixed;
+  background: #FFFFFF;
+  opacity: 0.8;
+  position: sticky;
   top: 0;
-  z-index: 2; }
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  max-height: 120px; }
+  .header-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 36px 64px;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between; }
 
 .header-menu {
-  max-width: 1440px;
-  display: flex;
-  padding: 24px 10% 24px;
-  margin: 0 auto; }
+  font-family: "Roboto";
+  color: #535353;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  align-items: center;
+  font-size: 20px;
+  line-height: 13px;
+  letter-spacing: 0.04em; }
   .header-menu__logo {
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 48px;
-    color: #4579CBFF;
-    cursor: pointer;
-    text-decoration: none;
-    transition: text-shadow 2s, color 1s;
-    box-sizing: border-box; }
-    .header-menu__logo:hover {
-      text-shadow: 2px 2px 10px #4579CBFF;
-      color: white; }
+    width: 49px;
+    height: 48px;
+    margin-right: 33px; }
 
 .menu {
   display: flex;
-  justify-content: flex-end;
-  width: 100%;
   align-items: center; }
-  .menu ul {
+  .menu-wrapper {
     display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    list-style-type: none;
-    gap: 5%;
-    padding: 0 5%; }
-
-.menu-link {
-  font-family: "Segoe UI";
-  color: #666666;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 24px;
-  font-weight: bold; }
-  .menu-link a {
-    text-decoration: none; }
-  .menu-link:hover {
-    transform: translateX(1px);
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #4579CBFF, 0 0 30px #4579CBFF;
-    cursor: pointer;
-    color: darkmagenta; }
-
-.btn {
-  font-family: "Segoe UI";
-  width: 170px;
-  height: 50px;
-  background: #4579CBFF;
-  font-family: "Segoe UI";
-  color: #666666;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 24px;
-  font-weight: bold;
-  color: #FAFCFF;
-  text-align: center;
-  border-radius: 8px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  transition: color 0.2s, background-color 0.2s; }
-  .btn:active {
-    left: 1px;
-    top: 1px; }
-  .btn:hover {
-    color: #4579CBFF;
-    background-color: white;
-    border: 1px solid #4579CBFF; }
-
-.main-top {
-  max-width: 1440px;
-  margin: 0 auto; }
-  .main-top .wrapper {
-    background: url("../img/Union.png") 0 20ch/contain no-repeat; }
-
-.main-wrapper {
-  background-color: #FAFCFF;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.main-top-text {
-  max-width: 1046px;
-  min-height: 234px;
-  margin: 0 auto;
-  padding-top: 140px; }
-  .main-top-text__title {
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 56px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    font-weight: bold;
-    line-height: 78px;
-    text-align: center;
-    letter-spacing: 0.02em; }
-    .main-top-text__title span {
-      color: #4579CBFF; }
-  .main-top-text__text {
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    max-width: 825px;
-    margin: 0 auto;
-    text-align: center;
-    word-break: break-all;
-    padding-bottom: 38px; }
-  .main-top-text__text2 {
-    text-align: center; }
-  .main-top-text_btn {
-    margin: 0 auto; }
-
-.video {
-  text-align: center;
-  margin: 21px 0 117px; }
-  .video .lets-look {
-    font-family: "Segoe UI";
-    color: #666666;
+    gap: 50px;
+    position: relative; }
+  .menu-link {
+    font-family: "Roboto";
+    color: #535353;
     font-size: 14px;
     font-style: normal;
-    font-weight: normal;
-    line-height: 24px; }
-
-.tittle-h2 {
-  font-family: "Segoe UI";
-  color: #666666;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 24px;
-  font-weight: bold;
-  line-height: 48px;
-  text-align: center; }
-
-.header-text__text2 {
-  font-family: "Segoe UI";
-  color: #666666;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 24px;
-  text-align: center;
-  margin: 20px 0 0; }
-
-.partners {
-  display: flex;
-  justify-content: space-between;
-  padding: 46px 0 23px;
-  max-width: 1440px;
-  margin: 0 auto; }
-  .partners__img {
-    object-fit: contain;
-    transition: all 1s;
-    width: 100%; }
-    .partners__img:hover {
-      transform: scale(1.3); }
-
-.ellipse {
-  text-align: center;
-  padding-bottom: 114px;
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  cursor: pointer; }
-
-.scroll-ellipse {
-  width: 16px;
-  height: 16px;
-  background: #E6E6E6;
-  border-radius: 50%; }
-
-.scroll_active:hover .active {
-  width: 16px;
-  height: 16px;
-  background: #E6E6E6;
-  border-radius: 50%; }
+    font-weight: 400;
+    line-height: 13px;
+    align-items: center;
+    font-weight: 500;
+    list-style-type: none; }
+    .menu-link img {
+      padding-left: 10px;
+      margin: 0 auto; }
+  .menu .burger {
+    display: flex;
+    gap: 6px;
+    flex-direction: column; }
+  .menu .burger div {
+    width: 18px;
+    height: 2px;
+    background-color: #222222; }
 
 .active {
-  width: 20px;
-  height: 20px;
-  background: #4579CBFF; }
-
-.main {
-  max-width: 1440px;
-  margin: 0 auto; }
-
-.main-blog {
-  margin: 0 auto;
-  padding: 0 135px 120px 147px;
-  display: flex;
-  justify-content: space-between; }
-  .main-blog_row {
-    flex-direction: row-reverse; }
-  .main-blog__tittle {
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    font-weight: bold;
-    line-height: 48px; }
-  .main-blog__text {
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    line-height: 24px;
-    margin: 24px 0 30px;
-    max-width: 527px; }
-  .main-blog__img {
-    object-fit: contain;
-    transition: all 2s; }
-    .main-blog__img:hover {
-      transform: scale(1.1); }
-
-.blog-text {
-  max-width: 558px; }
-
-.bottom_img {
-  margin: 0 50px 0 -68px; }
-
-.top_img {
-  padding-left: 55px; }
-
-.main-marketing {
-  margin: 0 auto;
-  padding-bottom: 120px; }
-  .main-marketing__tittle {
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    font-weight: bold;
-    line-height: 48px;
-    text-align: center; }
-  .main-marketing__text {
-    max-width: 743px;
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    text-align: center;
-    margin: 0 auto;
-    padding: 24px 0 50px; }
-
-.wrapper-wont-block {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 30px;
-  margin: 0 135px; }
-
-.wont-block {
-  margin: 0 auto;
-  text-align: center;
-  background: #F6F7FD;
-  border-radius: 8px;
-  padding: 26px 11px 0;
-  transition: all 1s; }
-  .wont-block:hover {
-    transform: scale(1.1); }
-  .wont-block:hover .wont-block__img {
-    transform: scale(0.8); }
-  .wont-block__img {
-    transition: all 1s; }
-  .wont-block__tittle {
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    font-weight: bold;
-    line-height: 28px; }
-  .wont-block__text {
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px; }
-
-.director-wrapper {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 10% 120px; }
-
-.director-wrapper-img {
-  position: relative;
-  max-width: 470px;
-  max-height: 420px;
-  z-index: 1;
-  box-sizing: border-box; }
-  .director-wrapper-img:hover .director-wrapper-img__question {
-    transform: scale(1.5); }
-  .director-wrapper-img:hover .director-wrapper-img__photo {
-    transform: scale(1.1); }
-  .director-wrapper-img__photo {
-    transition: all 2s; }
-  .director-wrapper-img__points {
-    position: absolute;
-    z-index: -1;
-    left: -25%;
-    top: 35%; }
-  .director-wrapper-img__question {
-    position: absolute;
-    top: 12%;
-    right: 2%;
-    transition: all 2s; }
-
-.director-block {
-  padding-left: 100px; }
-  .director-block__name {
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    font-weight: bold; }
-  .director-block__post {
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px; }
-  .director-block__commit {
-    max-width: 547px;
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    font-weight: bold;
-    line-height: 28px; }
-
-.scroll-wrapper {
-  display: flex;
-  gap: 30px; }
-
-.director-scroll {
-  width: 70px;
-  height: 40px;
-  border-radius: 4px;
-  position: relative;
-  transition: all 1s; }
-  .director-scroll:active {
-    left: 1px;
-    top: 1px; }
-  .director-scroll:hover {
-    background-color: #E6E6E6;
-    border: none;
-    transform: scale(0.9); }
-
-.our-cam {
-  margin: 0 auto;
-  text-align: center;
-  padding: 0 135px 100px; }
-  .our-cam__tittle {
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    font-weight: bold;
-    line-height: 48px; }
-  .our-cam__text {
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    padding: 24px 0 31px; }
-
-.video-block {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-  transition: all 2s;
-  padding-bottom: 100px; }
-
-.video-1, .video-2 {
-  position: relative;
-  overflow: hidden;
-  border-radius: 30px; }
-  .video-1:hover .ground, .video-2:hover .ground {
-    transform: translateX(-500px); }
-  .video-1:hover .circle, .video-2:hover .circle {
-    transform: scale(1.1);
-    opacity: 0.8; }
-  .video-1:hover .arrow-video, .video-2:hover .arrow-video {
-    transform: scale(1.2); }
-  .video-1:hover .video-1__img, .video-2:hover .video-1__img {
-    transform: scale(1.2); }
-
-.video-1__img {
-  position: relative;
-  transition: all 1s;
-  width: 100%; }
-
-.ground {
+  width: 64px;
+  height: 2px;
+  background-color: #222222;
   position: absolute;
-  left: 0;
-  top: 0;
-  transition: all 1s; }
-
-.circle-wrapper {
-  object-fit: contain;
-  box-sizing: border-box;
-  position: absolute;
-  left: 39%;
-  top: 30%; }
-
-.circle {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  background-color: #E6E6E6;
-  opacity: 0.5;
-  left: 40%;
-  top: 30%;
-  transition: all 0.5s;
-  cursor: pointer; }
-
-.arrow-video {
-  position: absolute;
-  left: 35%;
-  top: 29%;
-  transition: all 0.5s;
-  cursor: pointer; }
-
-.asked {
-  padding: 0 134px;
-  text-align: center;
-  background: white; }
-  .asked__tittle {
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    font-weight: bold;
-    line-height: 48px; }
-  .asked__text {
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    padding: 24px 0 52px;
-    max-width: 888px;
-    margin: 0 auto; }
-
-.award-wrapper {
-  margin: 0 auto;
-  max-width: 875px;
+  margin-top: 20px;
   text-align: center; }
 
-.asked-menu {
-  max-width: 1140px;
+.main-wrapper {
+  width: 100%; }
+
+.main-top {
   margin: 0 auto;
-  display: grid;
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 30px;
-  padding-bottom: 110px; }
-
-.asked-menu-block {
-  margin: 0;
-  max-width: 570px;
-  height: 70px;
-  list-style-type: none;
-  border: 1px solid #CACACA;
-  box-sizing: border-box;
-  border-radius: 10px;
-  padding-left: 0;
-  cursor: pointer;
-  position: relative;
-  transition: all 0.3s cubic-bezier(0.42, 0, 1, 1);
-  /*  & ol li:hover .asked-menu-block__link {
-      -webkit-transform: scaleY(1);
-      -ms-transform: scaleY(1);
-      transform: scaleY(1);
-      z-index: 1;
-    }*/ }
-  .asked-menu-block .asked-menu-block__link {
-    margin: 0;
-    min-height: 70px;
-    list-style-type: none;
-    box-sizing: border-box;
-    padding-left: 0;
-    cursor: pointer;
-    position: absolute;
-    left: -3px;
-    width: 101%;
-    z-index: 9;
-    transition: 0.5s ease-in-out;
-    transform: scaleY(0);
-    transform-origin: 0 0;
-    bottom: -155px;
-    background-color: #fff;
-    border: 1px solid #CACACA;
-    border-radius: 10px; }
-    .asked-menu-block .asked-menu-block__link li {
-      border-bottom: 1px solid #CACACA; }
-      .asked-menu-block .asked-menu-block__link li a {
-        line-height: 50px; }
-      .asked-menu-block .asked-menu-block__link li:hover {
-        background-color: #e7e7e7;
-        background-size: cover;
-        border-radius: 10px; }
-  .asked-menu-block:hover .asked-menu-block__link {
-    transform: scaleY(1); }
-  .asked-menu-block:hover .arrow-quastion {
-    transform: rotateZ(180deg);
-    color: #FAFCFF; }
-  .asked-menu-block:hover span {
-    content: "-"; }
-  .asked-menu-block:hover {
-    background: #e7e7e7; }
-  .asked-menu-block__quastion {
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    font-weight: bold; }
-
-.arrow-quastion {
-  transition: all 1s; }
-
-.asked-menu-block-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 23px 27px;
-  font-family: "Segoe UI";
-  color: #666666;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 24px;
-  font-weight: bold;
-  color: #8C8C8C; }
-  .asked-menu-block-wrapper a {
-    pointer-events: none;
-    text-decoration: none;
-    display: block;
-    transition: .5s linear; }
-
-.award-item {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 0 34px 55px; }
-  .award-item-wrapper {
-    width: 170px;
-    height: 239px;
-    box-shadow: 5px 10px 10px rgba(254, 241, 241, 0.5);
-    object-fit: contain;
-    text-align: center;
-    transition: all 1s; }
-    .award-item-wrapper_padding {
-      padding: 15px; }
-    .award-item-wrapper:hover {
-      transform: scale(1.1); }
-  .award-item__year {
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    font-weight: bold;
-    line-height: 28px;
-    color: #4579CBFF; }
-  .award-item__text {
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    line-height: 18px; }
-  .award-item__img {
-    object-fit: contain; }
-
-.award {
-  background: white;
-  padding-bottom: 6px; }
-  .award__tittle {
-    margin: 0;
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    font-weight: bold;
-    line-height: 48px; }
-  .award__text {
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    padding: 24px 0 55px; }
-
-.sub-main {
-  background-color: white; }
-
-.sub {
-  margin: 0 auto;
-  text-align: center;
-  max-width: 770px; }
-  .sub__tittle {
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    font-weight: bold;
-    line-height: 48px; }
-  .sub__text {
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    padding: 24px 33px; }
-
-.mail {
-  position: relative;
-  padding-bottom: 80px; }
-  .mail input {
-    width: 770px;
-    height: 80px;
-    background: #E6E6E6;
-    padding-left: 34px;
-    border: none;
-    border-radius: 16px;
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px; }
-  .mail:valid {
-    background: url("../img/arrow-video.png");
-    background-size: 20px;
-    background-repeat: no-repeat;
-    background-position: 20px 20px; }
-  .mail ::-webkit-input-placeholder {
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    line-height: 28px; }
-
-.sub_btn {
-  position: absolute;
-  right: 2%;
-  top: 10%; }
-
-.input-btn {
-  border: none;
-  outline: none;
-  box-shadow: none; }
-
-.footer {
   width: 100%;
-  background-color: #4579CBFF; }
-
-.footer-wrapper {
+  padding-right: 28px;
   display: flex;
-  padding: 35px 210px 0 135px;
   max-width: 1440px;
-  margin: 0 auto; }
+  justify-content: flex-end;
+  position: relative; }
 
-.footer-logo_footer {
-  font-family: "Segoe UI";
-  color: #666666;
-  font-size: 26px;
+.header-h1 {
+  font-family: "Roboto";
+  color: #535353;
+  font-size: 180px;
   font-style: normal;
-  font-weight: normal;
-  line-height: 24px;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 48px;
-  color: white;
-  transition: all 2s; }
-  .footer-logo_footer:hover {
-    text-shadow: 2px 2px 2px white;
-    color: #4579CBFF; }
-.footer-logo__text {
-  padding: 31px 0 81px;
-  margin: 0;
-  max-width: 278px;
-  font-family: "Segoe UI";
-  color: #666666;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 24px;
-  color: white; }
+  font-weight: 400;
+  line-height: 13px;
+  align-items: center;
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 74px;
+  letter-spacing: 0.02em;
+  position: absolute;
+  left: 190px;
+  top: 50px; }
 
-.footer-nav {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding-left: 125px;
-  padding-top: 10px;
-  grid-gap: 40px; }
-  .footer-nav-block {
-    padding: 0; }
-  .footer-nav__h3 {
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 20px;
+.header-loft-1 {
+  max-width: 1030px;
+  max-height: 700px; }
+
+/*.header-menu {
+  max-width: 1440px;
+  display: flex;
+  padding: 24px 10% 24px;
+  margin: 0 auto;
+
+  &__logo {
+    @include text(36px);
     font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    font-weight: bold;
-    line-height: 28px;
-    color: white;
-    padding-bottom: 30px; }
-  .footer-nav-tittle {
-    list-style-type: none; }
-    .footer-nav-tittle ol {
-      padding-left: 0;
-      padding-top: 31px; }
-    .footer-nav-tittle_pad {
-      padding-left: 20px; }
-  .footer-nav__link {
+    font-weight: 800;
+    line-height: 48px;
+    color: $bgr_col_bottom;
+    cursor: pointer;
     text-decoration: none;
-    list-style-type: none;
-    font-family: "Segoe UI";
-    color: #666666;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    color: white;
-    padding: 8px 0; }
-    .footer-nav__link img {
-      padding-right: 16px; }
-  .footer-nav-social {
-    display: flex;
-    list-style-type: none;
-    padding-top: 32px;
-    gap: 18px;
-    padding-left: 20px; }
+    transition: text-shadow 2s, color 1s;
+    box-sizing: border-box;
 
-@media (max-width: 1350px) {
-  .footer-wrapper {
-    padding: 35px 150px 0 120px; }
+    &:hover {
+      //-webkit-text-stroke-width: 1px;
+      //-webkit-text-stroke-color: $bgr_col_bottom;
+      text-shadow: 2px 2px 10px $bgr_col_bottom;
+      color: $font_color;
 
-  .top_img {
-    padding-right: 20px; } }
-@media (max-width: 1225px) {
-  .header-menu {
-    padding: 24px 3% 24px; }
-
-  .main-blog {
-    padding: 0 10px 120px 60px; }
-    .main-blog__img {
-      width: 50%; }
-
-  .top_img {
-    margin-left: -30px;
-    padding-left: 0;
-    padding-right: 45px; }
-
-  .wrapper-wont-block {
-    grid-gap: 15px;
-    margin: 0 18px; }
-
-  .director-wrapper {
-    padding: 0 3% 120px; }
-
-  .our-cam {
-    padding: 0 25px; }
-
-  .asked {
-    padding: 0 50px; }
-
-  .award-item {
-    padding: 0 30px 55px; }
-    .award-item :nth-child(5n) ~ div {
-      display: none; }
-
-  .footer-wrapper {
-    padding: 35px 3% 0; } }
-@media (max-width: 990px) {
-  .main-top-text {
-    padding: 140px 20px 0; }
-
-  .director-wrapper {
-    flex-wrap: wrap; }
-
-  .director-wrapper-img {
-    margin: 0 auto; }
-
-  .director-block {
-    padding-top: 40px;
-    margin: 0 auto; }
-
-  .award-item {
-    justify-content: space-around; }
-    .award-item :nth-child(4n) ~ div {
-      display: none; }
-
-  .video-block {
-    flex-direction: column; }
-
-  .ground {
-    left: -100px;
-    width: 100%; }
-
-  .arrow-video {
-    left: 35%;
-    top: 30%; }
-
-  .circle {
-    top: 35%; }
-
-  .circle-wrapper {
-    top: 36%; }
-
-  .mail {
-    padding: 80px 20px;
-    display: flex;
-    justify-content: center; } }
-@media (max-width: 767.98px) {
-  .arrow-video {
-    left: 46%;
-    top: 37%; } }
+    }
+  }
+}*/
 
 /*# sourceMappingURL=style.css.map */

@@ -177,23 +177,48 @@ main{
   width: 322px;
   height: 440px;
   position: absolute;
-  left: 150px;
+  left: 115px;
   bottom: -108px;
 }
 
 .main-middle{
+  display: flex;
   max-width: 1440px;
+
   &-text-loft-1{
-    padding: 200px 0 0 95px;
+    padding: 200px 0 0 150px;
   }
   &-text-loft-1__link{
     list-style-image: url("/img/mark.png");
     @include text(16px);
     color: $text_color;
     padding-bottom: 40px;
+    padding-left: 14px;
   }
 }
-
+.video-block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  float: right;
+  flex-direction: column;
+  margin-left: 70px;
+  margin-top: 210px;
+}
+//.youtube-video{
+//  margin-top: 204px;
+//  margin-left: 70px;
+//}
+#myVideo {
+  width: 676px;
+  height: 388px;
+}
+.video-block-img{
+  position: absolute;
+  top: -105px;
+  right: 100px;
+}
 
 //@import "media";
 

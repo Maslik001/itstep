@@ -16,7 +16,7 @@ $black_color: #222222;
 /*-----mixin's------*/
 @mixin text($font-size:16px) {
   font-family: $font_Roboto;
-  color: $text_color;
+  color: $black_color;
   font-size: $font-size;
   font-style: normal;
   font-weight: 400;

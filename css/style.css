@@ -1,28 +1,11 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   text-decoration: none;
   box-sizing: border-box;
   -webkit-box-sizing: border-box; }
 
-/*-----переменные------*/
+/*-----var's------*/
 /*-----mixin's------*/
-/*@mixin button($br_radius:8px) {
-  font-family: $font_Segoe;
-  width: 170px;
-  height: 50px;
-  background: $bgr_col_bottom;
-  @include text();
-  font-weight: bold;
-  color: $bgr_color;
-  text-align: center;
-  border-radius: $br_radius;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}*/
 /*-----page------*/
 .header {
   width: 100%;
@@ -44,7 +27,7 @@
 
 .header-menu {
   font-family: "Roboto";
-  color: #535353;
+  color: #222222;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -67,7 +50,7 @@
     position: relative; }
   .menu-link {
     font-family: "Roboto";
-    color: #535353;
+    color: #222222;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -75,6 +58,14 @@
     align-items: center;
     font-weight: 500;
     list-style-type: none; }
+    .menu-link:hover .active-none {
+      display: block;
+      width: 74px;
+      height: 2px;
+      background-color: #222222;
+      position: absolute;
+      margin-top: 20px;
+      text-align: center; }
     .menu-link img {
       padding-left: 10px;
       margin: 0 auto; }
@@ -95,21 +86,46 @@
   margin-top: 20px;
   text-align: center; }
 
-.main-wrapper {
+main {
   width: 100%; }
 
+.main-wrapper {
+  max-width: 1440px;
+  margin: 0 auto; }
+
 .main-top {
-  margin: 0 auto;
   width: 100%;
   padding-right: 28px;
   display: flex;
-  max-width: 1440px;
   justify-content: flex-end;
   position: relative; }
 
+.arrow-main {
+  position: absolute;
+  display: inline-grid;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  bottom: -9%;
+  left: 47%;
+  grid-gap: 20px; }
+  .arrow-main img {
+    padding-top: 20px; }
+
+.arrow-main__text {
+  transform: rotate(-90deg);
+  font-family: "Roboto";
+  color: #222222;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  align-items: center;
+  font-weight: 900; }
+
 .header-h1 {
   font-family: "Roboto";
-  color: #535353;
+  color: #222222;
   font-size: 180px;
   font-style: normal;
   font-weight: 400;
@@ -127,31 +143,27 @@
   max-width: 1030px;
   max-height: 700px; }
 
-/*.header-menu {
-  max-width: 1440px;
-  display: flex;
-  padding: 24px 10% 24px;
-  margin: 0 auto;
+.window-img {
+  width: 322px;
+  height: 440px;
+  position: absolute;
+  left: 150px;
+  bottom: -108px; }
 
-  &__logo {
-    @include text(36px);
+.main-middle {
+  max-width: 1440px; }
+  .main-middle-text-loft-1 {
+    padding: 200px 0 0 200px; }
+  .main-middle-text-loft-1__link {
+    list-style-image: url("/img/mark.png");
+    font-family: "Roboto";
+    color: #222222;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 800;
-    line-height: 48px;
-    color: $bgr_col_bottom;
-    cursor: pointer;
-    text-decoration: none;
-    transition: text-shadow 2s, color 1s;
-    box-sizing: border-box;
-
-    &:hover {
-      //-webkit-text-stroke-width: 1px;
-      //-webkit-text-stroke-color: $bgr_col_bottom;
-      text-shadow: 2px 2px 10px $bgr_col_bottom;
-      color: $font_color;
-
-    }
-  }
-}*/
+    font-weight: 400;
+    line-height: 13px;
+    align-items: center;
+    color: #535353;
+    padding-bottom: 40px; }
 
 /*# sourceMappingURL=style.css.map */

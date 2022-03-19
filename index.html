@@ -14,52 +14,106 @@
 </head>
 <body>
 <header class="header">
-<div class="header-wrapper">
-    <div class="header-menu">
-        <a href="index.html"><img src="img/logo.png" alt="logo" class="header-menu__logo"></a>
-        <a href="index.html" class="header-menu__name">FREEDOM POLOTSK</a>
+    <div class="header-wrapper">
+        <div class="header-menu">
+            <a href="index.html"><img src="img/logo.png" alt="logo" class="header-menu__logo"></a>
+            <a href="index.html" class="header-menu__name">FREEDOM POLOTSK</a>
 
+        </div>
+        <nav class="menu">
+            <ul class="menu-wrapper">
+                <li class="menu-link"><a href="#">ГЛАВНАЯ</a>
+                    <div class="line active"></div>
+                </li>
+                <li class="menu-link"><a href="#">ЛОФТЫ<img src="img/arrow.png"></a>
+                    <div class="line active-none"></div>
+                </li>
+                <li class="menu-link"><a href="#">КОНТАКТЫ</a>
+                    <div class="line active-none"></div>
+                </li>
+                <li class="menu-link burger" href="#">
+                    <div></div>
+                    <div></div>
+                </li>
+            </ul>
+        </nav>
     </div>
-    <nav class="menu">
-        <ul class="menu-wrapper">
-            <li class="menu-link"><a href="#">ГЛАВНАЯ</a><div class="line active"></div></li>
-            <li class="menu-link"><a href="#">ЛОФТЫ<img src="img/arrow.png"></a><div class="line active-none"></div></li>
-            <li class="menu-link"><a href="#">КОНТАКТЫ</a><div class="line active-none"></div></li>
-            <li class="menu-link burger" href="#"><div></div><div></div></li>
-        </ul>
-    </nav>
-</div>
 </header>
 <main class="main">
-<div class="main-wrapper">
-    <section class="main-top">
-        <h1 class="header-h1">ЛОФТ 1</h1>
-        <div>
-        <img src="/img/header-loft-1.jpg" alt="header-loft-1" class="header-loft-1">
-            <div class="arrow-main">
-                <span class="arrow-main__text">ЛОФТ 1 </span>
-                <img src="img/Arrow-main.png"></div>
-        </div>
-        <img src="/img/window.png" alt="header-window" class="window-img">
-    </section>
-    <section class="main-middle">
-            <ul class="main-middle-text-loft-1">
-                <li class="main-middle-text-loft-1__link">Дом расположен в исторической части Полоцка</li>
-                <li class="main-middle-text-loft-1__link">Вид на реку Западная Двина из окна</li>
-                <li class="main-middle-text-loft-1__link">100 метров от Софийского собора</li>
-                <li class="main-middle-text-loft-1__link">Бесплатная частная парковка</li>
-                <li class="main-middle-text-loft-1__link">Тихий район</li>
-            </ul>
-<!--        <img src="/img/video-pic.png" alt="video-pic">-->
-        <div class="video-block">
-<!--        <iframe class="youtube-video" width="676" height="388" src="https://www.youtube.com/embed/KRrpktEb-Qo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-            <video autoplay muted loop id="myVideo">
-                <source src="/img/Video.mp4" type="video/mp4">
-            </video>
-            <img src="img/loft1-room1.png" alt="room1" class="video-block-img">
-        </div>
-    </section>
-</div>
+    <div class="main-wrapper">
+        <section class="main-top">
+            <h1 class="header-h1">ЛОФТ 1</h1>
+            <div>
+                <img src="/img/header-loft-1.jpg" alt="header-loft-1" class="header-loft-1">
+                <div class="arrow-main">
+                    <span class="arrow-main__text">ЛОФТ 1 </span>
+                    <img src="img/Arrow-main.png"></div>
+            </div>
+            <img src="/img/window.png" alt="header-window" class="window-img">
+        </section>
+        <section class="main-middle">
+            <div class="middle-wrapper">
+                <ul class="main-middle-text-loft-1">
+                    <li class="link__list">Дом расположен в исторической части Полоцка</li>
+                    <li class="link__list">Вид на реку Западная Двина из окна</li>
+                    <li class="link__list">100 метров от Софийского собора</li>
+                    <li class="link__list">Бесплатная частная парковка</li>
+                    <li class="link__list">Тихий район</li>
+                </ul>
+                <div class="mark-pic">
+                    <img class="img-kitchen" src="/img/loft1-kitchen.png" alt="kitchen-pic">
+                    <p class="text-marker loft-1-kitchen">ЛОФТ 1 </p>
+                </div>
+                <div class="main-middle-wrapper">
+                    <div class="video-block">
+                        <!--        <iframe class="youtube-video" width="676" height="388" src="https://www.youtube.com/embed/KRrpktEb-Qo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                        <video autoplay muted loop id="myVideo">
+                            <source src="/img/Video.mp4" type="video/mp4">
+                        </video>
+                        <div class="mark-pic">
+                            <img src="img/loft1-room1.png" alt="room1" class="video-block-img">
+                            <p class="text-marker loft1-room1__text-marker">ЛОФТ 1 </p></div>
+                    </div>
+
+                </div>
+            </div>
+            <!--        <img src="/img/video-pic.png" alt="video-pic">-->
+
+            <div class="kitchen-wrapper">
+                <div class="title-list">
+                    <div class="tittle-text">
+                        <img class="kitchen-wrapper__ico" src="/img/kitchen-ico.png" alt="kitchen-ico">
+                        <h2 class="tittle__h2">КУХНЯ
+                            <div class="active tittle-line"></div>
+                        </h2>
+                    </div>
+                    <ul>
+                        <li class="link__list">Кухонные принадлежности</li>
+                        <li class="link__list">Обеденный стол</li>
+                        <li class="link__list">Электрический чайник</li>
+                        <li class="link__list">Холодильник</li>
+                        <li class="link__list">Электрическая плита</li>
+                        <li class="link__list">Стиральная машина</li>
+                        <li class="link__list">Чистящие средства</li>
+                        <li class="link__list">Посудомоечная машина</li>
+                        <li class="link__list">Микроволновая печь</li>
+                    </ul>
+                </div>
+                <img class="kitchen-wrapper-img" src="img/kitchen-2.png" title="kitchen-2">
+            </div>
+            <div class="bedroom">
+                <div class="first-images">
+                    <img class="bedroom-images" src="img/bedroom-loft1-img1.png">
+                    <div class="mark-pic">
+                        <img src="img/bedroom-loft1-img2.png" alt="room1" class="bedroom-img2">
+                        <p class="text-marker loft1-room1__text-marker">ЛОФТ 1 </p></div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
 </main>
 <footer class="footer">
 </footer>

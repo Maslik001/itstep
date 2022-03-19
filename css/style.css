@@ -152,21 +152,43 @@ main {
 
 .main-middle {
   display: flex;
-  max-width: 1440px; }
+  max-width: 1440px;
+  justify-content: space-between;
+  padding: 0 115px;
+  margin-bottom: 120px;
+  flex-direction: column; }
   .main-middle-text-loft-1 {
-    padding: 200px 0 0 150px; }
-  .main-middle-text-loft-1__link {
-    list-style-image: url("/img/mark.png");
-    font-family: "Roboto";
-    color: #222222;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 13px;
-    align-items: center;
-    color: #535353;
-    padding-bottom: 40px;
-    padding-left: 14px; }
+    margin-top: 200px;
+    padding-bottom: 94px; }
+
+.link__list {
+  list-style-image: url("/img/mark.png");
+  font-family: "Roboto";
+  color: #222222;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  align-items: center;
+  color: #535353;
+  padding-top: 40px;
+  padding-left: 14px; }
+
+.middle-wrapper {
+  display: flex;
+  position: relative;
+  justify-content: space-between; }
+  .middle-wrapper .mark-pic {
+    position: absolute;
+    bottom: -215px; }
+  .middle-wrapper .loft-1-kitchen {
+    top: 0;
+    right: -40px; }
+
+.main-middle-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative; }
 
 .video-block {
   display: flex;
@@ -175,16 +197,88 @@ main {
   position: relative;
   float: right;
   flex-direction: column;
-  margin-left: 70px;
-  margin-top: 210px; }
+  margin-top: 235px;
+  padding-bottom: 115px; }
+  .video-block .mark-pic {
+    position: absolute;
+    right: 0;
+    top: 0; }
+  .video-block .loft1-room1__text-marker {
+    right: 60px;
+    top: -105px; }
+
+.img-kitchen {
+  max-width: 236px;
+  max-height: 364px; }
+
+.text-marker {
+  position: absolute;
+  transform: rotate(-90deg);
+  font-family: "Roboto";
+  color: #222222;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  align-items: center;
+  font-weight: 800; }
 
 #myVideo {
   width: 676px;
   height: 388px; }
 
 .video-block-img {
-  position: absolute;
+  position: relative;
   top: -105px;
   right: 100px; }
+
+.kitchen-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  position: relative; }
+
+.tittle-text {
+  display: flex;
+  gap: 36px;
+  align-items: end; }
+
+.title-list {
+  padding-bottom: 90px; }
+
+.kitchen-wrapper__ico {
+  max-width: 48px;
+  max-height: 48px; }
+
+.kitchen-wrapper-img {
+  max-width: 354px;
+  max-height: 500px;
+  margin-left: 170px; }
+
+.tittle__h2 {
+  font-family: "Roboto";
+  color: #222222;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  align-items: center;
+  font-weight: 700;
+  letter-spacing: 0.02em; }
+
+.tittle-line {
+  width: 44px;
+  height: 4px; }
+
+.bedroom {
+  margin-top: 32px; }
+  .bedroom .bedroom-images {
+    position: relative; }
+  .bedroom .first-images {
+    position: relative; }
+  .bedroom .bedroom-img2 {
+    position: absolute;
+    bottom: -75px;
+    left: 555px; }
 
 /*# sourceMappingURL=style.css.map */

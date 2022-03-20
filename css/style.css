@@ -152,10 +152,9 @@ main {
 
 .main-middle {
   display: flex;
-  max-width: 1440px;
   justify-content: space-between;
   padding: 0 115px;
-  margin-bottom: 120px;
+  margin-bottom: 130px;
   flex-direction: column; }
   .main-middle-text-loft-1 {
     margin-top: 200px;
@@ -271,14 +270,60 @@ main {
   height: 4px; }
 
 .bedroom {
-  margin-top: 32px; }
+  margin-top: 30px; }
   .bedroom .bedroom-images {
     position: relative; }
   .bedroom .first-images {
     position: relative; }
-  .bedroom .bedroom-img2 {
+  .bedroom .mark-pic {
+    display: flex;
     position: absolute;
     bottom: -75px;
     left: 555px; }
+  .bedroom .text-marker {
+    right: -40px; }
+
+.salon {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 115px;
+  margin-bottom: 130px;
+  flex-direction: column; }
+  .salon .salon_right-img {
+    position: absolute;
+    display: inline-flex;
+    right: 40px;
+    top: 225px; }
+  .salon .text-marker {
+    left: -40px; }
+  .salon .salon__text-marker {
+    left: 240px;
+    top: 0; }
+  .salon .title-list {
+    padding-top: 60px;
+    float: right; }
+
+.salon-wrapper {
+  display: flex;
+  max-height: 725px;
+  gap: 124px;
+  position: relative; }
+
+.bathroom {
+  padding-top: 30px; }
+  .bathroom-images {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    padding-left: 80px;
+    padding-top: 140px; }
+  .bathroom .salon__text-marker {
+    left: 210px; }
+  .bathroom-images-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between; }
+    .bathroom-images-wrapper .title-list {
+      padding-top: 85px; }
 
 /*# sourceMappingURL=style.css.map */

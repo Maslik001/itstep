@@ -324,6 +324,7 @@ main {
     display: flex;
     justify-content: space-between; }
     .bathroom-images-wrapper .title-list {
-      padding-top: 85px; }
+      padding-top: 85px;
+      padding-right: 65px; }
 
 /*# sourceMappingURL=style.css.map */

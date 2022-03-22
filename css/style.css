@@ -84,7 +84,9 @@
   margin: 0;
   padding: 0;
   display: none;
-  position: absolute; }
+  position: absolute;
+  width: 91px;
+  height: 177px; }
   .menu-link-submenu :hover {
     display: flex; }
 

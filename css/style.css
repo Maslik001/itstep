@@ -9,7 +9,7 @@
 /*-----page------*/
 .header {
   width: 100%;
-  background: #FFFFFF;
+  background: rgba(255, 255, 255, 0.9);
   opacity: 0.8;
   position: sticky;
   top: 0;
@@ -57,7 +57,8 @@
     line-height: 13px;
     align-items: center;
     font-weight: 500;
-    list-style-type: none; }
+    list-style-type: none;
+    position: relative; }
     .menu-link:hover .active-none {
       display: block;
       width: 74px;
@@ -77,6 +78,15 @@
     width: 18px;
     height: 2px;
     background-color: #222222; }
+
+.menu-link-submenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+  position: absolute; }
+  .menu-link-submenu :hover {
+    display: flex; }
 
 .active {
   width: 64px;
@@ -144,8 +154,8 @@ main {
   max-height: 700px; }
 
 .window-img {
-  width: 322px;
-  height: 440px;
+  max-width: 322px;
+  max-height: 440px;
   position: absolute;
   left: 115px;
   bottom: -108px; }
@@ -287,7 +297,7 @@ main {
   display: flex;
   justify-content: space-between;
   padding: 0 115px;
-  margin-bottom: 130px;
+  margin-bottom: 115px;
   flex-direction: column; }
   .salon .salon_right-img {
     position: absolute;
@@ -326,5 +336,105 @@ main {
     .bathroom-images-wrapper .title-list {
       padding-top: 85px;
       padding-right: 65px; }
+
+.footer {
+  background-color: #222222;
+  width: 100%; }
+
+.footer-wrapper {
+  max-width: 1440px;
+  padding: 80px 115px 85px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; }
+
+.footer-menu__name {
+  font-family: "Roboto";
+  color: #222222;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.9);
+  padding-left: 30px; }
+
+.footer-menu-log {
+  padding-bottom: 80px; }
+
+.footer-nav-link {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  list-style-type: none;
+  font-family: "Roboto";
+  color: #222222;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  align-items: center;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 0;
+  margin: 0;
+  align-items: flex-start; }
+
+.massagers {
+  display: flex;
+  gap: 70px; }
+
+.address {
+  display: flex;
+  padding-top: 80px;
+  gap: 23px; }
+
+.address p {
+  font-family: "Roboto";
+  color: #222222;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.9); }
+
+.phone-number {
+  font-family: "Roboto";
+  color: #222222;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  align-items: center;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 47px; }
+
+.phone-number a {
+  padding-left: 30px; }
+
+.mobile {
+  padding-top: 80px; }
+
+.footer-bottom {
+  margin: 0 auto;
+  display: flex; }
+
+.rights {
+  max-width: 1440px;
+  padding: 80px 115px 85px;
+  margin: 0;
+  font-family: "Roboto";
+  color: #222222;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.4); }
 
 /*# sourceMappingURL=style.css.map */

@@ -9,8 +9,9 @@
 /*-----var's------*/
 $font_Roboto: "Roboto";
 $text_color: #535353;
-$bg_color: #FFFFFF;
+$bg_color: rgba(255, 255, 255, 0.9);;
 $black_color: #222222;
+
 
 /*-----mixin's------*/
 @mixin text($font-size:16px) {
@@ -74,6 +75,7 @@ $black_color: #222222;
     @include text(14px);
     font-weight: 500;
     list-style-type: none;
+    position: relative;
 
     &:hover {
       .active-none {
@@ -110,6 +112,17 @@ $black_color: #222222;
 
   }
 }
+.menu-link-submenu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+  position: absolute;
+  :hover{
+    display: flex;
+  }
+}
+
 
 .active {
   width: 64px;
@@ -175,8 +188,8 @@ main {
 }
 
 .window-img {
-  width: 322px;
-  height: 440px;
+  max-width: 322px;
+  max-height: 440px;
   position: absolute;
   left: 115px;
   bottom: -108px;
@@ -341,7 +354,7 @@ main {
   display: flex;
   justify-content: space-between;
   padding: 0 115px;
-  margin-bottom: 130px;
+  margin-bottom: 115px;
   flex-direction: column;
   .salon_right-img{
     position: absolute;
@@ -392,6 +405,80 @@ main {
 
 }
 
+.footer{
+  background-color: $black_color;
+  width: 100%;
+}
+.footer-wrapper{
+  max-width: 1440px;
+  padding: 80px 115px 85px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-menu{
+  &__name{
+    @include text(20px);
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.04em;
+    color: $bg_color;
+    padding-left: 30px;
+  }
+}
+.footer-menu-log{
+  padding-bottom: 80px;
+}
+.footer-nav-link{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  list-style-type: none;
+  @include text(14px);
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 0;
+  margin: 0;
+  align-items: flex-start;
+}
+
+.massagers{
+  display: flex;
+  gap: 70px;
+}
+.address{
+  display: flex;
+  padding-top: 80px;
+  gap: 23px;
+}
+.address p{
+  @include text(16px);
+  color: $bg_color;
+}
+
+.phone-number{
+  @include text(36px);
+  font-weight: 300;
+  color: $bg_color;
+  margin-bottom: 47px;
+}
+.phone-number a {
+  padding-left: 30px;
+}
+.mobile{
+  padding-top: 80px;
+}
+.footer-bottom{
+  margin: 0 auto;
+  display: flex;
+}
+.rights{
+  max-width: 1440px;
+  padding: 80px 115px 85px;
+  margin: 0;
+  @include text(14px);
+  color: rgba(255, 255, 255, 0.4);
+}
 
 //@import "media";
 

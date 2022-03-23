@@ -1,10 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FREEDOM POLOTSK</title>
+    <script src="https://kit.fontawesome.com/f09d84fea0.js" crossorigin="anonymous">
+    </script>
 </head>
 <body>
-$END$
+<header class="header">
+    <div class="header-wrapper" name="top">
+        <div class="header-menu">
+            <a href="index.html"><img src="img/logo.png" alt="logo" class="header-menu__logo"></a>
+            <a href="index.html" class="header-menu__name">FREEDOM POLOTSK</a>
+        </div>
+        <nav class="menu">
+            <ul class="menu-wrapper">
+                <li class="menu-link"><a href="#">ГЛАВНАЯ</a>
+                    <div class="line active"></div>
+                </li>
+                <li class="menu-link menu-link-act"><a href="#">ЛОФТЫ<img src="img/arrow.png"></a>
+                    <div class="line"></div>
+                    <ul class="menu-link-submenu">
+                        <li><a href="index.html">ЛОФТ 1</a></li>
+                        <li><a href="LOFT_2.html">ЛОФТ 2</a></li>
+                        <li><a href="LOFT_3.html">ЛОФТ 3</a></li>
+                        <li><a href="">ЛОФТ 4</a></li>
+                    </ul>
+                </li>
+                <li class="menu-link"><a href="#contact">КОНТАКТЫ</a>
+                    <div class="line"></div>
+                </li>
+                <li class="menu-link burger" href="#">
+                    <div></div>
+                    <div></div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main class="main">
+    <div class="main-wrapper">
+        <section class="main-top">
+            <h1 class="header-h1">ЛОФТ 1</h1>
+            <div>
+                <img src="img/loft_1/header-loft-1.jpg" alt="header-loft-1" class="header-loft-1">
+                <div class="arrow-main">
+                    <span class="arrow-main__text">ЛОФТ 1 </span>
+                    <img src="img/Arrow-main.png"></div>
+                <img src="img/loft_1/window.jpg" alt="header-window" class="window-img">
+            </div>
+
+        </section>
+        <section class="main-middle">
+            <div class="middle-wrapper">
+                <ul class="main-middle-text-loft-1">
+                    <li class="link__list">Дом расположен в исторической части Полоцка</li>
+                    <li class="link__list">Вид на реку Западная Двина из окна</li>
+                    <li class="link__list">100 метров от Софийского собора</li>
+                    <li class="link__list">Бесплатная частная парковка</li>
+                    <li class="link__list">Тихий район</li>
+                </ul>
+                <div class="mark-pic">
+                    <img class="img-kitchen" src="img/loft_1/loft1-kitchen.jpg" alt="kitchen-pic">
+                    <p class="text-marker loft-1-kitchen">ЛОФТ 1 </p>
+                </div>
+                <div class="main-middle-wrapper">
+                    <div class="video-block">
+                        <!--        <iframe class="youtube-video" width="676" height="388" src="https://www.youtube.com/embed/KRrpktEb-Qo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                        <video autoplay muted loop id="myVideo">
+                            <source src="img/Video.mp4" type="video/mp4">
+                        </video>
+                        <div class="mark-pic">
+                            <img src="img/loft_1/loft1-room1.jpg" alt="room1" class="video-block-img">
+                            <p class="text-marker loft1-room1__text-marker">ЛОФТ 1 </p></div>
+                    </div>
+
+                </div>
+            </div>
+            <!--        <img src="/img/video-pic.png" alt="video-pic">-->
+
+            <div class="kitchen-wrapper">
+                <div class="title-list">
+                    <div class="tittle-text">
+                        <img class="kitchen-wrapper__ico" src="img/kitchen-ico.png" alt="kitchen-ico">
+                        <h2 class="tittle__h2">КУХНЯ
+                            <div class="active tittle-line"></div>
+                        </h2>
+                    </div>
+                    <ul>
+                        <li class="link__list">Кухонные принадлежности</li>
+                        <li class="link__list">Обеденный стол</li>
+                        <li class="link__list">Электрический чайник</li>
+                        <li class="link__list">Холодильник</li>
+                        <li class="link__list">Электрическая плита</li>
+                        <li class="link__list">Стиральная машина</li>
+                        <li class="link__list">Чистящие средства</li>
+                        <li class="link__list">Посудомоечная машина</li>
+                        <li class="link__list">Микроволновая печь</li>
+                    </ul>
+                </div>
+                <img class="kitchen-wrapper-img" src="/img/loft_1/kitchen-2.jpg" title="kitchen-2">
+            </div>
+            <div class="bedroom">
+                <div class="first-images">
+                    <img class="bedroom-images" src="/img/loft_1/bedroom-loft1-img1.jpg">
+                    <div class="mark-pic">
+                        <img src="/img/loft_1/bedroom-loft1-img2.jpg" alt="room1" class="bedroom-img2">
+                        <p class="text-marker loft1-room1__text-marker">ЛОФТ 1 </p></div>
+                </div>
+            </div>
+
+
+        </section>
+        <section class="salon">
+            <div class="salon-wrapper">
+                <div class="mark-pic">
+                    <img src="img/loft_1/bedroom-loft1-img3.jpg" alt="salon" class="salon-img1">
+                    <p class="text-marker salon__text-marker">ЛОФТ 1 </p>
+                </div>
+                <div class="title-list">
+                    <div class="tittle-text">
+                        <img class="salon__ico" src="/img/salon-ico.png" alt="salon-ico">
+                        <h2 class="tittle__h2">СПАЛЬНЯ И ГОСТИНАЯ
+                            <div class="active tittle-line"></div>
+                        </h2>
+                    </div>
+                    <ul>
+                        <li class="link__list">Обеденный угол и рабочая зона</li>
+                        <li class="link__list">Бесплатный Wi-Fi</li>
+                        <li class="link__list">Розетка около кровати</li>
+                        <li class="link__list">Шкаф</li>
+                        <li class="link__list">Вешалка для одежды</li>
+                        <li class="link__list">Телевизор</li>
+                        <li class="link__list">Постельное белье</li>
+                        <li class="link__list">Диван</li>
+                        <li class="link__list">Гладильные принадлежности</li>
+                        <li class="link__list">Утюг</li>
+                    </ul>
+                </div>
+                <div class="mark-pic salon_right-img">
+                    <img src="img/loft_1/bedroom-loft1-img4.jpg" alt="salon" class="salon-img2">
+                    <p class="text-marker loft1-room1__text-marker">ЛОФТ 1 </p>
+                </div>
+            </div>
+            <div class="bathroom">
+                <div class="bathroom-images-wrapper">
+                    <div class="mark-pic">
+                        <img src="img/loft_1/bathroom1-loft1.jpg" alt="bathroom-img1" class="bathroom-img1">
+                        <p class="text-marker salon__text-marker">ЛОФТ 1 </p>
+                    </div>
+                    <img class="bathroom-images" src="img/loft_1/bathroom2-loft1.jpg">
+                    <div class="title-list">
+                        <div class="tittle-text">
+                            <img class="salon__ico" src="/img/bathroom-ico.png" alt="salon-ico">
+                            <h2 class="tittle__h2">ВАННАЯ КОМНАТА
+                                <div class="active tittle-line"></div>
+                            </h2>
+                        </div>
+                        <ul>
+                            <li class="link__list">Туалетно-косметичекие пренадлежности</li>
+                            <li class="link__list">Туалетная бумага</li>
+                            <li class="link__list">Полотенца</li>
+                            <li class="link__list">Фен</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+    </div>
+</main>
+<footer class="footer">
+    <div class="footer-wrapper">
+        <div class="footer-menu">
+            <div class="footer-menu-log">
+                <a href="index.html"><img src="img/footer-logo.png" alt="logo" class="footer-menu__logo"></a>
+                <a href="index.html" class="footer-menu__name">FREEDOM POLOTSK</a>
+            </div>
+            <nav class="footer-nav">
+                <ul class="footer-nav-link">
+                    <li><a href="" class="main-top-footer">ГЛАВНАЯ</a></li>
+                    <li><a href="">ЛОФТ 1</a></li>
+                    <li><a href="">ЛОФТ 2</a></li>
+                    <li><a href="">ЛОФТ 3</a></li>
+                    <li><a href="">ЛОФТ 4</a></li>
+                    <li><a href="">КОНТАКТЫ</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="contacts">
+            <div class="massagers">
+                <a id="contact" href="#"><img src="img/telegram-ico.png" alt="telegram"></a>
+                <a href="#"><img src="img/instagram-ico.png" alt="instagram"></a>
+                <a href="#"><img src="img/kufar-ico.png" alt="kufar"></a>
+                <a href="#"><img src="img/airbnb-ico.png" alt="airbnb"></a>
+                <a href="#"><img src="img/booking-ico.png" alt="booking"></a>
+            </div>
+            <address class="address">
+                <a href="#"><img src="img/map-logo.png" alt="booking"></a><a
+                    href="https://www.google.com/maps/place/%D0%9D%D0%B8%D0%B6%D0%BD%D0%B5-%D0%9F%D0%BE%D0%BA%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D1%83%D0%BB%D0%B8%D1%86%D0%B0+17,+%D0%9F%D0%BE%D0%BB%D0%BE%D1%86%D0%BA/@55.4847601,28.7631584,19z/data=!4m13!1m7!3m6!1s0x46c491e0f50eaccb:0x8b8aec7de3651d93!2z0J3QuNC20L3QtS3Qn9C-0LrRgNC-0LLRgdC60LDRjyDRg9C70LjRhtCwIDE3LCDQn9C-0LvQvtGG0Lo!3b1!8m2!3d55.4847601!4d28.7637056!3m4!1s0x46c491e0f50eaccb:0x8b8aec7de3651d93!8m2!3d55.4847601!4d28.7637056"
+                    target="_blank"><p>Витебская область, г. Полоцк, ул. Нижне-Покровская 17</p>
+            </a>
+            </address>
+            <div class="mobile">
+                <p class="phone-number"><img src="img/mobile.png"><a href="tel:+375296109863"></a>+375 (29) 610 98 63
+                </p>
+                <p class="phone-number"><img src="img/mobile.png"><a href="tel:+375292150099"></a>+375 (29) 215 00 99
+                </p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <a href="#top"><img class="footer-bottom" src="img/Arrow-bottom.png"></a>
+    </div>
+    <p class="rights">УНП 391963004 ИП Арсоба И.В. &copy; 2022 </p>
+
+</footer>
+
 </body>
 </html>

@@ -41,9 +41,14 @@
     height: 48px;
     margin-right: 33px; }
 
+.menu-link-act:hover .menu-link-submenu {
+  display: block;
+  text-align: center; }
+
 .menu {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  position: relative; }
   .menu-wrapper {
     display: flex;
     gap: 50px;
@@ -81,14 +86,23 @@
 
 .menu-link-submenu {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   display: none;
   position: absolute;
-  width: 91px;
-  height: 177px; }
-  .menu-link-submenu :hover {
-    display: flex; }
+  background-color: #f1f1f1;
+  min-width: 90px;
+  max-height: 175px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+  padding-left: 0; }
+
+.menu-link-submenu a {
+  color: black;
+  padding: 12px 0;
+  text-decoration: none;
+  display: block; }
+  .menu-link-submenu a:hover {
+    background-color: #222222;
+    color: white; }
 
 .active {
   width: 64px;
@@ -151,13 +165,15 @@ main {
   left: 190px;
   top: 50px; }
 
-.header-loft-1 {
-  max-width: 1030px;
-  max-height: 700px; }
+.header-loft {
+  object-fit: contain;
+  width: 100%; }
 
 .window-img {
   max-width: 322px;
   max-height: 440px;
+  object-fit: contain;
+  width: 100%;
   position: absolute;
   left: 115px;
   bottom: -108px; }
@@ -304,7 +320,7 @@ main {
   .salon .salon_right-img {
     position: absolute;
     display: inline-flex;
-    right: 40px;
+    right: 0;
     top: 225px; }
   .salon .text-marker {
     left: -40px; }
@@ -318,7 +334,7 @@ main {
 .salon-wrapper {
   display: flex;
   max-height: 725px;
-  gap: 124px;
+  gap: 165px;
   position: relative; }
 
 .bathroom {
@@ -338,6 +354,24 @@ main {
     .bathroom-images-wrapper .title-list {
       padding-top: 85px;
       padding-right: 65px; }
+
+.sauna {
+  position: relative;
+  margin: 0 auto;
+  padding: 80px 0px 125px;
+  margin-left: 24%; }
+  .sauna .sauna-up {
+    position: absolute;
+    right: -32%;
+    top: -10%; }
+  .sauna .sauna-down {
+    position: absolute;
+    bottom: 0;
+    left: -43%;
+    z-index: -1; }
+  .sauna .text-marker {
+    left: -40px;
+    top: 13%; }
 
 .footer {
   background-color: #222222;
@@ -437,6 +471,7 @@ main {
   font-weight: 400;
   line-height: 13px;
   align-items: center;
-  color: rgba(255, 255, 255, 0.4); }
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */

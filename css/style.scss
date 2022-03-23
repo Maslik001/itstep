@@ -60,10 +60,16 @@ $black_color: #222222;
     margin-right: 33px;
   }
 }
-
+.menu-link-act{
+  &:hover .menu-link-submenu{
+    display: block;
+    text-align: center;
+  }
+}
 .menu {
   display: flex;
   align-items: center;
+  position: relative;
 
   &-wrapper {
     display: flex;
@@ -86,9 +92,6 @@ $black_color: #222222;
         position: absolute;
         margin-top: 20px;
         text-align: center;
-        //.active {       --------- вернуться позже - доделать!!!
-        //  display: none;
-        //}
       }
     }
 
@@ -114,18 +117,25 @@ $black_color: #222222;
 }
 .menu-link-submenu{
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   display: none;
   position: absolute;
-  width: 91px;
-  height: 177px;
-
-  :hover{
-    display: flex;
-  }
+  background-color: #f1f1f1;
+  min-width: 90px;
+  max-height: 175px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+  padding-left: 0;
 }
+.menu-link-submenu a {
+  color: black;
+  padding: 12px 0;
+  text-decoration: none;
+  display: block;
+  &:hover {
+    background-color: $black_color;
+  color: white;}
 
+}
 
 .active {
   width: 64px;
@@ -185,14 +195,16 @@ main {
   top: 50px;
 }
 
-.header-loft-1 {
-  max-width: 1030px;
-  max-height: 700px;
+.header-loft {
+  object-fit: contain;
+  width: 100%;
 }
 
 .window-img {
   max-width: 322px;
   max-height: 440px;
+  object-fit: contain;
+  width: 100%;
   position: absolute;
   left: 115px;
   bottom: -108px;
@@ -362,7 +374,7 @@ main {
   .salon_right-img{
     position: absolute;
     display: inline-flex;
-    right: 40px;
+    right: 0;
     top: 225px;
   }
   .text-marker{
@@ -380,7 +392,7 @@ main {
 .salon-wrapper{
   display: flex;
   max-height: 725px;
-  gap: 124px;
+  gap: 165px;
   position: relative;
 }
 .bathroom{
@@ -407,6 +419,29 @@ main {
   }
 
 }
+.sauna{
+  position: relative;
+  margin: 0 auto;
+  padding: 80px 0px 125px;
+  margin-left: 24%;
+  .sauna-up{
+    position: absolute;
+    right: -32%;
+    top: -10%;
+  }
+  .sauna-down{
+    position: absolute;
+    bottom: 0;
+    left: -43%;
+    z-index: -1;
+  }
+  .text-marker{
+    left: -40px;
+    top: 13%;
+  }
+}
+
+
 
 .footer{
   background-color: $black_color;
@@ -481,7 +516,18 @@ main {
   margin: 0;
   @include text(14px);
   color: rgba(255, 255, 255, 0.4);
+  margin: 0 auto;
 }
 
-//@import "media";
 
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {  };
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  };
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { };
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { };
+//@import "media";
+@media (min-width: 576px) { };

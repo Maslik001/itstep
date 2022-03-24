@@ -11,13 +11,15 @@ $font_Roboto: "Roboto";
 $text_color: #535353;
 $bg_color: rgba(255, 255, 255, 0.9);;
 $black_color: #222222;
-
+h1 {
+  font-size: calc(180px + 110*(100vw/1440));
+}
 
 /*-----mixin's------*/
 @mixin text($font-size:16px) {
   font-family: $font_Roboto;
   color: $black_color;
-  font-size: $font-size;
+  font-size:$font-size;
   font-style: normal;
   font-weight: 400;
   line-height: 13px;
@@ -33,7 +35,7 @@ $black_color: #222222;
   opacity: 0.8;
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 3;
   display: flex;
   justify-content: space-between;
   max-height: 120px;
@@ -50,7 +52,6 @@ $black_color: #222222;
 
 .header-menu {
   @include text(20px);
-  font-size: 20px;
   line-height: 13px;
   letter-spacing: 0.04em;
 
@@ -122,7 +123,7 @@ $black_color: #222222;
   background-color: #f1f1f1;
   min-width: 90px;
   max-height: 175px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
   z-index: 1;
   padding-left: 0;
 }
@@ -185,16 +186,19 @@ main {
 }
 
 .header-h1 {
-  @include text(180px);
+  @include text();
   font-weight: 700;
-  font-size: 180px;
+  font-size: calc(180px + 110*(100vw/1440));
   line-height: 74px;
   letter-spacing: 0.02em;
   position: absolute;
   left: 190px;
   top: 50px;
 }
-
+.header-img{
+  display: flex;
+  justify-content: flex-end;
+}
 .header-loft {
   object-fit: contain;
   width: 100%;
@@ -293,8 +297,8 @@ main {
 //  margin-left: 70px;
 //}
 #myVideo {
-  width: 676px;
-  height: 388px;
+  max-width: 676px;
+  max-height: 388px;
 }
 
 .video-block-img {
@@ -346,9 +350,11 @@ main {
   margin-top: 30px;
   .bedroom-images{
     position: relative;
+    z-index: 1;
   }
   .first-images{
     position: relative;
+
   }
   //.bedroom-img2{
   //  position: absolute;
@@ -513,21 +519,15 @@ main {
 .rights{
   max-width: 1440px;
   padding: 80px 115px 85px;
-  margin: 0;
+
   @include text(14px);
   color: rgba(255, 255, 255, 0.4);
   margin: 0 auto;
 }
+p{
+  font-size: calc(16px + 12*(100vw/1440));
+}
+
+@import "media";
 
 
-
-// XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) {  };
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {  };
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { };
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { };
-//@import "media";
-@media (min-width: 576px) { };

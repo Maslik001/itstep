@@ -5,6 +5,9 @@
   -webkit-box-sizing: border-box; }
 
 /*-----var's------*/
+h1 {
+  font-size: calc(180px + 110*(100vw/1440)); }
+
 /*-----mixin's------*/
 /*-----page------*/
 .header {
@@ -13,7 +16,7 @@
   opacity: 0.8;
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 3;
   display: flex;
   justify-content: space-between;
   max-height: 120px; }
@@ -33,7 +36,6 @@
   font-weight: 400;
   line-height: 13px;
   align-items: center;
-  font-size: 20px;
   line-height: 13px;
   letter-spacing: 0.04em; }
   .header-menu__logo {
@@ -91,7 +93,7 @@
   background-color: #f1f1f1;
   min-width: 90px;
   max-height: 175px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
   z-index: 1;
   padding-left: 0; }
 
@@ -152,18 +154,22 @@ main {
 .header-h1 {
   font-family: "Roboto";
   color: #222222;
-  font-size: 180px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 13px;
   align-items: center;
   font-weight: 700;
-  font-size: 180px;
+  font-size: calc(180px + 110*(100vw/1440));
   line-height: 74px;
   letter-spacing: 0.02em;
   position: absolute;
   left: 190px;
   top: 50px; }
+
+.header-img {
+  display: flex;
+  justify-content: flex-end; }
 
 .header-loft {
   object-fit: contain;
@@ -251,8 +257,8 @@ main {
   font-weight: 800; }
 
 #myVideo {
-  width: 676px;
-  height: 388px; }
+  max-width: 676px;
+  max-height: 388px; }
 
 .video-block-img {
   position: relative;
@@ -300,7 +306,8 @@ main {
 .bedroom {
   margin-top: 30px; }
   .bedroom .bedroom-images {
-    position: relative; }
+    position: relative;
+    z-index: 1; }
   .bedroom .first-images {
     position: relative; }
   .bedroom .mark-pic {
@@ -463,7 +470,6 @@ main {
 .rights {
   max-width: 1440px;
   padding: 80px 115px 85px;
-  margin: 0;
   font-family: "Roboto";
   color: #222222;
   font-size: 14px;
@@ -473,5 +479,216 @@ main {
   align-items: center;
   color: rgba(255, 255, 255, 0.4);
   margin: 0 auto; }
+
+p {
+  font-size: calc(16px + 12*(100vw/1440)); }
+
+@media (max-width: 1400px) {
+  .main-top {
+    width: 72%;
+    padding-right: 28px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    margin: 0 auto;
+    margin-right: 0; }
+
+  .header-h1 {
+    left: -215px; }
+
+  .arrow-main {
+    bottom: -11%;
+    left: 27%; }
+
+  .main-middle {
+    padding: 0 50px; }
+
+  .middle-wrapper {
+    gap: 10px; }
+
+  .link__list {
+    line-height: 30px;
+    padding-top: 30px; }
+
+  .salon {
+    padding: 0 50px; }
+
+  .footer-wrapper {
+    padding: 80px 50px 85px; }
+
+  .mobile {
+    padding-top: 50px; }
+
+  .window-img {
+    max-width: 250px;
+    left: -180px;
+    bottom: -100px; } }
+@media (max-width: 1200px) {
+  .header-wrapper {
+    padding: 0 20px; }
+
+  .active {
+    margin-top: 10px; }
+
+  .bedroom .text-marker {
+    right: -40px; }
+
+  .bedroom .mark-pic {
+    left: 470px; }
+
+  .window-img {
+    max-width: 200px;
+    left: -160px;
+    bottom: -70px; }
+
+  .header-h1 {
+    left: -165px; }
+
+  .main-middle {
+    padding: 0 25px; }
+
+  #myVideo {
+    max-width: 500px; }
+
+  .video-block-img {
+    max-width: 200px; }
+
+  .kitchen-wrapper-img {
+    margin-left: 10px; }
+
+  .middle-wrapper .mark-pic {
+    bottom: -290px; }
+
+  .salon {
+    padding: 0 25px; }
+
+  .salon-wrapper {
+    gap: 50px; }
+
+  .bathroom {
+    padding-top: 20px; }
+
+  .bathroom-img1 {
+    position: absolute;
+    max-width: 150px;
+    left: 2%;
+    top: 40px; }
+
+  .bathroom .salon__text-marker {
+    left: 170px;
+    top: 40px; }
+
+  .bathroom-images-wrapper .title-list {
+    padding-right: 0; }
+
+  .bathroom-images {
+    max-width: 510px;
+    padding-left: 65px; }
+
+  .arrow-main {
+    bottom: -14%; }
+
+  .footer-wrapper {
+    padding: 80px 25px 85px; }
+
+  .massagers {
+    gap: 45px; }
+
+  .address {
+    padding-top: 60px;
+    gap: 5px; }
+
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; }
+
+  .footer-menu {
+    padding-left: 30px; }
+
+  .footer-wrapper {
+    padding: 80px 25px 50px; } }
+@media (min-width: 768px) {
+  .header-h1 {
+    left: -145px;
+    top: 0; }
+
+  .window-img {
+    max-width: 170px;
+    left: -130px;
+    bottom: -70px; }
+
+  .arrow-main {
+    bottom: -18%; }
+
+  #myVideo {
+    max-width: 400px; }
+
+  .video-block .mark-pic {
+    position: absolute;
+    right: -45px;
+    top: 20px; }
+
+  .link__list {
+    line-height: 29px;
+    padding-top: 5px; }
+
+  .video-block {
+    margin-top: 215px; }
+
+  .img-kitchen {
+    max-width: 200px; }
+
+  .kitchen-wrapper-img {
+    max-width: 240px;
+    margin-left: -10px; }
+
+  .bedroom-images {
+    max-width: 400px; }
+
+  .bedroom-img2 {
+    max-width: 200px; }
+
+  .bedroom .mark-pic {
+    left: 345px; }
+
+  .bedroom {
+    margin-left: 30px; }
+
+  .header-wrapper {
+    padding: 0 5px; }
+
+  .main-middle {
+    padding: 0 5px; }
+
+  .salon {
+    padding: 0 5px; }
+
+  .salon-img1 {
+    max-width: 200px; }
+
+  .salon-img2 {
+    max-width: 200px; }
+
+  .salon .salon__text-marker {
+    left: 200px; }
+
+  .bathroom-images {
+    max-width: 400px; }
+
+  .bathroom-img1 {
+    max-width: 115px; }
+
+  .salon .salon__text-marker {
+    left: 125px; } }
+@media (min-width: 320px) {
+  .header-h1 {
+    font-size: calc(140px + (110 + 110 * 0.7)*((100vw - 990px)/1440)); }
+
+  .link__list {
+    font-size: calc(16px + (12 + 12 * 0.7)*((100vw - 990px)/1440)); }
+
+  .tittle__h2 {
+    font-size: calc(36px + (30 + 30 * 0.7)*((100vw - 990px)/1440)); } }
 
 /*# sourceMappingURL=style.css.map */

@@ -210,10 +210,12 @@ main {
 .middle-wrapper {
   display: flex;
   position: relative;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding-bottom: 100px; }
   .middle-wrapper .mark-pic {
     position: absolute;
-    bottom: -215px; }
+    bottom: -215px;
+    max-height: fit-content; }
   .middle-wrapper .loft-1-kitchen {
     top: 0;
     right: -40px; }
@@ -230,15 +232,14 @@ main {
   position: relative;
   float: right;
   flex-direction: column;
-  margin-top: 235px;
-  padding-bottom: 115px; }
+  margin-top: 25%;
+  padding-bottom: 85px; }
   .video-block .mark-pic {
     position: absolute;
-    right: 0;
-    top: 0; }
+    top: -20px; }
   .video-block .loft1-room1__text-marker {
-    right: 60px;
-    top: -105px; }
+    right: -58%;
+    top: 0; }
 
 .img-kitchen {
   max-width: 236px;
@@ -262,8 +263,7 @@ main {
 
 .video-block-img {
   position: relative;
-  top: -105px;
-  right: 100px; }
+  right: -40%; }
 
 .kitchen-wrapper {
   display: flex;
@@ -359,8 +359,7 @@ main {
     display: flex;
     justify-content: space-between; }
     .bathroom-images-wrapper .title-list {
-      padding-top: 85px;
-      padding-right: 65px; }
+      padding-top: 85px; }
 
 .sauna {
   position: relative;
@@ -432,6 +431,7 @@ main {
 
 .address {
   display: flex;
+  align-items: center;
   padding-top: 80px;
   gap: 23px; }
 
@@ -483,7 +483,7 @@ main {
 p {
   font-size: calc(16px + 12*(100vw/1440)); }
 
-@media (max-width: 1400px) {
+@media (max-width: 1439px) {
   .main-top {
     width: 72%;
     padding-right: 28px;
@@ -554,7 +554,7 @@ p {
     max-width: 200px; }
 
   .kitchen-wrapper-img {
-    margin-left: 10px; }
+    margin-left: 45px; }
 
   .middle-wrapper .mark-pic {
     bottom: -290px; }
@@ -600,18 +600,26 @@ p {
 
   .contacts {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end; }
+    flex-direction: column; }
 
   .footer-menu {
     padding-left: 30px; }
 
   .footer-wrapper {
-    padding: 80px 25px 50px; } }
-@media (min-width: 768px) {
+    padding: 80px 25px 50px; }
+
+  .main-middle-text-loft-1 {
+    margin-top: 170px; }
+
+  .rights {
+    padding: 80px 50px 85px; } }
+@media (max-width: 990px) {
   .header-h1 {
     left: -145px;
     top: 0; }
+
+  .header-menu__logo {
+    margin-right: 7px; }
 
   .window-img {
     max-width: 170px;
@@ -626,7 +634,6 @@ p {
 
   .video-block .mark-pic {
     position: absolute;
-    right: -45px;
     top: 20px; }
 
   .link__list {
@@ -634,7 +641,7 @@ p {
     padding-top: 5px; }
 
   .video-block {
-    margin-top: 215px; }
+    margin-top: 100px; }
 
   .img-kitchen {
     max-width: 200px; }
@@ -656,13 +663,14 @@ p {
     margin-left: 30px; }
 
   .header-wrapper {
-    padding: 0 5px; }
+    padding: 0 10px; }
 
   .main-middle {
-    padding: 0 5px; }
+    padding: 0 10px; }
 
   .salon {
-    padding: 0 5px; }
+    padding: 0 10px;
+    margin-bottom: 20px; }
 
   .salon-img1 {
     max-width: 200px; }
@@ -679,16 +687,117 @@ p {
   .bathroom-img1 {
     max-width: 115px; }
 
+  .bathroom .salon__text-marker {
+    left: 135px; }
+
+  .middle-wrapper {
+    padding-bottom: 0; }
+
+  .bathroom {
+    padding-top: 0; }
+
+  .contacts {
+    align-items: flex-end; }
+
+  .massagers {
+    gap: 23px; }
+
+  .address {
+    gap: 25px;
+    padding-left: 33%; }
+    .address p {
+      line-height: 25px; }
+
+  .phone-number a {
+    padding-left: 30px;
+    font-size: 30px; }
+
+  .footer-menu-log {
+    display: flex;
+    flex-direction: column; }
+    .footer-menu-log .footer-menu__name {
+      padding-left: 0; }
+    .footer-menu-log a {
+      padding-bottom: 10px; } }
+@media (max-width: 768px) {
+  .window-img {
+    max-width: 125px;
+    left: -90px;
+    bottom: -70px; }
+
+  .arrow-main {
+    bottom: -28%;
+    left: 25%; }
+
+  .arrow-main img {
+    padding-top: 0; }
+
+  .middle-wrapper {
+    flex-direction: column-reverse;
+    align-items: center; }
+
+  .main-middle-text-loft-1 {
+    margin-top: 0;
+    padding-bottom: 40px; }
+
+  .middle-wrapper .mark-pic {
+    display: none; }
+
+  .img-kitchen {
+    max-width: 170px; }
+
+  .kitchen-wrapper {
+    justify-content: space-between;
+    align-items: flex-start; }
+
+  .title-list {
+    padding-bottom: 1px; }
+
+  .bedroom .bedroom-images {
+    max-width: 75%; }
+
+  .bedroom .mark-pic {
+    left: 250px; }
+
+  .salon-img1 {
+    max-width: 120px; }
+
   .salon .salon__text-marker {
-    left: 125px; } }
+    left: 23%;
+    top: 0; }
+
+  .salon-wrapper {
+    gap: 10px; }
+
+  .salon-img2 {
+    max-width: 140px; }
+
+  .bathroom-images-wrapper .title-list {
+    padding-top: 20px; }
+
+  .bathroom-images {
+    position: inherit;
+    max-width: 420px;
+    padding-top: 0; }
+
+  .bathroom-img1 {
+    right: 10%;
+    top: 30%; }
+
+  .bathroom-images-wrapper {
+    flex-direction: column-reverse; }
+    .bathroom-images-wrapper .mark-pic {
+      position: absolute;
+      right: 33%;
+      top: 24%; } }
 @media (min-width: 320px) {
   .header-h1 {
-    font-size: calc(140px + (110 + 110 * 0.7)*((100vw - 990px)/1440)); }
+    font-size: calc(140px + (110 + 110 * 0.7) * ((100vw - 990px) / 1440)); }
 
   .link__list {
-    font-size: calc(16px + (12 + 12 * 0.7)*((100vw - 990px)/1440)); }
+    font-size: calc(16px + (12 * 0.7) * ((100vw - 990px) / 1440)); }
 
   .tittle__h2 {
-    font-size: calc(36px + (30 + 30 * 0.7)*((100vw - 990px)/1440)); } }
+    font-size: calc(36px + (30 + 30 * 0.7) * ((100vw - 990px) / 1440)); } }
 
 /*# sourceMappingURL=style.css.map */

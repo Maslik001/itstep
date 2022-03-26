@@ -83,6 +83,10 @@
   }
   .middle-wrapper .mark-pic {
     bottom: -290px;
+
+  }
+  .video-block .mark-pic {
+    //top: -85%;
   }
   .salon {
     padding: 0 25px;
@@ -140,7 +144,21 @@
   .rights {
     padding: 80px 50px 85px;
   }
-
+  .sauna{
+    width: 50%;
+  }
+  .sauna-main__img{
+    object-fit: contain;
+    width: 100%;
+  }
+  .sauna-up{
+    object-fit: contain;
+    width: 40%;
+    right: -25%;
+  }
+  .sauna-down{
+    object-fit: contain;
+  }
 }
 
 ;
@@ -175,6 +193,7 @@
   }
   .video-block {
     margin-top: 100px;
+    padding-bottom: 0;
   }
   .img-kitchen {
     max-width: 200px;
@@ -321,7 +340,9 @@
   .bathroom-images-wrapper .title-list {
     padding-top: 20px;
   }
-
+  .bathroom {
+    padding-bottom: 20px;
+  }
   .bathroom-images {
     position: inherit;
     max-width: 420px;
@@ -338,6 +359,24 @@
     right: 33%;
     top: 24%;
   }
+  }
+  .sauna{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .sauna-main__img{
+    max-width: 100%;
+  }
+  .sauna .sauna-down{
+    max-width: 65%;
+    bottom: 17%;
+  }
+  .sauna .sauna-up{
+    top: 0;
+  }
+  .sauna .text-marker {
+    top: 22%;
   }
 }
 

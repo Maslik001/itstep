@@ -1,1 +1,1 @@
-https://maslik001.github.io/itstep/CV
+https://maslik001.github.io/itstep/
